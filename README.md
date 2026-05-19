@@ -14,7 +14,7 @@ The repository is organized around three things:
 PaperBench_Code/
 ├── datasets/
 │   ├── ScholarQuest.jsonl
-│   └── pasa_batch_unique_queries.jsonl
+│   └── query_metadata.jsonl
 ├── BenchmarkConstruction/
 │   ├── SeedGeneration/
 │   ├── QueryGeneration/
@@ -44,7 +44,7 @@ Main fields:
 
 The released dataset keeps queries with **5 to 200** final answers.
 
-### `datasets/pasa_batch_unique_queries.jsonl`
+### `datasets/query_metadata.jsonl`
 
 The query metadata pool used before final answer filtering. It contains **13097** generated and deduplicated query records.
 
@@ -82,7 +82,7 @@ The high-level pipeline is:
 
 2. **Query generation**
    - Code: `BenchmarkConstruction/QueryGeneration/`
-   - Expands topic seeds into PASA-style paper retrieval queries.
+   - Expands topic seeds into ScholarQuest-style paper retrieval queries.
    - Query generation uses four controlled categories and stores metadata for each query.
 
 3. **Answer finding**
@@ -142,7 +142,7 @@ See `Lewen-API/README.md` and `Lewen-API/docs/` for API details.
 For a quick understanding of the repository:
 
 1. `datasets/ScholarQuest.jsonl`
-2. `datasets/pasa_batch_unique_queries.jsonl`
+2. `datasets/query_metadata.jsonl`
 3. `BenchmarkConstruction/QueryGeneration/README_pasa_generation.md`
 4. `BenchmarkConstruction/AnswerFilters/README.md`
 5. `Lewen-API/README.md`
