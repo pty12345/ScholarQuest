@@ -1,0 +1,251 @@
+query_generation: |
+  You are generating English paper-search benchmark queries for a single target taxonomy type.
+
+  The user input will provide:
+  - seed_topic
+  - domain
+  - target_query_type
+  - difficulty_hint
+  - num_queries
+  - type_definition
+  - generation_tips
+
+  Your job is to generate ONLY queries that match the provided target_query_type.
+  Do not mix taxonomy types.
+
+  Global rules:
+  - Each query must be a natural topic-style search string, not a question or instruction.
+  - Keep every query between 4 and 20 words.
+  - Queries must be judgeable primarily from paper titles and abstracts.
+  - Keep all queries in English.
+  - Stay close to the seed_topic and domain.
+  - Respect the provided type_definition and generation_tips.
+
+  Strict prohibitions:
+  - No question form or imperative form.
+  - No temporal constraints such as recent, latest, since, after, before.
+  - No subjective qualifiers such as best, most influential, state of the art.
+  - No result-table comparisons such as outperforms X on Y.
+  - No full-text-dependent details such as appendix-only tricks, ablations, hyperparameters, or fine-grained experimental settings.
+  - No citation chasing, author following, or factoid requests.
+
+  Output:
+  Return strict JSON only: {"queries": ["...", "..."]}
+  No markdown. No explanations. The count must match num_queries exactly.
+
+rewrite: |
+  You are rewriting an English paper-search benchmark query into alternative valid queries.
+
+  The user input will provide:
+  - source_query
+  - domain
+  - target_query_type
+  - difficulty_hint
+  - num_queries
+  - type_definition
+  - generation_tips
+
+  Goal:
+  - Preserve the same overall retrieval need.
+  - Keep the rewritten query in the SAME target_query_type.
+  - Produce natural, realistic topic-style benchmark queries.
+
+  Requirements:
+  - Output only topic-style queries, never questions or instructions.
+  - Keep every query between 4 and 20 words.
+  - Stay judgeable from titles and abstracts.
+  - Do not introduce temporal constraints, subjective qualifiers, comparison intent, or full-text-dependent details.
+  - Keep all output in English.
+
+  Output:
+  Return strict JSON only: {"queries": ["...", "..."]}
+  No markdown. No explanations. The count must match num_queries exactly.
+
+blindspot: |
+  You are generating English paper-search benchmark queries for an under-covered area.
+
+  The user input will provide:
+  - blindspot
+  - domain
+  - target_query_type
+  - num_queries
+  - type_definition
+  - generation_tips
+
+  Requirements:
+  - Generate only queries matching target_query_type.
+  - Keep every query between 4 and 20 words.
+  - Queries must be realistic, focused, and judgeable from titles and abstracts.
+  - Avoid temporal, comparison-heavy, subjective, factoid, and full-text-dependent requests.
+  - Keep all output in English.
+
+  Output:
+  Return strict JSON only: {"queries": ["...", "..."]}
+  No markdown. No explanations. The count must match num_queries exactly.
+
+normalize: |
+  You normalize a raw English paper-search query into structured benchmark fields.
+
+  Definitions:
+  - surface_form: a cleaned, user-facing version preserving realistic phrasing
+  - canonical_query: a concise semantic normalization for internal deduplication
+  - topic_guess: the central research topic of the query
+  - notes: brief comment if there is ambiguity, unusual phrasing, or normalization risk
+
+  Normalization principles:
+  - Remove conversational wrappers such as "can you help me find".
+  - Preserve the actual retrieval need.
+  - Do not add information not implied by the raw query.
+  - Keep the surface_form natural.
+  - Make the canonical_query semantically compact and useful for deduplication.
+  - Keep all output in English.
+
+  Return strict JSON only:
+  {
+    "surface_form": "...",
+    "canonical_query": "...",
+    "topic_guess": "...",
+    "notes": "..."
+  }
+  If there is no note, use an empty string. No markdown.
+
+quality_check: |
+  You are performing quality checks on a paper-search benchmark query.
+  Evaluate the query on four boolean criteria.
+
+  === Quality Criteria ===
+
+  1. is_decidable:
+     Can the query's relevance be primarily judged from paper titles and abstracts?
+     Set true if yes. Set false if the query requires reading full text, experiment tables, or appendices.
+
+  2. has_clear_boundary:
+     Does the query have a relatively clear search boundary?
+     Set true if the result set is reasonably well-defined. Set false if the boundary is extremely vague or subjective.
+
+  3. is_non_degenerate:
+     Is the query NOT a trivially broad topic keyword?
+     Set true if the query is specific enough. Set false for overly broad queries like "papers on LLM" or "deep learning research".
+
+  4. no_fulltext_dependency:
+     Does the query NOT depend on full-text experiment details?
+     Set true if the query can be answered from titles/abstracts. Set false if it requires specific experiment settings, dataset usage, result tables, or appendix content.
+
+  === Review Needed ===
+  Set review_needed to true if the query is borderline on any criterion, or if it is highly ambiguous or templatic.
+
+  Return strict JSON only:
+  {
+    "is_decidable": true,
+    "has_clear_boundary": true,
+    "is_non_degenerate": true,
+    "no_fulltext_dependency": true,
+    "rationale": "...",
+    "review_needed": false
+  }
+  Keep rationale concise and in English. No markdown.
+
+classify: |
+  You are classifying a paper-search benchmark query using a six-type taxonomy.
+
+  === Six Query Types (in priority order for ambiguous cases) ===
+
+  1. collection_scoping: Query aims to build a paper collection or scope a research area.
+     Signals: "all papers on", "research on", "representative works", "datasets and benchmarks for".
+
+  2. analysis_claim: Query focuses on a coarse-grained phenomenon, mechanism, or analysis direction.
+     Signals: how, why, analysis, scaling laws, failure, emergence, mechanism (as analysis topics, not questions).
+
+  3. method_architecture: Query centers on a specific method, training paradigm, or architecture.
+     Signals: method name (DPO, RLHF, MoE), training paradigm, architecture family.
+
+  4. capability_application: Query framed around model capability or application need.
+     Signals: "models that can X", "X for Y application", capability-oriented rather than terminology-oriented.
+
+  5. cross_topic: Query combines two or more distinct research concepts at their intersection.
+     Signals: "X for Y", "X and Y", "X with Y" where X and Y are separate research topics.
+
+  6. specific_topic: A focused query on a single concrete research topic.
+     This is the fallback type when none of the above apply.
+
+  === Priority Rule ===
+  When a query fits multiple types, assign the HIGHEST priority type exactly as listed above.
+
+  === Classification Fields ===
+  - query_type: one of the six types above
+  - topics: list of research topic phrases in the query
+  - methods: list of method/architecture names (empty if none)
+  - applications: list of application domains (empty if none)
+  - analysis_targets: list of analysis phenomena (empty if none)
+  - scope: narrow / medium / broad
+  - difficulty: easy (single specific topic) / medium (two-concept combo or explicit method) / hard (application mapping, analysis, complex scoping)
+  - terminology_explicitness: explicit (uses standard terms) / implicit (natural language, needs mapping)
+  - recall_requirement: low / medium / high
+  - domain: one of nlp, cv, multimodal, recommender_systems, time_series, reinforcement_learning, information_retrieval, agents_memory_tool_use, robotics, general
+  - rationale: concise English explanation
+
+  Return strict JSON only:
+  {
+    "query_type": "cross_topic",
+    "topics": ["reinforcement learning", "LLM agents"],
+    "methods": [],
+    "applications": [],
+    "analysis_targets": [],
+    "scope": "medium",
+    "difficulty": "medium",
+    "terminology_explicitness": "explicit",
+    "recall_requirement": "medium",
+    "domain": "agents_memory_tool_use",
+    "rationale": "..."
+  }
+  No markdown.
+
+dedup_judge: |
+  You are judging whether two paper-search benchmark queries are redundant.
+
+  Goal:
+  - Determine benchmark redundancy, not just lexical similarity.
+  - Two queries are duplicates if they test nearly the same retrieval behavior and information need.
+  - Two queries are different if their wording changes the intended search need in a material way.
+  - Consider query type: two queries of different types (e.g., specific_topic vs collection_scoping) are generally different even if on a similar topic.
+
+  Allowed verdict values: duplicate, different, uncertain.
+  Confidence: a float between 0.0 and 1.0.
+
+  Return strict JSON only:
+  {
+    "verdict": "duplicate",
+    "confidence": 0.93,
+    "rationale": "..."
+  }
+  Keep rationale concise and in English. No markdown.
+
+adjudicate: |
+  You are performing a pre-release review of a paper-search benchmark query.
+  Your role is a cautious benchmark curator using the six-type taxonomy.
+
+  === Six Query Types ===
+  specific_topic, cross_topic, method_architecture, capability_application, collection_scoping, analysis_claim
+
+  === Review Dimensions ===
+  1. Decidability: Can it be judged from titles and abstracts?
+  2. Boundary clarity: Is the search boundary well-defined?
+  3. Non-degeneracy: Is it specific enough (not trivially broad)?
+  4. No full-text dependency: Does it avoid requiring experiment details?
+  5. Type consistency: Does the assigned query_type match the query content?
+  6. Naturalness: Does it read like a realistic search query?
+  7. Benchmark value: Does it meaningfully test paper search capabilities?
+
+  === Decision ===
+  - accept: good benchmark item, no meaningful issue
+  - revise: usable but should be rewritten, relabeled, or clarified
+  - reject: low-value, invalid, redundant, or unevaluable
+  - uncertain: needs human review
+
+  Return strict JSON only:
+  {
+    "adjudication_status": "accept",
+    "rationale": "...",
+    "revision_suggestion": ""
+  }
+  Keep rationale concise and in English. If no revision needed, use empty string. No markdown.

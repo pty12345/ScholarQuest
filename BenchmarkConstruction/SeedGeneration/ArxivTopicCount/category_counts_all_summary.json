@@ -1,0 +1,91 @@
+{
+  "statistic_mode": "all_categories",
+  "input_file": "arxiv-metadata-oai-snapshot.json",
+  "total_papers": 2895350,
+  "missing_categories": 0,
+  "multi_label_papers": 1378461,
+  "multi_label_ratio": 0.4760947726527017,
+  "unique_categories": 176,
+  "top_categories": [
+    {
+      "category": "cs.LG",
+      "count": 243308
+    },
+    {
+      "category": "hep-ph",
+      "count": 191949
+    },
+    {
+      "category": "hep-th",
+      "count": 178095
+    },
+    {
+      "category": "cs.CV",
+      "count": 174689
+    },
+    {
+      "category": "quant-ph",
+      "count": 170656
+    },
+    {
+      "category": "cs.AI",
+      "count": 152693
+    },
+    {
+      "category": "gr-qc",
+      "count": 117826
+    },
+    {
+      "category": "astro-ph",
+      "count": 105380
+    },
+    {
+      "category": "cond-mat.mtrl-sci",
+      "count": 104297
+    },
+    {
+      "category": "cond-mat.mes-hall",
+      "count": 98417
+    },
+    {
+      "category": "cs.CL",
+      "count": 97670
+    },
+    {
+      "category": "math-ph",
+      "count": 86966
+    },
+    {
+      "category": "math.MP",
+      "count": 86966
+    },
+    {
+      "category": "cond-mat.str-el",
+      "count": 80329
+    },
+    {
+      "category": "cond-mat.stat-mech",
+      "count": 79126
+    },
+    {
+      "category": "math.CO",
+      "count": 74806
+    },
+    {
+      "category": "astro-ph.CO",
+      "count": 74483
+    },
+    {
+      "category": "stat.ML",
+      "count": 74462
+    },
+    {
+      "category": "astro-ph.GA",
+      "count": 73859
+    },
+    {
+      "category": "math.AP",
+      "count": 70566
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+python -m AnswerFinding_v2.run_pasa_answer_finding --input AnswerFinding_v2/datasets/pasa_batch_unique_queries.jsonl --resume --query-concurrency 4 --output-dir AnswerFinding_v2/output/pasa_batch_answer_finding_qwen30b_test8

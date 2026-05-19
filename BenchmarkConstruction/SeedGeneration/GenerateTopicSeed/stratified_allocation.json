@@ -1,0 +1,286 @@
+{
+  "num_samples_requested": 20000,
+  "random_seed": 42,
+  "strata": [
+    {
+      "stratum": "cs.AI",
+      "csv_count": 152693,
+      "stratum_relative_weight": 0.11869459498956808,
+      "bucket_size": 78,
+      "allocation": 2374
+    },
+    {
+      "stratum": "cs.AR",
+      "csv_count": 7237,
+      "stratum_relative_weight": 0.0056256199297905225,
+      "bucket_size": 202,
+      "allocation": 112
+    },
+    {
+      "stratum": "cs.CC",
+      "csv_count": 12241,
+      "stratum_relative_weight": 0.009515436446119355,
+      "bucket_size": 39,
+      "allocation": 190
+    },
+    {
+      "stratum": "cs.CE",
+      "csv_count": 9577,
+      "stratum_relative_weight": 0.007444598876275229,
+      "bucket_size": 38,
+      "allocation": 149
+    },
+    {
+      "stratum": "cs.CG",
+      "csv_count": 7698,
+      "stratum_relative_weight": 0.005983974329076612,
+      "bucket_size": 17,
+      "allocation": 120
+    },
+    {
+      "stratum": "cs.CL",
+      "csv_count": 97670,
+      "stratum_relative_weight": 0.07592293747998345,
+      "bucket_size": 19,
+      "allocation": 1518
+    },
+    {
+      "stratum": "cs.CR",
+      "csv_count": 43991,
+      "stratum_relative_weight": 0.03419602685248236,
+      "bucket_size": 94,
+      "allocation": 684
+    },
+    {
+      "stratum": "cs.CV",
+      "csv_count": 174689,
+      "stratum_relative_weight": 0.13579299708652431,
+      "bucket_size": 43,
+      "allocation": 2716
+    },
+    {
+      "stratum": "cs.CY",
+      "csv_count": 25726,
+      "stratum_relative_weight": 0.01999788563131007,
+      "bucket_size": 123,
+      "allocation": 400
+    },
+    {
+      "stratum": "cs.DB",
+      "csv_count": 10794,
+      "stratum_relative_weight": 0.0083906233967333,
+      "bucket_size": 163,
+      "allocation": 168
+    },
+    {
+      "stratum": "cs.DC",
+      "csv_count": 26593,
+      "stratum_relative_weight": 0.020671840651225556,
+      "bucket_size": 118,
+      "allocation": 413
+    },
+    {
+      "stratum": "cs.DL",
+      "csv_count": 5678,
+      "stratum_relative_weight": 0.0044137446402308395,
+      "bucket_size": 16,
+      "allocation": 88
+    },
+    {
+      "stratum": "cs.DM",
+      "csv_count": 15038,
+      "stratum_relative_weight": 0.011689660426169665,
+      "bucket_size": 52,
+      "allocation": 234
+    },
+    {
+      "stratum": "cs.DS",
+      "csv_count": 27500,
+      "stratum_relative_weight": 0.02137688932834591,
+      "bucket_size": 141,
+      "allocation": 428
+    },
+    {
+      "stratum": "cs.ET",
+      "csv_count": 6518,
+      "stratum_relative_weight": 0.005066711441533042,
+      "bucket_size": 31,
+      "allocation": 101
+    },
+    {
+      "stratum": "cs.FL",
+      "csv_count": 5691,
+      "stratum_relative_weight": 0.004423850078822421,
+      "bucket_size": 17,
+      "allocation": 88
+    },
+    {
+      "stratum": "cs.GL",
+      "csv_count": 226,
+      "stratum_relative_weight": 0.0001756791632074973,
+      "bucket_size": 12,
+      "allocation": 4
+    },
+    {
+      "stratum": "cs.GR",
+      "csv_count": 8414,
+      "stratum_relative_weight": 0.006540550793043727,
+      "bucket_size": 56,
+      "allocation": 131
+    },
+    {
+      "stratum": "cs.GT",
+      "csv_count": 13711,
+      "stratum_relative_weight": 0.01065812834839821,
+      "bucket_size": 24,
+      "allocation": 213
+    },
+    {
+      "stratum": "cs.HC",
+      "csv_count": 26804,
+      "stratum_relative_weight": 0.02083585969298123,
+      "bucket_size": 135,
+      "allocation": 417
+    },
+    {
+      "stratum": "cs.IR",
+      "csv_count": 22989,
+      "stratum_relative_weight": 0.01787030213706706,
+      "bucket_size": 101,
+      "allocation": 357
+    },
+    {
+      "stratum": "cs.IT",
+      "csv_count": 52137,
+      "stratum_relative_weight": 0.04052825014225348,
+      "bucket_size": 13,
+      "allocation": 811
+    },
+    {
+      "stratum": "cs.LG",
+      "csv_count": 243308,
+      "stratum_relative_weight": 0.18913338868004315,
+      "bucket_size": 136,
+      "allocation": 3783
+    },
+    {
+      "stratum": "cs.LO",
+      "csv_count": 18310,
+      "stratum_relative_weight": 0.014233121585527768,
+      "bucket_size": 89,
+      "allocation": 285
+    },
+    {
+      "stratum": "cs.MA",
+      "csv_count": 10668,
+      "stratum_relative_weight": 0.00829267837653797,
+      "bucket_size": 13,
+      "allocation": 166
+    },
+    {
+      "stratum": "cs.MM",
+      "csv_count": 8810,
+      "stratum_relative_weight": 0.006848377999371908,
+      "bucket_size": 12,
+      "allocation": 137
+    },
+    {
+      "stratum": "cs.MS",
+      "csv_count": 2513,
+      "stratum_relative_weight": 0.0019534590138957555,
+      "bucket_size": 8,
+      "allocation": 39
+    },
+    {
+      "stratum": "cs.NA",
+      "csv_count": 31712,
+      "stratum_relative_weight": 0.024651051432018383,
+      "bucket_size": 12,
+      "allocation": 493
+    },
+    {
+      "stratum": "cs.NE",
+      "csv_count": 16811,
+      "stratum_relative_weight": 0.013067886781775385,
+      "bucket_size": 33,
+      "allocation": 261
+    },
+    {
+      "stratum": "cs.NI",
+      "csv_count": 25953,
+      "stratum_relative_weight": 0.02017434213594769,
+      "bucket_size": 129,
+      "allocation": 403
+    },
+    {
+      "stratum": "cs.OH",
+      "csv_count": 2289,
+      "stratum_relative_weight": 0.0017793345335485014,
+      "bucket_size": 1,
+      "allocation": 36
+    },
+    {
+      "stratum": "cs.OS",
+      "csv_count": 1200,
+      "stratum_relative_weight": 0.0009328097161460033,
+      "bucket_size": 60,
+      "allocation": 19
+    },
+    {
+      "stratum": "cs.PF",
+      "csv_count": 4872,
+      "stratum_relative_weight": 0.003787207447552774,
+      "bucket_size": 27,
+      "allocation": 76
+    },
+    {
+      "stratum": "cs.PL",
+      "csv_count": 9236,
+      "stratum_relative_weight": 0.007179525448603739,
+      "bucket_size": 95,
+      "allocation": 144
+    },
+    {
+      "stratum": "cs.RO",
+      "csv_count": 47154,
+      "stratum_relative_weight": 0.036654757795957206,
+      "bucket_size": 12,
+      "allocation": 733
+    },
+    {
+      "stratum": "cs.SC",
+      "csv_count": 2953,
+      "stratum_relative_weight": 0.00229548924314929,
+      "bucket_size": 22,
+      "allocation": 46
+    },
+    {
+      "stratum": "cs.SD",
+      "csv_count": 19208,
+      "stratum_relative_weight": 0.014931174189777028,
+      "bucket_size": 8,
+      "allocation": 299
+    },
+    {
+      "stratum": "cs.SE",
+      "csv_count": 23442,
+      "stratum_relative_weight": 0.018222437804912176,
+      "bucket_size": 147,
+      "allocation": 364
+    },
+    {
+      "stratum": "cs.SI",
+      "csv_count": 22544,
+      "stratum_relative_weight": 0.017524385200662917,
+      "bucket_size": 39,
+      "allocation": 350
+    },
+    {
+      "stratum": "cs.SY",
+      "csv_count": 41838,
+      "stratum_relative_weight": 0.03252241075343041,
+      "bucket_size": 4,
+      "allocation": 650
+    }
+  ]
+}

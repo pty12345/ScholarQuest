@@ -1,0 +1,1682 @@
+{"id": "10010405.10003550.10003551", "label": "Digital cash", "depth": 2}
+{"id": "10010405.10003550.10003552", "label": "E-commerce infrastructure", "depth": 2}
+{"id": "10010405.10003550.10003553", "label": "Electronic data interchange", "depth": 2}
+{"id": "10010405.10003550.10003554", "label": "Electronic funds transfer", "depth": 2}
+{"id": "10010405.10003550.10003555", "label": "Online shopping", "depth": 2}
+{"id": "10010405.10003550.10003556", "label": "Online banking", "depth": 2}
+{"id": "10010405.10003550.10003557", "label": "Secure online transactions", "depth": 2}
+{"id": "10010405.10003550.10003596", "label": "Online auctions", "depth": 2}
+{"id": "10010405.10010406.10003228.10003229", "label": "Intranets", "depth": 3}
+{"id": "10010405.10010406.10003228.10003230", "label": "Extranets", "depth": 3}
+{"id": "10010405.10010406.10003228.10003232", "label": "Enterprise resource planning", "depth": 3}
+{"id": "10010405.10010406.10003228.10003442", "label": "Enterprise applications", "depth": 3}
+{"id": "10010405.10010406.10003228.10010925", "label": "Data centers", "depth": 3}
+{"id": "10010405.10010406.10010412.10010413", "label": "Business process modeling", "depth": 3}
+{"id": "10010405.10010406.10010412.10010414", "label": "Business process management systems", "depth": 3}
+{"id": "10010405.10010406.10010412.10010415", "label": "Business process monitoring", "depth": 3}
+{"id": "10010405.10010406.10010412.10010416", "label": "Cross-organizational business processes", "depth": 3}
+{"id": "10010405.10010406.10010412.10011712", "label": "Business intelligence", "depth": 3}
+{"id": "10010405.10010406.10010417.10010418", "label": "Enterprise architecture management", "depth": 3}
+{"id": "10010405.10010406.10010417.10010419", "label": "Enterprise architecture frameworks", "depth": 3}
+{"id": "10010405.10010406.10010417.10010420", "label": "Enterprise architecture modeling", "depth": 3}
+{"id": "10010405.10010406.10010421", "label": "Service-oriented architectures", "depth": 2}
+{"id": "10010405.10010406.10010422", "label": "Event-driven architectures", "depth": 2}
+{"id": "10010405.10010406.10010423", "label": "Business rules", "depth": 2}
+{"id": "10010405.10010406.10010424", "label": "Enterprise modeling", "depth": 2}
+{"id": "10010405.10010406.10010425", "label": "Enterprise ontologies, taxonomies and vocabularies", "depth": 2}
+{"id": "10010405.10010406.10010426", "label": "Enterprise data management", "depth": 2}
+{"id": "10010405.10010406.10010427", "label": "Reference models", "depth": 2}
+{"id": "10010405.10010406.10010428", "label": "Business-IT alignment", "depth": 2}
+{"id": "10010405.10010406.10010429", "label": "IT architectures", "depth": 2}
+{"id": "10010405.10010406.10010430", "label": "IT governance", "depth": 2}
+{"id": "10010405.10010406.10010431", "label": "Enterprise computing infrastructures", "depth": 2}
+{"id": "10010405.10010406.10011731.10010411", "label": "Enterprise application integration", "depth": 3}
+{"id": "10010405.10010406.10011731.10011732", "label": "Information integration and interoperability", "depth": 3}
+{"id": "10010405.10010432.10010433.10010989", "label": "Avionics", "depth": 3}
+{"id": "10010405.10010432.10010434", "label": "Archaeology", "depth": 2}
+{"id": "10010405.10010432.10010435", "label": "Astronomy", "depth": 2}
+{"id": "10010405.10010432.10010436", "label": "Chemistry", "depth": 2}
+{"id": "10010405.10010432.10010437.10010438", "label": "Environmental sciences", "depth": 3}
+{"id": "10010405.10010432.10010439.10010440", "label": "Computer-aided design", "depth": 3}
+{"id": "10010405.10010432.10010441", "label": "Physics", "depth": 2}
+{"id": "10010405.10010432.10010442", "label": "Mathematics and statistics", "depth": 2}
+{"id": "10010405.10010432.10010443.10010989", "label": "Avionics", "depth": 3}
+{"id": "10010405.10010432.10010988.10011581", "label": "Internet telephony", "depth": 3}
+{"id": "10010405.10010444.10010087.10010086", "label": "Molecular sequence analysis", "depth": 3}
+{"id": "10010405.10010444.10010087.10010088", "label": "Recognition of genes and regulatory elements", "depth": 3}
+{"id": "10010405.10010444.10010087.10010089", "label": "Molecular evolution", "depth": 3}
+{"id": "10010405.10010444.10010087.10010090", "label": "Computational transcriptomics", "depth": 3}
+{"id": "10010405.10010444.10010087.10010091", "label": "Biological networks", "depth": 3}
+{"id": "10010405.10010444.10010087.10010092", "label": "Sequencing and genotyping technologies", "depth": 3}
+{"id": "10010405.10010444.10010087.10010096", "label": "Imaging", "depth": 3}
+{"id": "10010405.10010444.10010087.10010097", "label": "Computational proteomics", "depth": 3}
+{"id": "10010405.10010444.10010087.10010098", "label": "Molecular structural biology", "depth": 3}
+{"id": "10010405.10010444.10010087.10010934", "label": "Computational genomics", "depth": 3}
+{"id": "10010405.10010444.10010093.10010934", "label": "Computational genomics", "depth": 3}
+{"id": "10010405.10010444.10010095", "label": "Systems biology", "depth": 2}
+{"id": "10010405.10010444.10010446", "label": "Consumer health", "depth": 2}
+{"id": "10010405.10010444.10010447", "label": "Health care information systems", "depth": 2}
+{"id": "10010405.10010444.10010449", "label": "Health informatics", "depth": 2}
+{"id": "10010405.10010444.10010450", "label": "Bioinformatics", "depth": 2}
+{"id": "10010405.10010444.10010452", "label": "Metabolomics / metabonomics", "depth": 2}
+{"id": "10010405.10010444.10010935.10010094", "label": "Population genetics", "depth": 3}
+{"id": "10010405.10010444.10010935.10010451.10010097", "label": "Computational proteomics", "depth": 4}
+{"id": "10010405.10010444.10010935.10010454", "label": "Transcriptomics", "depth": 3}
+{"id": "10010405.10010455.10010456.10010457", "label": "Ethnography", "depth": 3}
+{"id": "10010405.10010455.10010458", "label": "Law", "depth": 2}
+{"id": "10010405.10010455.10010459", "label": "Psychology", "depth": 2}
+{"id": "10010405.10010455.10010460", "label": "Economics", "depth": 2}
+{"id": "10010405.10010455.10010461", "label": "Sociology", "depth": 2}
+{"id": "10010405.10010462.10010463", "label": "Surveillance mechanisms", "depth": 2}
+{"id": "10010405.10010462.10010464", "label": "Investigation techniques", "depth": 2}
+{"id": "10010405.10010462.10010465", "label": "Evidence collection, storage and analysis", "depth": 2}
+{"id": "10010405.10010462.10010466", "label": "Network forensics", "depth": 2}
+{"id": "10010405.10010462.10010467", "label": "System forensics", "depth": 2}
+{"id": "10010405.10010462.10010468", "label": "Data recovery", "depth": 2}
+{"id": "10010405.10010469.10010470", "label": "Fine arts", "depth": 2}
+{"id": "10010405.10010469.10010471", "label": "Performing arts", "depth": 2}
+{"id": "10010405.10010469.10010472.10010440", "label": "Computer-aided design", "depth": 3}
+{"id": "10010405.10010469.10010473", "label": "Language translation", "depth": 2}
+{"id": "10010405.10010469.10010474", "label": "Media arts", "depth": 2}
+{"id": "10010405.10010469.10010475", "label": "Sound and music computing", "depth": 2}
+{"id": "10010405.10010476.10003392", "label": "Digital libraries and archives", "depth": 2}
+{"id": "10010405.10010476.10010477", "label": "Publishing", "depth": 2}
+{"id": "10010405.10010476.10010478.10003600", "label": "Cyberwarfare", "depth": 3}
+{"id": "10010405.10010476.10010479", "label": "Cartography", "depth": 2}
+{"id": "10010405.10010476.10010480", "label": "Agriculture", "depth": 2}
+{"id": "10010405.10010476.10010936.10003590", "label": "Voting / election technologies", "depth": 3}
+{"id": "10010405.10010476.10010936.10010938", "label": "E-government", "depth": 3}
+{"id": "10010405.10010476.10011187.10011188", "label": "Word processors", "depth": 3}
+{"id": "10010405.10010476.10011187.10011189", "label": "Spreadsheets", "depth": 3}
+{"id": "10010405.10010476.10011187.10011190", "label": "Computer games", "depth": 3}
+{"id": "10010405.10010476.10011187.10011191", "label": "Microcomputers", "depth": 3}
+{"id": "10010405.10010481.10003558", "label": "Consumer products", "depth": 2}
+{"id": "10010405.10010481.10010482.10003259", "label": "Supply chain management", "depth": 3}
+{"id": "10010405.10010481.10010482.10010486", "label": "Command and control", "depth": 3}
+{"id": "10010405.10010481.10010483", "label": "Computer-aided manufacturing", "depth": 2}
+{"id": "10010405.10010481.10010484.10011817", "label": "Multi-criterion optimization and decision-making", "depth": 3}
+{"id": "10010405.10010481.10010485", "label": "Transportation", "depth": 2}
+{"id": "10010405.10010481.10010487", "label": "Forecasting", "depth": 2}
+{"id": "10010405.10010481.10010488", "label": "Marketing", "depth": 2}
+{"id": "10010405.10010489.10003392", "label": "Digital libraries and archives", "depth": 2}
+{"id": "10010405.10010489.10010490", "label": "Computer-assisted instruction", "depth": 2}
+{"id": "10010405.10010489.10010491", "label": "Interactive learning environments", "depth": 2}
+{"id": "10010405.10010489.10010492", "label": "Collaborative learning", "depth": 2}
+{"id": "10010405.10010489.10010493", "label": "Learning management systems", "depth": 2}
+{"id": "10010405.10010489.10010494", "label": "Distance learning", "depth": 2}
+{"id": "10010405.10010489.10010495", "label": "E-learning", "depth": 2}
+{"id": "10010405.10010489.10010496", "label": "Computer-managed instruction", "depth": 2}
+{"id": "10010405.10010497.10010498", "label": "Document searching", "depth": 2}
+{"id": "10010405.10010497.10010500.10010501", "label": "Text editing", "depth": 3}
+{"id": "10010405.10010497.10010500.10010502", "label": "Version control", "depth": 3}
+{"id": "10010405.10010497.10010500.10010503", "label": "Document metadata", "depth": 3}
+{"id": "10010405.10010497.10010504.10010505", "label": "Document analysis", "depth": 3}
+{"id": "10010405.10010497.10010504.10010506", "label": "Document scanning", "depth": 3}
+{"id": "10010405.10010497.10010504.10010507", "label": "Graphics recognition and interpretation", "depth": 3}
+{"id": "10010405.10010497.10010504.10010508", "label": "Optical character recognition", "depth": 3}
+{"id": "10010405.10010497.10010504.10010509", "label": "Online handwriting recognition", "depth": 3}
+{"id": "10010405.10010497.10010510.10010512.10003310", "label": "Extensible Markup Language (XML)", "depth": 4}
+{"id": "10010405.10010497.10010510.10010512.10011143", "label": "Hypertext languages", "depth": 4}
+{"id": "10010405.10010497.10010510.10010513", "label": "Annotation", "depth": 3}
+{"id": "10010405.10010497.10010510.10010514", "label": "Format and notation", "depth": 3}
+{"id": "10010405.10010497.10010510.10010515", "label": "Multi / mixed media creation", "depth": 3}
+{"id": "10010405.10010497.10010510.10010516", "label": "Image composition", "depth": 3}
+{"id": "10010405.10010497.10010510.10010920", "label": "Hypertext / hypermedia creation", "depth": 3}
+{"id": "10010405.10010497.10010510.10011689", "label": "Document scripting languages", "depth": 3}
+{"id": "10010520.10010521.10010522.10010523", "label": "Reduced instruction set computing", "depth": 3}
+{"id": "10010520.10010521.10010522.10010524", "label": "Complex instruction set computing", "depth": 3}
+{"id": "10010520.10010521.10010522.10010525", "label": "Superscalar architectures", "depth": 3}
+{"id": "10010520.10010521.10010522.10010526", "label": "Pipeline computing", "depth": 3}
+{"id": "10010520.10010521.10010522.10010527", "label": "Stack machines", "depth": 3}
+{"id": "10010520.10010521.10010528.10010529", "label": "Very long instruction word", "depth": 3}
+{"id": "10010520.10010521.10010528.10010530", "label": "Interconnection architectures", "depth": 3}
+{"id": "10010520.10010521.10010528.10010531", "label": "Multiple instruction, multiple data", "depth": 3}
+{"id": "10010520.10010521.10010528.10010532", "label": "Cellular architectures", "depth": 3}
+{"id": "10010520.10010521.10010528.10010533", "label": "Multiple instruction, single data", "depth": 3}
+{"id": "10010520.10010521.10010528.10010534", "label": "Single instruction, multiple data", "depth": 3}
+{"id": "10010520.10010521.10010528.10010535", "label": "Systolic arrays", "depth": 3}
+{"id": "10010520.10010521.10010528.10010536", "label": "Multicore architectures", "depth": 3}
+{"id": "10010520.10010521.10010537.10003100", "label": "Cloud computing", "depth": 3}
+{"id": "10010520.10010521.10010537.10010538", "label": "Client-server architectures", "depth": 3}
+{"id": "10010520.10010521.10010537.10010539", "label": "n-tier architectures", "depth": 3}
+{"id": "10010520.10010521.10010537.10010540", "label": "Peer-to-peer architectures", "depth": 3}
+{"id": "10010520.10010521.10010537.10010541", "label": "Grid computing", "depth": 3}
+{"id": "10010520.10010521.10010542.10010294", "label": "Neural networks", "depth": 3}
+{"id": "10010520.10010521.10010542.10010543", "label": "Reconfigurable computing", "depth": 3}
+{"id": "10010520.10010521.10010542.10010544", "label": "Analog computers", "depth": 3}
+{"id": "10010520.10010521.10010542.10010545", "label": "Data flow architectures", "depth": 3}
+{"id": "10010520.10010521.10010542.10010546", "label": "Heterogeneous (hybrid) systems", "depth": 3}
+{"id": "10010520.10010521.10010542.10010548", "label": "Self-organizing autonomic computing", "depth": 3}
+{"id": "10010520.10010521.10010542.10010549", "label": "Optical computing", "depth": 3}
+{"id": "10010520.10010521.10010542.10010550", "label": "Quantum computing", "depth": 3}
+{"id": "10010520.10010521.10010542.10010551", "label": "Molecular computing", "depth": 3}
+{"id": "10010520.10010521.10010542.10011713", "label": "High-level language architectures", "depth": 3}
+{"id": "10010520.10010521.10010542.10011714", "label": "Special purpose systems", "depth": 3}
+{"id": "10010520.10010553.10003238", "label": "Sensor networks", "depth": 2}
+{"id": "10010520.10010553.10010554.10010555", "label": "Robotic components", "depth": 3}
+{"id": "10010520.10010553.10010554.10010556.10011814", "label": "Evolutionary robotics", "depth": 4}
+{"id": "10010520.10010553.10010554.10010557", "label": "Robotic autonomy", "depth": 3}
+{"id": "10010520.10010553.10010554.10010558", "label": "External interfaces for robotics", "depth": 3}
+{"id": "10010520.10010553.10010559", "label": "Sensors and actuators", "depth": 2}
+{"id": "10010520.10010553.10010560", "label": "System on a chip", "depth": 2}
+{"id": "10010520.10010553.10010562.10010561", "label": "Firmware", "depth": 3}
+{"id": "10010520.10010553.10010562.10010563", "label": "Embedded hardware", "depth": 3}
+{"id": "10010520.10010553.10010562.10010564", "label": "Embedded software", "depth": 3}
+{"id": "10010520.10010570.10010571", "label": "Real-time operating systems", "depth": 2}
+{"id": "10010520.10010570.10010572", "label": "Real-time languages", "depth": 2}
+{"id": "10010520.10010570.10010573", "label": "Real-time system specification", "depth": 2}
+{"id": "10010520.10010570.10010574", "label": "Real-time system architecture", "depth": 2}
+{"id": "10010520.10010575.10010577", "label": "Reliability", "depth": 2}
+{"id": "10010520.10010575.10010578", "label": "Availability", "depth": 2}
+{"id": "10010520.10010575.10010579", "label": "Maintainability and maintenance", "depth": 2}
+{"id": "10010520.10010575.10010580", "label": "Processors and memory architectures", "depth": 2}
+{"id": "10010520.10010575.10010581", "label": "Secondary storage organization", "depth": 2}
+{"id": "10010520.10010575.10010755", "label": "Redundancy", "depth": 2}
+{"id": "10010520.10010575.10011743", "label": "Fault-tolerant network topologies", "depth": 2}
+{"id": "10010583.10010584.10010585", "label": "Electromagnetic interference and compatibility", "depth": 2}
+{"id": "10010583.10010584.10010587", "label": "PCB design and layout", "depth": 2}
+{"id": "10010583.10010588.10003247.10003248", "label": "Digital signal processing", "depth": 3}
+{"id": "10010583.10010588.10003247.10003249", "label": "Beamforming", "depth": 3}
+{"id": "10010583.10010588.10003247.10003250", "label": "Noise reduction", "depth": 3}
+{"id": "10010583.10010588.10010559", "label": "Sensors and actuators", "depth": 2}
+{"id": "10010583.10010588.10010590", "label": "Buses and high-speed links", "depth": 2}
+{"id": "10010583.10010588.10010591", "label": "Displays and imagers", "depth": 2}
+{"id": "10010583.10010588.10010592", "label": "External storage", "depth": 2}
+{"id": "10010583.10010588.10010593", "label": "Networking hardware", "depth": 2}
+{"id": "10010583.10010588.10010594", "label": "Printers", "depth": 2}
+{"id": "10010583.10010588.10010595", "label": "Sensor applications and deployments", "depth": 2}
+{"id": "10010583.10010588.10010596", "label": "Sensor devices and platforms", "depth": 2}
+{"id": "10010583.10010588.10010597", "label": "Sound-based input / output", "depth": 2}
+{"id": "10010583.10010588.10010598.10011666", "label": "Touch screens", "depth": 3}
+{"id": "10010583.10010588.10010598.10011752", "label": "Haptic devices", "depth": 3}
+{"id": "10010583.10010588.10011667", "label": "Scanners", "depth": 2}
+{"id": "10010583.10010588.10011669", "label": "Wireless devices", "depth": 2}
+{"id": "10010583.10010588.10011670", "label": "Wireless integrated network sensors", "depth": 2}
+{"id": "10010583.10010588.10011715", "label": "Electro-mechanical devices", "depth": 2}
+{"id": "10010583.10010600.10010601", "label": "3D integrated circuits", "depth": 2}
+{"id": "10010583.10010600.10010602.10010603", "label": "Input / output circuits", "depth": 3}
+{"id": "10010583.10010600.10010602.10010604", "label": "Metallic interconnect", "depth": 3}
+{"id": "10010583.10010600.10010602.10010605", "label": "Photonic and optical interconnect", "depth": 3}
+{"id": "10010583.10010600.10010602.10010606", "label": "Radio frequency and wireless interconnect", "depth": 3}
+{"id": "10010583.10010600.10010607.10010608", "label": "Dynamic memory", "depth": 3}
+{"id": "10010583.10010600.10010607.10010609", "label": "Static memory", "depth": 3}
+{"id": "10010583.10010600.10010607.10010610", "label": "Non-volatile memory", "depth": 3}
+{"id": "10010583.10010600.10010607.10010611", "label": "Read-only memory", "depth": 3}
+{"id": "10010583.10010600.10010612.10010613", "label": "Transistors", "depth": 3}
+{"id": "10010583.10010600.10010612.10010614", "label": "Logic families", "depth": 3}
+{"id": "10010583.10010600.10010615.10010616", "label": "Arithmetic and datapath circuits", "depth": 3}
+{"id": "10010583.10010600.10010615.10010617", "label": "Asynchronous circuits", "depth": 3}
+{"id": "10010583.10010600.10010615.10010618", "label": "Combinational circuits", "depth": 3}
+{"id": "10010583.10010600.10010615.10010619", "label": "Design modules and hierarchy", "depth": 3}
+{"id": "10010583.10010600.10010615.10010620", "label": "Finite state machines", "depth": 3}
+{"id": "10010583.10010600.10010615.10010621", "label": "Sequential circuits", "depth": 3}
+{"id": "10010583.10010600.10010628.10010629", "label": "Hardware accelerators", "depth": 3}
+{"id": "10010583.10010600.10010628.10010630", "label": "High-speed input / output", "depth": 3}
+{"id": "10010583.10010600.10010628.10010631", "label": "Programmable logic elements", "depth": 3}
+{"id": "10010583.10010600.10010628.10010632", "label": "Programmable interconnect", "depth": 3}
+{"id": "10010583.10010600.10010628.10011716", "label": "Reconfigurable logic applications", "depth": 3}
+{"id": "10010583.10010600.10010628.10011811", "label": "Evolvable hardware", "depth": 3}
+{"id": "10010583.10010633.10010601", "label": "3D integrated circuits", "depth": 2}
+{"id": "10010583.10010633.10010634.10010635", "label": "Data conversion", "depth": 3}
+{"id": "10010583.10010633.10010634.10010636", "label": "Clock generation and timing", "depth": 3}
+{"id": "10010583.10010633.10010634.10010637", "label": "Analog and mixed-signal circuit optimization", "depth": 3}
+{"id": "10010583.10010633.10010634.10010638", "label": "Radio frequency and wireless circuits", "depth": 3}
+{"id": "10010583.10010633.10010634.10010639", "label": "Wireline communication", "depth": 3}
+{"id": "10010583.10010633.10010634.10011717", "label": "Analog and mixed-signal circuit synthesis", "depth": 3}
+{"id": "10010583.10010633.10010640.10010641", "label": "Application specific integrated circuits", "depth": 3}
+{"id": "10010583.10010633.10010640.10010642", "label": "Application specific instruction set processors", "depth": 3}
+{"id": "10010583.10010633.10010640.10010643", "label": "Application specific processors", "depth": 3}
+{"id": "10010583.10010633.10010645.10003107", "label": "Network on chip", "depth": 3}
+{"id": "10010583.10010633.10010645.10010560", "label": "System on a chip", "depth": 3}
+{"id": "10010583.10010633.10010645.10010648", "label": "Platform-based design", "depth": 3}
+{"id": "10010583.10010633.10010645.10011718", "label": "Hard and soft IP", "depth": 3}
+{"id": "10010583.10010633.10010649", "label": "Design rules", "depth": 2}
+{"id": "10010583.10010633.10010650", "label": "Economics of chip design and manufacturing", "depth": 2}
+{"id": "10010583.10010633.10010651", "label": "Full-custom circuits", "depth": 2}
+{"id": "10010583.10010633.10010652", "label": "VLSI design manufacturing considerations", "depth": 2}
+{"id": "10010583.10010633.10010653", "label": "On-chip resource management", "depth": 2}
+{"id": "10010583.10010633.10010654", "label": "On-chip sensors", "depth": 2}
+{"id": "10010583.10010633.10010655", "label": "Standard cell libraries", "depth": 2}
+{"id": "10010583.10010633.10010656.10010657", "label": "Die and wafer stacking", "depth": 3}
+{"id": "10010583.10010633.10010656.10010658", "label": "Input / output styles", "depth": 3}
+{"id": "10010583.10010633.10010656.10010660", "label": "Multi-chip modules", "depth": 3}
+{"id": "10010583.10010633.10010656.10010661", "label": "Package-level interconnect", "depth": 3}
+{"id": "10010583.10010633.10010659", "label": "VLSI system specification and constraints", "depth": 2}
+{"id": "10010583.10010662.10010586.10010678", "label": "Temperature monitoring", "depth": 3}
+{"id": "10010583.10010662.10010586.10010679", "label": "Temperature simulation and estimation", "depth": 3}
+{"id": "10010583.10010662.10010586.10010680", "label": "Temperature control", "depth": 3}
+{"id": "10010583.10010662.10010586.10010681", "label": "Temperature optimization", "depth": 3}
+{"id": "10010583.10010662.10010663.10010664", "label": "Batteries", "depth": 3}
+{"id": "10010583.10010662.10010663.10010665", "label": "Fuel-based energy", "depth": 3}
+{"id": "10010583.10010662.10010663.10010666", "label": "Renewable energy", "depth": 3}
+{"id": "10010583.10010662.10010663.10010667", "label": "Reusable energy storage", "depth": 3}
+{"id": "10010583.10010662.10010668.10010669", "label": "Energy metering", "depth": 3}
+{"id": "10010583.10010662.10010668.10010670", "label": "Power conversion", "depth": 3}
+{"id": "10010583.10010662.10010668.10010671", "label": "Power networks", "depth": 3}
+{"id": "10010583.10010662.10010668.10010672", "label": "Smart grid", "depth": 3}
+{"id": "10010583.10010662.10010673", "label": "Impact on the environment", "depth": 2}
+{"id": "10010583.10010662.10010674.10011719", "label": "Switching devices power issues", "depth": 3}
+{"id": "10010583.10010662.10010674.10011720", "label": "Interconnect power issues", "depth": 3}
+{"id": "10010583.10010662.10010674.10011721", "label": "Circuits power issues", "depth": 3}
+{"id": "10010583.10010662.10010674.10011722", "label": "Chip-level power issues", "depth": 3}
+{"id": "10010583.10010662.10010674.10011723", "label": "Platform power issues", "depth": 3}
+{"id": "10010583.10010662.10010674.10011724", "label": "Enterprise level and data centers power issues", "depth": 3}
+{"id": "10010583.10010682.10010684.10010685", "label": "Datapath optimization", "depth": 3}
+{"id": "10010583.10010682.10010684.10010686", "label": "Hardware-software codesign", "depth": 3}
+{"id": "10010583.10010682.10010684.10010687", "label": "Resource binding and sharing", "depth": 3}
+{"id": "10010583.10010682.10010684.10011677", "label": "Operations scheduling", "depth": 3}
+{"id": "10010583.10010682.10010689", "label": "Hardware description languages and compilation", "depth": 2}
+{"id": "10010583.10010682.10010690.10010691", "label": "Combinational synthesis", "depth": 3}
+{"id": "10010583.10010682.10010690.10010692", "label": "Circuit optimization", "depth": 3}
+{"id": "10010583.10010682.10010690.10010693", "label": "Sequential synthesis", "depth": 3}
+{"id": "10010583.10010682.10010690.10010694", "label": "Technology-mapping", "depth": 3}
+{"id": "10010583.10010682.10010690.10010695", "label": "Transistor-level synthesis", "depth": 3}
+{"id": "10010583.10010682.10010696", "label": "Modeling and parameter extraction", "depth": 2}
+{"id": "10010583.10010682.10010697.10010698", "label": "Clock-network synthesis", "depth": 3}
+{"id": "10010583.10010682.10010697.10010699", "label": "Packaging", "depth": 3}
+{"id": "10010583.10010682.10010697.10010700", "label": "Partitioning and floorplanning", "depth": 3}
+{"id": "10010583.10010682.10010697.10010701", "label": "Placement", "depth": 3}
+{"id": "10010583.10010682.10010697.10010702", "label": "Physical synthesis", "depth": 3}
+{"id": "10010583.10010682.10010697.10010703", "label": "Power grid design", "depth": 3}
+{"id": "10010583.10010682.10010697.10010704", "label": "Wire routing", "depth": 3}
+{"id": "10010583.10010682.10010705.10010706", "label": "Electrical-level simulation", "depth": 3}
+{"id": "10010583.10010682.10010705.10010707", "label": "Model-order reduction", "depth": 3}
+{"id": "10010583.10010682.10010705.10010708", "label": "Compact delay models", "depth": 3}
+{"id": "10010583.10010682.10010705.10010709", "label": "Static timing analysis", "depth": 3}
+{"id": "10010583.10010682.10010705.10010710", "label": "Statistical timing analysis", "depth": 3}
+{"id": "10010583.10010682.10010705.10010711", "label": "Transition-based timing analysis", "depth": 3}
+{"id": "10010583.10010682.10010712.10010713", "label": "Best practices for EDA", "depth": 3}
+{"id": "10010583.10010682.10010712.10010714", "label": "Design databases for EDA", "depth": 3}
+{"id": "10010583.10010682.10010712.10010715", "label": "Software tools for EDA", "depth": 3}
+{"id": "10010583.10010717.10010721.10003791", "label": "Model checking", "depth": 3}
+{"id": "10010583.10010717.10010721.10010722", "label": "Coverage metrics", "depth": 3}
+{"id": "10010583.10010717.10010721.10010723", "label": "Equivalence checking", "depth": 3}
+{"id": "10010583.10010717.10010721.10010724", "label": "Semi-formal verification", "depth": 3}
+{"id": "10010583.10010717.10010721.10010725", "label": "Simulation and emulation", "depth": 3}
+{"id": "10010583.10010717.10010721.10010726", "label": "Transaction-level verification", "depth": 3}
+{"id": "10010583.10010717.10010721.10010727", "label": "Theorem proving and SAT solving", "depth": 3}
+{"id": "10010583.10010717.10010721.10010914", "label": "Assertion checking", "depth": 3}
+{"id": "10010583.10010717.10010728.10010729", "label": "Design rule checking", "depth": 3}
+{"id": "10010583.10010717.10010728.10010730", "label": "Layout-versus-schematics", "depth": 3}
+{"id": "10010583.10010717.10010728.10010731", "label": "Power and thermal analysis", "depth": 3}
+{"id": "10010583.10010717.10010728.10010732", "label": "Timing analysis and sign-off", "depth": 3}
+{"id": "10010583.10010717.10010733.10010734", "label": "Bug detection, localization and diagnosis", "depth": 3}
+{"id": "10010583.10010717.10010733.10010735", "label": "Bug fixing (hardware)", "depth": 3}
+{"id": "10010583.10010717.10010733.10010736", "label": "Design for debug", "depth": 3}
+{"id": "10010583.10010737.10010738", "label": "Analog, mixed-signal and radio frequency test", "depth": 2}
+{"id": "10010583.10010737.10010739", "label": "Board- and system-level test", "depth": 2}
+{"id": "10010583.10010737.10010740", "label": "Defect-based test", "depth": 2}
+{"id": "10010583.10010737.10010744.10010741", "label": "Built-in self-test", "depth": 3}
+{"id": "10010583.10010737.10010744.10010742", "label": "Online test and diagnostics", "depth": 3}
+{"id": "10010583.10010737.10010744.10010743", "label": "Test data compression", "depth": 3}
+{"id": "10010583.10010737.10010745", "label": "Fault models and test metrics", "depth": 2}
+{"id": "10010583.10010737.10010746", "label": "Memory test and repair", "depth": 2}
+{"id": "10010583.10010737.10010747", "label": "Hardware reliability screening", "depth": 2}
+{"id": "10010583.10010737.10010748", "label": "Test-pattern generation and fault simulation", "depth": 2}
+{"id": "10010583.10010737.10010749", "label": "Testing with distributed and parallel systems", "depth": 2}
+{"id": "10010583.10010750.10010751.10010752", "label": "Error detection and error correction", "depth": 3}
+{"id": "10010583.10010750.10010751.10010753", "label": "Failure prediction", "depth": 3}
+{"id": "10010583.10010750.10010751.10010754", "label": "Failure recovery, maintenance and self-repair", "depth": 3}
+{"id": "10010583.10010750.10010751.10010755", "label": "Redundancy", "depth": 3}
+{"id": "10010583.10010750.10010751.10010756", "label": "Self-checking mechanisms", "depth": 3}
+{"id": "10010583.10010750.10010751.10010757", "label": "System-level fault tolerance", "depth": 3}
+{"id": "10010583.10010750.10010758.10010759", "label": "Process variations", "depth": 3}
+{"id": "10010583.10010750.10010758.10010760", "label": "Yield and cost modeling", "depth": 3}
+{"id": "10010583.10010750.10010758.10010761", "label": "Yield and cost optimization", "depth": 3}
+{"id": "10010583.10010750.10010762.10010763", "label": "Aging of circuits and systems", "depth": 3}
+{"id": "10010583.10010750.10010762.10010764", "label": "Circuit hardening", "depth": 3}
+{"id": "10010583.10010750.10010762.10010765", "label": "Early-life failures and infant mortality", "depth": 3}
+{"id": "10010583.10010750.10010762.10010766", "label": "Process, voltage and temperature variations", "depth": 3}
+{"id": "10010583.10010750.10010762.10010767", "label": "Signal integrity and noise analysis", "depth": 3}
+{"id": "10010583.10010750.10010762.10010768", "label": "Transient errors and upsets", "depth": 3}
+{"id": "10010583.10010750.10010769", "label": "Safety critical systems", "depth": 2}
+{"id": "10010583.10010786.10010787.10010788", "label": "Emerging architectures", "depth": 3}
+{"id": "10010583.10010786.10010787.10010789", "label": "Emerging languages and compilers", "depth": 3}
+{"id": "10010583.10010786.10010787.10010790", "label": "Emerging simulation", "depth": 3}
+{"id": "10010583.10010786.10010787.10010791", "label": "Emerging tools and methodologies", "depth": 3}
+{"id": "10010583.10010786.10010792.10010794", "label": "Bio-embedded electronics", "depth": 3}
+{"id": "10010583.10010786.10010792.10010798", "label": "Neural systems", "depth": 3}
+{"id": "10010583.10010786.10010799.10010800", "label": "III-V compounds", "depth": 3}
+{"id": "10010583.10010786.10010799.10010801", "label": "Carbon based electronics", "depth": 3}
+{"id": "10010583.10010786.10010799.10010802", "label": "Cellular neural networks", "depth": 3}
+{"id": "10010583.10010786.10010799.10010803", "label": "Flexible and printable circuits", "depth": 3}
+{"id": "10010583.10010786.10010799.10010804", "label": "Superconducting circuits", "depth": 3}
+{"id": "10010583.10010786.10010805.10010806", "label": "Microelectromechanical systems", "depth": 3}
+{"id": "10010583.10010786.10010805.10010807", "label": "Nanoelectromechanical systems", "depth": 3}
+{"id": "10010583.10010786.10010808", "label": "Emerging interfaces", "depth": 2}
+{"id": "10010583.10010786.10010809", "label": "Memory and dense storage", "depth": 2}
+{"id": "10010583.10010786.10010810", "label": "Emerging optical and photonic technologies", "depth": 2}
+{"id": "10010583.10010786.10010811", "label": "Reversible logic", "depth": 2}
+{"id": "10010583.10010786.10010812", "label": "Plasmonics", "depth": 2}
+{"id": "10010583.10010786.10010813.10010815", "label": "Single electron devices", "depth": 3}
+{"id": "10010583.10010786.10010813.10010816", "label": "Tunneling devices", "depth": 3}
+{"id": "10010583.10010786.10010813.10011726.10011727", "label": "Quantum communication and cryptography", "depth": 4}
+{"id": "10010583.10010786.10010813.10011726.10011728", "label": "Quantum error correction and fault tolerance", "depth": 4}
+{"id": "10010583.10010786.10010813.10011729", "label": "Quantum dots and cellular automata", "depth": 3}
+{"id": "10010583.10010786.10010817", "label": "Spintronics and magnetic technologies", "depth": 2}
+{"id": "10011007.10010940.10010941.10003552", "label": "E-commerce infrastructure", "depth": 3}
+{"id": "10011007.10010940.10010941.10010942.10010943", "label": "Interpreters", "depth": 4}
+{"id": "10011007.10010940.10010941.10010942.10010944.10010945", "label": "Message oriented middleware", "depth": 5}
+{"id": "10011007.10010940.10010941.10010942.10010944.10010946", "label": "Reflective middleware", "depth": 5}
+{"id": "10011007.10010940.10010941.10010942.10010944.10010947", "label": "Embedded middleware", "depth": 5}
+{"id": "10011007.10010940.10010941.10010942.10010948", "label": "Virtual machines", "depth": 4}
+{"id": "10011007.10010940.10010941.10010949.10003512", "label": "File systems management", "depth": 4}
+{"id": "10011007.10010940.10010941.10010949.10010950.10010951", "label": "Virtual memory", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010950.10010952", "label": "Main memory", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010950.10010953", "label": "Allocation / deallocation strategies", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010950.10010954", "label": "Garbage collection", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010950.10010955", "label": "Distributed memory", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010950.10010956", "label": "Secondary storage", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10010688", "label": "Scheduling", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10010834", "label": "Deadlocks", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10010958", "label": "Multithreading", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10010959", "label": "Multiprocessing / multiprogramming / multitasking", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10010960", "label": "Monitors", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10010962", "label": "Mutual exclusion", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10010963", "label": "Concurrency control", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10010964", "label": "Power management", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010957.10011678", "label": "Process synchronization", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010965.10010966", "label": "Buffering", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010965.10010967", "label": "Input / output", "depth": 5}
+{"id": "10011007.10010940.10010941.10010949.10010965.10010968", "label": "Message passing", "depth": 5}
+{"id": "10011007.10010940.10010941.10010969.10010970", "label": "Interactive games", "depth": 4}
+{"id": "10011007.10010940.10010941.10010969.10011744", "label": "Virtual worlds training simulations", "depth": 4}
+{"id": "10011007.10010940.10010971.10010564", "label": "Embedded software", "depth": 3}
+{"id": "10011007.10010940.10010971.10010972.10010539", "label": "n-tier architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10010540", "label": "Peer-to-peer architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10010545", "label": "Data flow architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10010973", "label": "Cooperating communicating processes", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10010974", "label": "Layered systems", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10010975", "label": "Publish-subscribe / event-based architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10010976", "label": "Electronic blackboards", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10010978", "label": "Simulator / interpreter", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10010979", "label": "Object oriented architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10011116", "label": "Tightly coupled architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10011117", "label": "Space-based architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10010972.10011681", "label": "3-tier architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10010980.10010981", "label": "Petri nets", "depth": 4}
+{"id": "10011007.10010940.10010971.10010980.10010982", "label": "State systems", "depth": 4}
+{"id": "10011007.10010940.10010971.10010980.10010983", "label": "Entity relationship modeling", "depth": 4}
+{"id": "10011007.10010940.10010971.10010980.10010984", "label": "Model-driven software engineering", "depth": 4}
+{"id": "10011007.10010940.10010971.10010980.10010985", "label": "Feature interaction", "depth": 4}
+{"id": "10011007.10010940.10010971.10010980.10010986", "label": "Massively parallel systems", "depth": 4}
+{"id": "10011007.10010940.10010971.10010991", "label": "Ultra-large-scale systems", "depth": 3}
+{"id": "10011007.10010940.10010971.10011120.10003100", "label": "Cloud computing", "depth": 4}
+{"id": "10011007.10010940.10010971.10011120.10010538", "label": "Client-server architectures", "depth": 4}
+{"id": "10011007.10010940.10010971.10011120.10010541", "label": "Grid computing", "depth": 4}
+{"id": "10011007.10010940.10010971.10011120.10011680", "label": "Organizing principles for web applications", "depth": 4}
+{"id": "10011007.10010940.10010971.10011679", "label": "Real-time systems software", "depth": 3}
+{"id": "10011007.10010940.10010971.10011682", "label": "Abstraction, modeling and modularity", "depth": 3}
+{"id": "10011007.10010940.10010992.10010993.10010961", "label": "Synchronization", "depth": 4}
+{"id": "10011007.10010940.10010992.10010993.10010994", "label": "Functionality", "depth": 4}
+{"id": "10011007.10010940.10010992.10010993.10010995", "label": "Real-time schedulability", "depth": 4}
+{"id": "10011007.10010940.10010992.10010993.10010996", "label": "Consistency", "depth": 4}
+{"id": "10011007.10010940.10010992.10010993.10010997", "label": "Completeness", "depth": 4}
+{"id": "10011007.10010940.10010992.10010993.10011683", "label": "Access protection", "depth": 4}
+{"id": "10011007.10010940.10010992.10010998.10003791", "label": "Model checking", "depth": 4}
+{"id": "10011007.10010940.10010992.10010998.10010999", "label": "Software verification", "depth": 4}
+{"id": "10011007.10010940.10010992.10010998.10011000", "label": "Automated static analysis", "depth": 4}
+{"id": "10011007.10010940.10010992.10010998.10011001", "label": "Dynamic analysis", "depth": 4}
+{"id": "10011007.10010940.10011003.10010117", "label": "Interoperability", "depth": 3}
+{"id": "10011007.10010940.10011003.10011002", "label": "Software performance", "depth": 3}
+{"id": "10011007.10010940.10011003.10011004", "label": "Software reliability", "depth": 3}
+{"id": "10011007.10010940.10011003.10011005.10011101", "label": "Checkpoint / restart", "depth": 4}
+{"id": "10011007.10010940.10011003.10011114", "label": "Software safety", "depth": 3}
+{"id": "10011007.10010940.10011003.10011687", "label": "Software usability", "depth": 3}
+{"id": "10011007.10011006.10011008.10011009.10010175", "label": "Parallel programming languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10010177", "label": "Distributed programming languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011010", "label": "Imperative languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011011", "label": "Object oriented languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011012", "label": "Functional languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011014", "label": "Concurrent programming languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011015", "label": "Constraint and logic languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011016", "label": "Data flow languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011019", "label": "Extensible languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011020", "label": "Assembly languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011021", "label": "Multiparadigm languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011009.10011022", "label": "Very high level languages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10003202", "label": "Abstract data types", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011025", "label": "Polymorphism", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011026", "label": "Inheritance", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011027", "label": "Control structures", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011028", "label": "Data types and structures", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011029", "label": "Classes and objects", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011031", "label": "Modules / packages", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011032", "label": "Constraints", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011033", "label": "Recursion", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011034", "label": "Concurrent programming structures", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011035", "label": "Procedures, functions and subroutines", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011036", "label": "Patterns", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011037", "label": "Coroutines", "depth": 4}
+{"id": "10011007.10011006.10011008.10011024.10011038", "label": "Frameworks", "depth": 4}
+{"id": "10011007.10011006.10011039.10011040", "label": "Syntax", "depth": 3}
+{"id": "10011007.10011006.10011039.10011311", "label": "Semantics", "depth": 3}
+{"id": "10011007.10011006.10011041.10010943", "label": "Interpreters", "depth": 3}
+{"id": "10011007.10011006.10011041.10011042", "label": "Incremental compilers", "depth": 3}
+{"id": "10011007.10011006.10011041.10011043", "label": "Retargetable compilers", "depth": 3}
+{"id": "10011007.10011006.10011041.10011044", "label": "Just-in-time compilers", "depth": 3}
+{"id": "10011007.10011006.10011041.10011045", "label": "Dynamic compilers", "depth": 3}
+{"id": "10011007.10011006.10011041.10011046", "label": "Translator writing systems and compiler generators", "depth": 3}
+{"id": "10011007.10011006.10011041.10011047", "label": "Source code generation", "depth": 3}
+{"id": "10011007.10011006.10011041.10011048", "label": "Runtime environments", "depth": 3}
+{"id": "10011007.10011006.10011041.10011049", "label": "Preprocessors", "depth": 3}
+{"id": "10011007.10011006.10011041.10011688", "label": "Parsers", "depth": 3}
+{"id": "10011007.10011006.10011050.10010512.10003310", "label": "Extensible Markup Language (XML)", "depth": 4}
+{"id": "10011007.10011006.10011050.10010512.10011143", "label": "Hypertext languages", "depth": 4}
+{"id": "10011007.10011006.10011050.10010517", "label": "Scripting languages", "depth": 3}
+{"id": "10011007.10011006.10011050.10011017", "label": "Domain specific languages", "depth": 3}
+{"id": "10011007.10011006.10011050.10011023", "label": "Specialized application languages", "depth": 3}
+{"id": "10011007.10011006.10011050.10011051", "label": "API languages", "depth": 3}
+{"id": "10011007.10011006.10011050.10011052", "label": "Graphical user interface languages", "depth": 3}
+{"id": "10011007.10011006.10011050.10011053", "label": "Window managers", "depth": 3}
+{"id": "10011007.10011006.10011050.10011054", "label": "Command and control languages", "depth": 3}
+{"id": "10011007.10011006.10011050.10011055", "label": "Macro languages", "depth": 3}
+{"id": "10011007.10011006.10011050.10011056", "label": "Programming by example", "depth": 3}
+{"id": "10011007.10011006.10011050.10011057", "label": "State based definitions", "depth": 3}
+{"id": "10011007.10011006.10011050.10011058", "label": "Visual languages", "depth": 3}
+{"id": "10011007.10011006.10011050.10011059", "label": "Interface definition languages", "depth": 3}
+{"id": "10011007.10011006.10011060.10011018", "label": "Design languages", "depth": 3}
+{"id": "10011007.10011006.10011060.10011061", "label": "Unified Modeling Language (UML)", "depth": 3}
+{"id": "10011007.10011006.10011060.10011062", "label": "Architecture description languages", "depth": 3}
+{"id": "10011007.10011006.10011060.10011063", "label": "System modeling languages", "depth": 3}
+{"id": "10011007.10011006.10011060.10011064", "label": "Orchestration languages", "depth": 3}
+{"id": "10011007.10011006.10011060.10011065", "label": "Integration frameworks", "depth": 3}
+{"id": "10011007.10011006.10011060.10011690", "label": "Specification languages", "depth": 3}
+{"id": "10011007.10011006.10011066.10011067", "label": "Object oriented frameworks", "depth": 3}
+{"id": "10011007.10011006.10011066.10011068", "label": "Software as a service orchestration system", "depth": 3}
+{"id": "10011007.10011006.10011066.10011069", "label": "Integrated and visual development environments", "depth": 3}
+{"id": "10011007.10011006.10011066.10011070", "label": "Application specific development environments", "depth": 3}
+{"id": "10011007.10011006.10011071", "label": "Software configuration management and version control systems", "depth": 2}
+{"id": "10011007.10011006.10011072", "label": "Software libraries and repositories", "depth": 2}
+{"id": "10011007.10011006.10011073", "label": "Software maintenance tools", "depth": 2}
+{"id": "10011007.10011074.10011075.10011076", "label": "Requirements analysis", "depth": 3}
+{"id": "10011007.10011074.10011075.10011077", "label": "Software design engineering", "depth": 3}
+{"id": "10011007.10011074.10011075.10011078", "label": "Software design tradeoffs", "depth": 3}
+{"id": "10011007.10011074.10011075.10011079.10011080", "label": "Software design techniques", "depth": 4}
+{"id": "10011007.10011074.10011081.10011082.10010878", "label": "Rapid application development", "depth": 4}
+{"id": "10011007.10011074.10011081.10011082.10011083", "label": "Agile software development", "depth": 4}
+{"id": "10011007.10011074.10011081.10011082.10011084", "label": "Capability Maturity Model", "depth": 4}
+{"id": "10011007.10011074.10011081.10011082.10011085", "label": "Waterfall model", "depth": 4}
+{"id": "10011007.10011074.10011081.10011082.10011086", "label": "Spiral model", "depth": 4}
+{"id": "10011007.10011074.10011081.10011082.10011087", "label": "V-model", "depth": 4}
+{"id": "10011007.10011074.10011081.10011082.10011088", "label": "Design patterns", "depth": 4}
+{"id": "10011007.10011074.10011081.10011091", "label": "Risk management", "depth": 3}
+{"id": "10011007.10011074.10011092.10010876", "label": "Software prototyping", "depth": 3}
+{"id": "10011007.10011074.10011092.10011093", "label": "Object oriented development", "depth": 3}
+{"id": "10011007.10011074.10011092.10011094", "label": "Flowcharts", "depth": 3}
+{"id": "10011007.10011074.10011092.10011096.10011097", "label": "Software product lines", "depth": 4}
+{"id": "10011007.10011074.10011092.10011691", "label": "Error handling and recovery", "depth": 3}
+{"id": "10011007.10011074.10011092.10011782.10011813", "label": "Genetic programming", "depth": 4}
+{"id": "10011007.10011074.10011099.10010876", "label": "Software prototyping", "depth": 3}
+{"id": "10011007.10011074.10011099.10011100", "label": "Operational analysis", "depth": 3}
+{"id": "10011007.10011074.10011099.10011102.10011103", "label": "Software testing and debugging", "depth": 4}
+{"id": "10011007.10011074.10011099.10011104", "label": "Fault tree analysis", "depth": 3}
+{"id": "10011007.10011074.10011099.10011105.10011106", "label": "Walkthroughs", "depth": 4}
+{"id": "10011007.10011074.10011099.10011105.10011107", "label": "Pair programming", "depth": 4}
+{"id": "10011007.10011074.10011099.10011105.10011108", "label": "Use cases", "depth": 4}
+{"id": "10011007.10011074.10011099.10011105.10011109", "label": "Acceptance testing", "depth": 4}
+{"id": "10011007.10011074.10011099.10011105.10011110", "label": "Traceability", "depth": 4}
+{"id": "10011007.10011074.10011099.10011692", "label": "Formal software verification", "depth": 3}
+{"id": "10011007.10011074.10011099.10011693", "label": "Empirical software validation", "depth": 3}
+{"id": "10011007.10011074.10011111.10003465", "label": "Software reverse engineering", "depth": 3}
+{"id": "10011007.10011074.10011111.10010913", "label": "Documentation", "depth": 3}
+{"id": "10011007.10011074.10011111.10011112", "label": "Backup procedures", "depth": 3}
+{"id": "10011007.10011074.10011111.10011113", "label": "Software evolution", "depth": 3}
+{"id": "10011007.10011074.10011111.10011695", "label": "Software version control", "depth": 3}
+{"id": "10011007.10011074.10011111.10011696", "label": "Maintaining software", "depth": 3}
+{"id": "10011007.10011074.10011111.10011697", "label": "System administration", "depth": 3}
+{"id": "10011007.10011074.10011134.10003559", "label": "Open source model", "depth": 3}
+{"id": "10011007.10011074.10011134.10011135", "label": "Programming teams", "depth": 3}
+{"id": "10011007.10011074.10011784", "label": "Search-based software engineering", "depth": 2}
+{"id": "10002944.10011122.10002945", "label": "Surveys and overviews", "depth": 2}
+{"id": "10002944.10011122.10002946", "label": "Reference works", "depth": 2}
+{"id": "10002944.10011122.10002947", "label": "General conference proceedings", "depth": 2}
+{"id": "10002944.10011122.10002948", "label": "Biographies", "depth": 2}
+{"id": "10002944.10011122.10002949", "label": "General literature", "depth": 2}
+{"id": "10002944.10011122.10003459", "label": "Computing standards, RFCs and guidelines", "depth": 2}
+{"id": "10002944.10011123.10010577", "label": "Reliability", "depth": 2}
+{"id": "10002944.10011123.10010912", "label": "Empirical studies", "depth": 2}
+{"id": "10002944.10011123.10010916", "label": "Measurement", "depth": 2}
+{"id": "10002944.10011123.10011124", "label": "Metrics", "depth": 2}
+{"id": "10002944.10011123.10011130", "label": "Evaluation", "depth": 2}
+{"id": "10002944.10011123.10011131", "label": "Experimentation", "depth": 2}
+{"id": "10002944.10011123.10011133", "label": "Estimation", "depth": 2}
+{"id": "10002944.10011123.10011673", "label": "Design", "depth": 2}
+{"id": "10002944.10011123.10011674", "label": "Performance", "depth": 2}
+{"id": "10002944.10011123.10011675", "label": "Validation", "depth": 2}
+{"id": "10002944.10011123.10011676", "label": "Verification", "depth": 2}
+{"id": "10002950.10003624.10003625.10003626", "label": "Combinatoric problems", "depth": 3}
+{"id": "10002950.10003624.10003625.10003627", "label": "Permutations and combinations", "depth": 3}
+{"id": "10002950.10003624.10003625.10003628", "label": "Combinatorial algorithms", "depth": 3}
+{"id": "10002950.10003624.10003625.10003629", "label": "Generating functions", "depth": 3}
+{"id": "10002950.10003624.10003625.10003630", "label": "Combinatorial optimization", "depth": 3}
+{"id": "10002950.10003624.10003625.10003631", "label": "Combinatorics on words", "depth": 3}
+{"id": "10002950.10003624.10003625.10003632", "label": "Enumeration", "depth": 3}
+{"id": "10002950.10003624.10003633.10003634", "label": "Trees", "depth": 3}
+{"id": "10002950.10003624.10003633.10003637", "label": "Hypergraphs", "depth": 3}
+{"id": "10002950.10003624.10003633.10003638", "label": "Random graphs", "depth": 3}
+{"id": "10002950.10003624.10003633.10003639", "label": "Graph coloring", "depth": 3}
+{"id": "10002950.10003624.10003633.10003640", "label": "Paths and connectivity problems", "depth": 3}
+{"id": "10002950.10003624.10003633.10003641", "label": "Graph enumeration", "depth": 3}
+{"id": "10002950.10003624.10003633.10003642", "label": "Matchings and factors", "depth": 3}
+{"id": "10002950.10003624.10003633.10003643", "label": "Graphs and surfaces", "depth": 3}
+{"id": "10002950.10003624.10003633.10003644", "label": "Network flows", "depth": 3}
+{"id": "10002950.10003624.10003633.10003645", "label": "Spectra of graphs", "depth": 3}
+{"id": "10002950.10003624.10003633.10003646", "label": "Extremal graph theory", "depth": 3}
+{"id": "10002950.10003624.10003633.10003647", "label": "Matroids and greedoids", "depth": 3}
+{"id": "10002950.10003624.10003633.10010917", "label": "Graph algorithms", "depth": 3}
+{"id": "10002950.10003624.10003633.10010918", "label": "Approximation algorithms", "depth": 3}
+{"id": "10002950.10003648.10003649.10003650", "label": "Bayesian networks", "depth": 3}
+{"id": "10002950.10003648.10003649.10003651", "label": "Markov networks", "depth": 3}
+{"id": "10002950.10003648.10003649.10003652", "label": "Factor graphs", "depth": 3}
+{"id": "10002950.10003648.10003649.10003653", "label": "Decision diagrams", "depth": 3}
+{"id": "10002950.10003648.10003649.10003654", "label": "Equational models", "depth": 3}
+{"id": "10002950.10003648.10003649.10003655", "label": "Causal networks", "depth": 3}
+{"id": "10002950.10003648.10003649.10003656", "label": "Stochastic differential equations", "depth": 3}
+{"id": "10002950.10003648.10003649.10003657.10003658", "label": "Kernel density estimators", "depth": 4}
+{"id": "10002950.10003648.10003649.10003657.10003659", "label": "Spline models", "depth": 4}
+{"id": "10002950.10003648.10003649.10003657.10003661", "label": "Bayesian nonparametric models", "depth": 4}
+{"id": "10002950.10003648.10003662.10003663", "label": "Maximum likelihood estimation", "depth": 3}
+{"id": "10002950.10003648.10003662.10003664", "label": "Bayesian computation", "depth": 3}
+{"id": "10002950.10003648.10003662.10003665", "label": "Computing most probable explanation", "depth": 3}
+{"id": "10002950.10003648.10003662.10003666", "label": "Hypothesis testing and confidence interval computation", "depth": 3}
+{"id": "10002950.10003648.10003662.10003667.10003668", "label": "Quantile regression", "depth": 4}
+{"id": "10002950.10003648.10003662.10003669", "label": "Max marginal computation", "depth": 3}
+{"id": "10002950.10003648.10003670.10003673", "label": "Variable elimination", "depth": 3}
+{"id": "10002950.10003648.10003670.10003674", "label": "Loopy belief propagation", "depth": 3}
+{"id": "10002950.10003648.10003670.10003675", "label": "Variational methods", "depth": 3}
+{"id": "10002950.10003648.10003670.10003676", "label": "Expectation maximization", "depth": 3}
+{"id": "10002950.10003648.10003670.10003677.10003678", "label": "Gibbs sampling", "depth": 4}
+{"id": "10002950.10003648.10003670.10003677.10003679", "label": "Metropolis-Hastings algorithm", "depth": 4}
+{"id": "10002950.10003648.10003670.10003677.10003680", "label": "Simulated annealing", "depth": 4}
+{"id": "10002950.10003648.10003670.10003677.10003681", "label": "Markov-chain Monte Carlo convergence measures", "depth": 4}
+{"id": "10002950.10003648.10003670.10003682", "label": "Sequential Monte Carlo methods", "depth": 3}
+{"id": "10002950.10003648.10003670.10003683", "label": "Kalman filters and hidden Markov models", "depth": 3}
+{"id": "10002950.10003648.10003670.10003684.10003685", "label": "Bootstrapping", "depth": 4}
+{"id": "10002950.10003648.10003670.10003684.10003686", "label": "Jackknifing", "depth": 4}
+{"id": "10002950.10003648.10003670.10003687", "label": "Random number generation", "depth": 3}
+{"id": "10002950.10003648.10003671", "label": "Probabilistic algorithms", "depth": 2}
+{"id": "10002950.10003648.10003688.10003689", "label": "Queueing theory", "depth": 3}
+{"id": "10002950.10003648.10003688.10003690", "label": "Contingency table analysis", "depth": 3}
+{"id": "10002950.10003648.10003688.10003691.10003692", "label": "Robust regression", "depth": 4}
+{"id": "10002950.10003648.10003688.10003693", "label": "Time series analysis", "depth": 3}
+{"id": "10002950.10003648.10003688.10003694", "label": "Survival analysis", "depth": 3}
+{"id": "10002950.10003648.10003688.10003695", "label": "Renewal theory", "depth": 3}
+{"id": "10002950.10003648.10003688.10003696", "label": "Dimensionality reduction", "depth": 3}
+{"id": "10002950.10003648.10003688.10003697", "label": "Cluster analysis", "depth": 3}
+{"id": "10002950.10003648.10003688.10003698", "label": "Statistical graphics", "depth": 3}
+{"id": "10002950.10003648.10003688.10003699", "label": "Exploratory data analysis", "depth": 3}
+{"id": "10002950.10003648.10003700.10003701", "label": "Markov processes", "depth": 3}
+{"id": "10002950.10003648.10003702", "label": "Nonparametric statistics", "depth": 2}
+{"id": "10002950.10003648.10003703", "label": "Distribution functions", "depth": 2}
+{"id": "10002950.10003648.10003704", "label": "Multivariate statistics", "depth": 2}
+{"id": "10002950.10003705.10003707", "label": "Solvers", "depth": 2}
+{"id": "10002950.10003705.10003708", "label": "Statistical software", "depth": 2}
+{"id": "10002950.10003705.10011686", "label": "Mathematical software performance", "depth": 2}
+{"id": "10002950.10003712.10003713", "label": "Coding theory", "depth": 2}
+{"id": "10002950.10003714.10003715.10003717", "label": "Computation of transforms", "depth": 3}
+{"id": "10002950.10003714.10003715.10003718", "label": "Computations in finite fields", "depth": 3}
+{"id": "10002950.10003714.10003715.10003719", "label": "Computations on matrices", "depth": 3}
+{"id": "10002950.10003714.10003715.10003720.10003747", "label": "Gr\u00f6bner bases and other special bases", "depth": 4}
+{"id": "10002950.10003714.10003715.10003721", "label": "Number-theoretic computations", "depth": 3}
+{"id": "10002950.10003714.10003715.10003722", "label": "Interpolation", "depth": 3}
+{"id": "10002950.10003714.10003715.10003724", "label": "Numerical differentiation", "depth": 3}
+{"id": "10002950.10003714.10003715.10003725", "label": "Interval arithmetic", "depth": 3}
+{"id": "10002950.10003714.10003715.10003726", "label": "Arbitrary-precision arithmetic", "depth": 3}
+{"id": "10002950.10003714.10003715.10003748", "label": "Automatic differentiation", "depth": 3}
+{"id": "10002950.10003714.10003715.10003749", "label": "Mesh generation", "depth": 3}
+{"id": "10002950.10003714.10003715.10003750", "label": "Discretization", "depth": 3}
+{"id": "10002950.10003714.10003716.10011136.10011137", "label": "Network optimization", "depth": 4}
+{"id": "10002950.10003714.10003716.10011136.10011797.10011798", "label": "Simulated annealing", "depth": 5}
+{"id": "10002950.10003714.10003716.10011136.10011797.10011799", "label": "Evolutionary algorithms", "depth": 5}
+{"id": "10002950.10003714.10003716.10011136.10011797.10011800", "label": "Tabu search", "depth": 5}
+{"id": "10002950.10003714.10003716.10011136.10011797.10011801", "label": "Randomized local search", "depth": 5}
+{"id": "10002950.10003714.10003716.10011138.10010041", "label": "Linear programming", "depth": 4}
+{"id": "10002950.10003714.10003716.10011138.10010042", "label": "Semidefinite programming", "depth": 4}
+{"id": "10002950.10003714.10003716.10011138.10010043", "label": "Convex optimization", "depth": 4}
+{"id": "10002950.10003714.10003716.10011138.10010044", "label": "Quasiconvex programming and unimodality", "depth": 4}
+{"id": "10002950.10003714.10003716.10011138.10010046", "label": "Stochastic control and optimization", "depth": 4}
+{"id": "10002950.10003714.10003716.10011138.10011139", "label": "Quadratic programming", "depth": 4}
+{"id": "10002950.10003714.10003716.10011138.10011140", "label": "Nonconvex optimization", "depth": 4}
+{"id": "10002950.10003714.10003716.10011138.10011803", "label": "Bio-inspired optimization", "depth": 4}
+{"id": "10002950.10003714.10003716.10011141.10010040", "label": "Submodular optimization and polymatroids", "depth": 4}
+{"id": "10002950.10003714.10003716.10011141.10010045", "label": "Integer programming", "depth": 4}
+{"id": "10002950.10003714.10003716.10011141.10011803", "label": "Bio-inspired optimization", "depth": 4}
+{"id": "10002950.10003714.10003716.10011804.10011813", "label": "Genetic programming", "depth": 4}
+{"id": "10002950.10003714.10003716.10011804.10011818", "label": "Developmental representations", "depth": 4}
+{"id": "10002950.10003714.10003727.10003728", "label": "Ordinary differential equations", "depth": 3}
+{"id": "10002950.10003714.10003727.10003729", "label": "Partial differential equations", "depth": 3}
+{"id": "10002950.10003714.10003727.10003730", "label": "Differential algebraic equations", "depth": 3}
+{"id": "10002950.10003714.10003727.10003731", "label": "Differential variational inequalities", "depth": 3}
+{"id": "10002950.10003714.10003732.10003733", "label": "Lambda calculus", "depth": 3}
+{"id": "10002950.10003714.10003732.10003734", "label": "Differential calculus", "depth": 3}
+{"id": "10002950.10003714.10003732.10003735", "label": "Integral calculus", "depth": 3}
+{"id": "10002950.10003714.10003736.10003737", "label": "Approximation", "depth": 3}
+{"id": "10002950.10003714.10003738", "label": "Integral equations", "depth": 2}
+{"id": "10002950.10003714.10003739", "label": "Nonlinear equations", "depth": 2}
+{"id": "10002950.10003714.10003740", "label": "Quadrature", "depth": 2}
+{"id": "10002950.10003741.10003732.10003733", "label": "Lambda calculus", "depth": 3}
+{"id": "10002950.10003741.10003732.10003734", "label": "Differential calculus", "depth": 3}
+{"id": "10002950.10003741.10003732.10003735", "label": "Integral calculus", "depth": 3}
+{"id": "10002950.10003741.10003742.10003743", "label": "Point-set topology", "depth": 3}
+{"id": "10002950.10003741.10003742.10003744", "label": "Algebraic topology", "depth": 3}
+{"id": "10002950.10003741.10003742.10003745", "label": "Geometric topology", "depth": 3}
+{"id": "10002950.10003741.10003746", "label": "Continuous functions", "depth": 2}
+{"id": "10002951.10002952.10002953.10002955", "label": "Relational database model", "depth": 3}
+{"id": "10002951.10002952.10002953.10002959", "label": "Entity relationship models", "depth": 3}
+{"id": "10002951.10002952.10002953.10010146.10002956", "label": "Hierarchical data models", "depth": 4}
+{"id": "10002951.10002952.10002953.10010146.10010818", "label": "Network data models", "depth": 4}
+{"id": "10002951.10002952.10002953.10010819", "label": "Physical data models", "depth": 3}
+{"id": "10002951.10002952.10002953.10010820.10002958", "label": "Semi-structured data", "depth": 4}
+{"id": "10002951.10002952.10002953.10010820.10003208", "label": "Data streams", "depth": 4}
+{"id": "10002951.10002952.10002953.10010820.10003623", "label": "Data provenance", "depth": 4}
+{"id": "10002951.10002952.10002953.10010820.10010120", "label": "Incomplete data", "depth": 4}
+{"id": "10002951.10002952.10002953.10010820.10010518", "label": "Temporal data", "depth": 4}
+{"id": "10002951.10002952.10002953.10010820.10010821", "label": "Uncertainty", "depth": 4}
+{"id": "10002951.10002952.10002953.10010820.10010915", "label": "Inconsistent data", "depth": 4}
+{"id": "10002951.10002952.10002971.10003450.10002974", "label": "Multidimensional range search", "depth": 4}
+{"id": "10002951.10002952.10002971.10003450.10010828", "label": "Data scans", "depth": 4}
+{"id": "10002951.10002952.10002971.10003450.10010829", "label": "Point lookups", "depth": 4}
+{"id": "10002951.10002952.10002971.10003450.10010830", "label": "Unidimensional range search", "depth": 4}
+{"id": "10002951.10002952.10002971.10003450.10010831", "label": "Proximity search", "depth": 4}
+{"id": "10002951.10002952.10002971.10003451.10002975", "label": "Data compression", "depth": 4}
+{"id": "10002951.10002952.10002971.10003451.10002976", "label": "Data encryption", "depth": 4}
+{"id": "10002951.10002952.10002971.10003451.10003189", "label": "Record and block layout", "depth": 4}
+{"id": "10002951.10002952.10003190.10003191", "label": "DBMS engine architectures", "depth": 3}
+{"id": "10002951.10002952.10003190.10003192.10003210", "label": "Query optimization", "depth": 4}
+{"id": "10002951.10002952.10003190.10003192.10003398", "label": "Query operators", "depth": 4}
+{"id": "10002951.10002952.10003190.10003192.10003425", "label": "Query planning", "depth": 4}
+{"id": "10002951.10002952.10003190.10003192.10003426", "label": "Join algorithms", "depth": 4}
+{"id": "10002951.10002952.10003190.10003193.10003427", "label": "Data locking", "depth": 4}
+{"id": "10002951.10002952.10003190.10003193.10003428", "label": "Transaction logging", "depth": 4}
+{"id": "10002951.10002952.10003190.10003193.10003429", "label": "Database recovery", "depth": 4}
+{"id": "10002951.10002952.10003190.10003194", "label": "Record and buffer management", "depth": 3}
+{"id": "10002951.10002952.10003190.10003195.10010836", "label": "Key-value stores", "depth": 4}
+{"id": "10002951.10002952.10003190.10003195.10010837", "label": "MapReduce-based systems", "depth": 4}
+{"id": "10002951.10002952.10003190.10003195.10010838", "label": "Relational parallel and distributed DBMSs", "depth": 4}
+{"id": "10002951.10002952.10003190.10003201", "label": "Triggers and rules", "depth": 3}
+{"id": "10002951.10002952.10003190.10003205", "label": "Database views", "depth": 3}
+{"id": "10002951.10002952.10003190.10003206", "label": "Integrity checking", "depth": 3}
+{"id": "10002951.10002952.10003190.10010832.10010833", "label": "Distributed data locking", "depth": 4}
+{"id": "10002951.10002952.10003190.10010832.10010834", "label": "Deadlocks", "depth": 4}
+{"id": "10002951.10002952.10003190.10010832.10010835", "label": "Distributed database recovery", "depth": 4}
+{"id": "10002951.10002952.10003190.10010840", "label": "Main memory engines", "depth": 3}
+{"id": "10002951.10002952.10003190.10010841", "label": "Online analytical processing engines", "depth": 3}
+{"id": "10002951.10002952.10003190.10010842", "label": "Stream management", "depth": 3}
+{"id": "10002951.10002952.10003197.10010822.10010823", "label": "Structured Query Language", "depth": 4}
+{"id": "10002951.10002952.10003197.10010824.10003312", "label": "XPath", "depth": 4}
+{"id": "10002951.10002952.10003197.10010824.10003313", "label": "XQuery", "depth": 4}
+{"id": "10002951.10002952.10003197.10010825.10010827", "label": "MapReduce languages", "depth": 4}
+{"id": "10002951.10002952.10003197.10010826", "label": "Call level interfaces", "depth": 3}
+{"id": "10002951.10002952.10003212.10003213", "label": "Database utilities and tools", "depth": 3}
+{"id": "10002951.10002952.10003212.10003214", "label": "Database performance evaluation", "depth": 3}
+{"id": "10002951.10002952.10003212.10003216", "label": "Autonomous database administration", "depth": 3}
+{"id": "10002951.10002952.10003212.10003224", "label": "Data dictionaries", "depth": 3}
+{"id": "10002951.10002952.10003219.10003183", "label": "Deduplication", "depth": 3}
+{"id": "10002951.10002952.10003219.10003215", "label": "Extraction, transformation and loading", "depth": 3}
+{"id": "10002951.10002952.10003219.10003217", "label": "Data exchange", "depth": 3}
+{"id": "10002951.10002952.10003219.10003218", "label": "Data cleaning", "depth": 3}
+{"id": "10002951.10002952.10003219.10003221", "label": "Wrappers (data mining)", "depth": 3}
+{"id": "10002951.10002952.10003219.10003222", "label": "Mediators and data integration", "depth": 3}
+{"id": "10002951.10002952.10003219.10003223", "label": "Entity resolution", "depth": 3}
+{"id": "10002951.10002952.10003219.10003242", "label": "Data warehouses", "depth": 3}
+{"id": "10002951.10002952.10003219.10003399", "label": "Federated databases", "depth": 3}
+{"id": "10002951.10002952.10003400.10003401", "label": "Database web servers", "depth": 3}
+{"id": "10002951.10002952.10003400.10003402", "label": "Application servers", "depth": 3}
+{"id": "10002951.10002952.10003400.10003403", "label": "Object-relational mapping facilities", "depth": 3}
+{"id": "10002951.10002952.10003400.10003405", "label": "Data federation tools", "depth": 3}
+{"id": "10002951.10002952.10003400.10003406", "label": "Data replication tools", "depth": 3}
+{"id": "10002951.10002952.10003400.10003407", "label": "Distributed transaction monitors", "depth": 3}
+{"id": "10002951.10002952.10003400.10003408", "label": "Message queues", "depth": 3}
+{"id": "10002951.10002952.10003400.10003409", "label": "Service buses", "depth": 3}
+{"id": "10002951.10002952.10003400.10003410", "label": "Enterprise application integration tools", "depth": 3}
+{"id": "10002951.10002952.10003400.10011142", "label": "Middleware business process managers", "depth": 3}
+{"id": "10002951.10003152.10003153.10003155", "label": "Magnetic disks", "depth": 3}
+{"id": "10002951.10003152.10003153.10003156", "label": "Magnetic tapes", "depth": 3}
+{"id": "10002951.10003152.10003153.10003157", "label": "Optical / magneto-optical disks", "depth": 3}
+{"id": "10002951.10003152.10003153.10003158.10003452", "label": "Flash memory", "depth": 4}
+{"id": "10002951.10003152.10003153.10003158.10003453", "label": "Phase change memory", "depth": 4}
+{"id": "10002951.10003152.10003153.10003159", "label": "Disk arrays", "depth": 3}
+{"id": "10002951.10003152.10003153.10003160", "label": "Tape libraries", "depth": 3}
+{"id": "10002951.10003152.10003161.10003162.10003411", "label": "Heap (data structure)", "depth": 4}
+{"id": "10002951.10003152.10003161.10003162.10003412", "label": "Hashed file organization", "depth": 4}
+{"id": "10002951.10003152.10003161.10003162.10003413", "label": "Indexed file organization", "depth": 4}
+{"id": "10002951.10003152.10003161.10003162.10003414", "label": "Linked lists", "depth": 4}
+{"id": "10002951.10003152.10003161.10003163.10003415", "label": "B-trees", "depth": 4}
+{"id": "10002951.10003152.10003161.10003163.10003416", "label": "Vnodes", "depth": 4}
+{"id": "10002951.10003152.10003161.10003163.10003417", "label": "Inodes", "depth": 4}
+{"id": "10002951.10003152.10003161.10003163.10003418", "label": "Extent-based file structures", "depth": 4}
+{"id": "10002951.10003152.10003161.10003164.10003419", "label": "Slotted pages", "depth": 4}
+{"id": "10002951.10003152.10003161.10003164.10003420", "label": "Intrapage space management", "depth": 4}
+{"id": "10002951.10003152.10003161.10003164.10003421", "label": "Interpage free-space management", "depth": 4}
+{"id": "10002951.10003152.10003161.10003165.10003422", "label": "Fixed length attributes", "depth": 4}
+{"id": "10002951.10003152.10003161.10003165.10003423", "label": "Variable length attributes", "depth": 4}
+{"id": "10002951.10003152.10003161.10003165.10003424", "label": "Null values in records", "depth": 4}
+{"id": "10002951.10003152.10003161.10003434.10003435", "label": "Horizontal partitioning", "depth": 4}
+{"id": "10002951.10003152.10003161.10003434.10003436", "label": "Vertical partitioning", "depth": 4}
+{"id": "10002951.10003152.10003161.10003434.10003437", "label": "Column based storage", "depth": 4}
+{"id": "10002951.10003152.10003161.10003434.10003438", "label": "Hybrid storage layouts", "depth": 4}
+{"id": "10002951.10003152.10003161.10003434.10003439", "label": "Compression strategies", "depth": 4}
+{"id": "10002951.10003152.10003166.10003167", "label": "Mirroring", "depth": 3}
+{"id": "10002951.10003152.10003166.10003168", "label": "RAID", "depth": 3}
+{"id": "10002951.10003152.10003166.10003171", "label": "Point-in-time copies", "depth": 3}
+{"id": "10002951.10003152.10003166.10003172", "label": "Remote replication", "depth": 3}
+{"id": "10002951.10003152.10003166.10003516", "label": "Storage recovery strategies", "depth": 3}
+{"id": "10002951.10003152.10003517.10003176", "label": "Cloud based storage", "depth": 3}
+{"id": "10002951.10003152.10003517.10003518.10003109", "label": "Storage area networks", "depth": 4}
+{"id": "10002951.10003152.10003517.10003518.10003174", "label": "Direct attached storage", "depth": 4}
+{"id": "10002951.10003152.10003517.10003518.10003175", "label": "Network attached storage", "depth": 4}
+{"id": "10002951.10003152.10003517.10003519", "label": "Distributed storage", "depth": 3}
+{"id": "10002951.10003152.10003520.10003180", "label": "Hierarchical storage management", "depth": 3}
+{"id": "10002951.10003152.10003520.10003181", "label": "Storage virtualization", "depth": 3}
+{"id": "10002951.10003152.10003520.10003182", "label": "Information lifecycle management", "depth": 3}
+{"id": "10002951.10003152.10003520.10003184", "label": "Version management", "depth": 3}
+{"id": "10002951.10003152.10003520.10003185", "label": "Storage power management", "depth": 3}
+{"id": "10002951.10003152.10003520.10003186", "label": "Thin provisioning", "depth": 3}
+{"id": "10002951.10003227.10003228.10003229", "label": "Intranets", "depth": 3}
+{"id": "10002951.10003227.10003228.10003230", "label": "Extranets", "depth": 3}
+{"id": "10002951.10003227.10003228.10003232", "label": "Enterprise resource planning", "depth": 3}
+{"id": "10002951.10003227.10003228.10003442", "label": "Enterprise applications", "depth": 3}
+{"id": "10002951.10003227.10003228.10010925", "label": "Data centers", "depth": 3}
+{"id": "10002951.10003227.10003233.10003288", "label": "Blogs", "depth": 3}
+{"id": "10002951.10003227.10003233.10003301", "label": "Wikis", "depth": 3}
+{"id": "10002951.10003227.10003233.10003449", "label": "Reputation systems", "depth": 3}
+{"id": "10002951.10003227.10003233.10003597", "label": "Open source software", "depth": 3}
+{"id": "10002951.10003227.10003233.10010519", "label": "Social networking sites", "depth": 3}
+{"id": "10002951.10003227.10003233.10010922", "label": "Social tagging systems", "depth": 3}
+{"id": "10002951.10003227.10003233.10011765", "label": "Synchronous editors", "depth": 3}
+{"id": "10002951.10003227.10003233.10011766", "label": "Asynchronous editors", "depth": 3}
+{"id": "10002951.10003227.10003236.10003101", "label": "Location based services", "depth": 3}
+{"id": "10002951.10003227.10003236.10003237", "label": "Geographic information systems", "depth": 3}
+{"id": "10002951.10003227.10003236.10003238", "label": "Sensor networks", "depth": 3}
+{"id": "10002951.10003227.10003236.10003239", "label": "Data streaming", "depth": 3}
+{"id": "10002951.10003227.10003236.10011559", "label": "Global positioning systems", "depth": 3}
+{"id": "10002951.10003227.10003241.10003242", "label": "Data warehouses", "depth": 3}
+{"id": "10002951.10003227.10003241.10003243", "label": "Expert systems", "depth": 3}
+{"id": "10002951.10003227.10003241.10003244", "label": "Data analytics", "depth": 3}
+{"id": "10002951.10003227.10003241.10010843", "label": "Online analytical processing", "depth": 3}
+{"id": "10002951.10003227.10003245", "label": "Mobile information processing systems", "depth": 2}
+{"id": "10002951.10003227.10003246", "label": "Process control systems", "depth": 2}
+{"id": "10002951.10003227.10003251.10003253", "label": "Multimedia databases", "depth": 3}
+{"id": "10002951.10003227.10003251.10003255", "label": "Multimedia streaming", "depth": 3}
+{"id": "10002951.10003227.10003251.10003256", "label": "Multimedia content creation", "depth": 3}
+{"id": "10002951.10003227.10003251.10003258", "label": "Massively multiplayer online games", "depth": 3}
+{"id": "10002951.10003227.10003351.10003218", "label": "Data cleaning", "depth": 3}
+{"id": "10002951.10003227.10003351.10003269", "label": "Collaborative filtering", "depth": 3}
+{"id": "10002951.10003227.10003351.10003443", "label": "Association rules", "depth": 3}
+{"id": "10002951.10003227.10003351.10003444", "label": "Clustering", "depth": 3}
+{"id": "10002951.10003227.10003351.10003445", "label": "Nearest-neighbor search", "depth": 3}
+{"id": "10002951.10003227.10003351.10003446", "label": "Data stream mining", "depth": 3}
+{"id": "10002951.10003227.10003392", "label": "Digital libraries and archives", "depth": 2}
+{"id": "10002951.10003227.10003447", "label": "Computational advertising", "depth": 2}
+{"id": "10002951.10003227.10010926", "label": "Computing platforms", "depth": 2}
+{"id": "10002951.10003260.10003261.10003263.10003262", "label": "Web crawling", "depth": 4}
+{"id": "10002951.10003260.10003261.10003263.10003264", "label": "Web indexing", "depth": 4}
+{"id": "10002951.10003260.10003261.10003263.10003265", "label": "Page and site ranking", "depth": 4}
+{"id": "10002951.10003260.10003261.10003263.10003266", "label": "Spam detection", "depth": 4}
+{"id": "10002951.10003260.10003261.10003267", "label": "Content ranking", "depth": 3}
+{"id": "10002951.10003260.10003261.10003269", "label": "Collaborative filtering", "depth": 3}
+{"id": "10002951.10003260.10003261.10003270", "label": "Social recommendation", "depth": 3}
+{"id": "10002951.10003260.10003261.10003271", "label": "Personalization", "depth": 3}
+{"id": "10002951.10003260.10003261.10003376", "label": "Social tagging", "depth": 3}
+{"id": "10002951.10003260.10003272.10003273", "label": "Sponsored search advertising", "depth": 3}
+{"id": "10002951.10003260.10003272.10003274", "label": "Content match advertising", "depth": 3}
+{"id": "10002951.10003260.10003272.10003275", "label": "Display advertising", "depth": 3}
+{"id": "10002951.10003260.10003272.10003276", "label": "Social advertising", "depth": 3}
+{"id": "10002951.10003260.10003277.10003278", "label": "Site wrapping", "depth": 3}
+{"id": "10002951.10003260.10003277.10003279.10010846", "label": "Deep web", "depth": 4}
+{"id": "10002951.10003260.10003277.10003279.10010847", "label": "Surfacing", "depth": 4}
+{"id": "10002951.10003260.10003277.10003279.10010848", "label": "Search results deduplication", "depth": 4}
+{"id": "10002951.10003260.10003277.10003280", "label": "Web log analysis", "depth": 3}
+{"id": "10002951.10003260.10003277.10003281", "label": "Traffic analysis", "depth": 3}
+{"id": "10002951.10003260.10003282.10003286.10003287", "label": "Email", "depth": 4}
+{"id": "10002951.10003260.10003282.10003286.10003288", "label": "Blogs", "depth": 4}
+{"id": "10002951.10003260.10003282.10003286.10003289", "label": "Texting", "depth": 4}
+{"id": "10002951.10003260.10003282.10003286.10003290", "label": "Chat", "depth": 4}
+{"id": "10002951.10003260.10003282.10003286.10003291", "label": "Web conferencing", "depth": 4}
+{"id": "10002951.10003260.10003282.10003292", "label": "Social networks", "depth": 3}
+{"id": "10002951.10003260.10003282.10003296.10003297", "label": "Answer ranking", "depth": 4}
+{"id": "10002951.10003260.10003282.10003296.10003298", "label": "Trust", "depth": 4}
+{"id": "10002951.10003260.10003282.10003296.10003299", "label": "Incentive schemes", "depth": 4}
+{"id": "10002951.10003260.10003282.10003296.10003449", "label": "Reputation systems", "depth": 4}
+{"id": "10002951.10003260.10003282.10003550.10003551", "label": "Digital cash", "depth": 4}
+{"id": "10002951.10003260.10003282.10003550.10003552", "label": "E-commerce infrastructure", "depth": 4}
+{"id": "10002951.10003260.10003282.10003550.10003553", "label": "Electronic data interchange", "depth": 4}
+{"id": "10002951.10003260.10003282.10003550.10003554", "label": "Electronic funds transfer", "depth": 4}
+{"id": "10002951.10003260.10003282.10003550.10003555", "label": "Online shopping", "depth": 4}
+{"id": "10002951.10003260.10003282.10003550.10003556", "label": "Online banking", "depth": 4}
+{"id": "10002951.10003260.10003282.10003550.10003557", "label": "Secure online transactions", "depth": 4}
+{"id": "10002951.10003260.10003282.10003550.10003596", "label": "Online auctions", "depth": 4}
+{"id": "10002951.10003260.10003300.10003301", "label": "Wikis", "depth": 3}
+{"id": "10002951.10003260.10003300.10003302", "label": "Browsers", "depth": 3}
+{"id": "10002951.10003260.10003300.10003303", "label": "Mashups", "depth": 3}
+{"id": "10002951.10003260.10003304.10003305", "label": "Simple Object Access Protocol (SOAP)", "depth": 3}
+{"id": "10002951.10003260.10003304.10003306", "label": "RESTful web services", "depth": 3}
+{"id": "10002951.10003260.10003304.10003307", "label": "Web Services Description Language (WSDL)", "depth": 3}
+{"id": "10002951.10003260.10003304.10003308", "label": "Universal Description Discovery and Integration (UDDI)", "depth": 3}
+{"id": "10002951.10003260.10003304.10010849", "label": "Service discovery and interfaces", "depth": 3}
+{"id": "10002951.10003260.10003309.10003315.10003314", "label": "Resource Description Framework (RDF)", "depth": 4}
+{"id": "10002951.10003260.10003309.10003315.10003316", "label": "Web Ontology Language (OWL)", "depth": 4}
+{"id": "10002951.10003260.10003309.10010512.10003310", "label": "Extensible Markup Language (XML)", "depth": 4}
+{"id": "10002951.10003260.10003309.10010512.10011143", "label": "Hypertext languages", "depth": 4}
+{"id": "10002951.10003317.10003318.10003319", "label": "Document structure", "depth": 3}
+{"id": "10002951.10003317.10003318.10003320", "label": "Document topic models", "depth": 3}
+{"id": "10002951.10003317.10003318.10003321", "label": "Content analysis and feature selection", "depth": 3}
+{"id": "10002951.10003317.10003318.10003323", "label": "Data encoding and canonicalization", "depth": 3}
+{"id": "10002951.10003317.10003318.10003324", "label": "Document collection models", "depth": 3}
+{"id": "10002951.10003317.10003318.10011147", "label": "Ontologies", "depth": 3}
+{"id": "10002951.10003317.10003318.10011148", "label": "Dictionaries", "depth": 3}
+{"id": "10002951.10003317.10003318.10011149", "label": "Thesauri", "depth": 3}
+{"id": "10002951.10003317.10003325.10003326", "label": "Query representation", "depth": 3}
+{"id": "10002951.10003317.10003325.10003327", "label": "Query intent", "depth": 3}
+{"id": "10002951.10003317.10003325.10003328", "label": "Query log analysis", "depth": 3}
+{"id": "10002951.10003317.10003325.10003329", "label": "Query suggestion", "depth": 3}
+{"id": "10002951.10003317.10003325.10003330", "label": "Query reformulation", "depth": 3}
+{"id": "10002951.10003317.10003331.10003271", "label": "Personalization", "depth": 3}
+{"id": "10002951.10003317.10003331.10003333", "label": "Task models", "depth": 3}
+{"id": "10002951.10003317.10003331.10003336", "label": "Search interfaces", "depth": 3}
+{"id": "10002951.10003317.10003331.10003337", "label": "Collaborative search", "depth": 3}
+{"id": "10002951.10003317.10003338.10003339", "label": "Rank aggregation", "depth": 3}
+{"id": "10002951.10003317.10003338.10003340", "label": "Probabilistic retrieval models", "depth": 3}
+{"id": "10002951.10003317.10003338.10003341", "label": "Language models", "depth": 3}
+{"id": "10002951.10003317.10003338.10003342", "label": "Similarity measures", "depth": 3}
+{"id": "10002951.10003317.10003338.10003343", "label": "Learning to rank", "depth": 3}
+{"id": "10002951.10003317.10003338.10003344", "label": "Combination, fusion and federated search", "depth": 3}
+{"id": "10002951.10003317.10003338.10003345", "label": "Information retrieval diversity", "depth": 3}
+{"id": "10002951.10003317.10003338.10003346", "label": "Top-k retrieval in databases", "depth": 3}
+{"id": "10002951.10003317.10003338.10010403", "label": "Novelty in information retrieval", "depth": 3}
+{"id": "10002951.10003317.10003347.10003348", "label": "Question answering", "depth": 3}
+{"id": "10002951.10003317.10003347.10003349", "label": "Document filtering", "depth": 3}
+{"id": "10002951.10003317.10003347.10003350", "label": "Recommender systems", "depth": 3}
+{"id": "10002951.10003317.10003347.10003352", "label": "Information extraction", "depth": 3}
+{"id": "10002951.10003317.10003347.10003353", "label": "Sentiment analysis", "depth": 3}
+{"id": "10002951.10003317.10003347.10003354", "label": "Expert search", "depth": 3}
+{"id": "10002951.10003317.10003347.10003355", "label": "Near-duplicate and plagiarism detection", "depth": 3}
+{"id": "10002951.10003317.10003347.10003356", "label": "Clustering and classification", "depth": 3}
+{"id": "10002951.10003317.10003347.10003357", "label": "Summarization", "depth": 3}
+{"id": "10002951.10003317.10003347.10011712", "label": "Business intelligence", "depth": 3}
+{"id": "10002951.10003317.10003359.10003360", "label": "Test collections", "depth": 3}
+{"id": "10002951.10003317.10003359.10003361", "label": "Relevance assessment", "depth": 3}
+{"id": "10002951.10003317.10003359.10003362", "label": "Retrieval effectiveness", "depth": 3}
+{"id": "10002951.10003317.10003359.10003363", "label": "Retrieval efficiency", "depth": 3}
+{"id": "10002951.10003317.10003359.10011699", "label": "Presentation of retrieval results", "depth": 3}
+{"id": "10002951.10003317.10003365.10003366", "label": "Search engine indexing", "depth": 3}
+{"id": "10002951.10003317.10003365.10003367", "label": "Search index compression", "depth": 3}
+{"id": "10002951.10003317.10003365.10003368", "label": "Distributed retrieval", "depth": 3}
+{"id": "10002951.10003317.10003365.10003369", "label": "Peer-to-peer retrieval", "depth": 3}
+{"id": "10002951.10003317.10003365.10003370", "label": "Retrieval on mobile devices", "depth": 3}
+{"id": "10002951.10003317.10003365.10010850", "label": "Adversarial retrieval", "depth": 3}
+{"id": "10002951.10003317.10003365.10010851", "label": "Link and co-citation analysis", "depth": 3}
+{"id": "10002951.10003317.10003365.10011700", "label": "Searching with auxiliary databases", "depth": 3}
+{"id": "10002951.10003317.10003371.10003381.10003382", "label": "Structured text search", "depth": 4}
+{"id": "10002951.10003317.10003371.10003381.10003383", "label": "Mathematics retrieval", "depth": 4}
+{"id": "10002951.10003317.10003371.10003381.10003384", "label": "Chemical and biochemical retrieval", "depth": 4}
+{"id": "10002951.10003317.10003371.10003381.10003385", "label": "Multilingual and cross-lingual retrieval", "depth": 4}
+{"id": "10002951.10003317.10003371.10003386.10003387", "label": "Image search", "depth": 4}
+{"id": "10002951.10003317.10003371.10003386.10003388", "label": "Video search", "depth": 4}
+{"id": "10002951.10003317.10003371.10003386.10003389", "label": "Speech / audio search", "depth": 4}
+{"id": "10002951.10003317.10003371.10003386.10003390", "label": "Music retrieval", "depth": 4}
+{"id": "10002951.10003317.10003371.10010852.10003393", "label": "Enterprise search", "depth": 4}
+{"id": "10002951.10003317.10003371.10010852.10003394", "label": "Desktop search", "depth": 4}
+{"id": "10002951.10003317.10003371.10010852.10010853", "label": "Web and social media search", "depth": 4}
+{"id": "10002978.10002979.10002980", "label": "Key management", "depth": 2}
+{"id": "10002978.10002979.10002981.10011602", "label": "Digital signatures", "depth": 3}
+{"id": "10002978.10002979.10002981.10011745", "label": "Public key encryption", "depth": 3}
+{"id": "10002978.10002979.10002982.10011598", "label": "Block and stream ciphers", "depth": 3}
+{"id": "10002978.10002979.10002982.10011600", "label": "Hash functions and message authentication codes", "depth": 3}
+{"id": "10002978.10002979.10002983", "label": "Cryptanalysis and other attacks", "depth": 2}
+{"id": "10002978.10002979.10002984", "label": "Information-theoretic techniques", "depth": 2}
+{"id": "10002978.10002979.10002985", "label": "Mathematical foundations of cryptography", "depth": 2}
+{"id": "10002978.10002986.10002987", "label": "Trust frameworks", "depth": 2}
+{"id": "10002978.10002986.10002988", "label": "Security requirements", "depth": 2}
+{"id": "10002978.10002986.10002989", "label": "Formal security models", "depth": 2}
+{"id": "10002978.10002986.10002990", "label": "Logic and verification", "depth": 2}
+{"id": "10002978.10002991.10002992.10003479", "label": "Biometrics", "depth": 3}
+{"id": "10002978.10002991.10002992.10011618", "label": "Graphical / visual passwords", "depth": 3}
+{"id": "10002978.10002991.10002992.10011619", "label": "Multi-factor authentication", "depth": 3}
+{"id": "10002978.10002991.10002993", "label": "Access control", "depth": 2}
+{"id": "10002978.10002991.10002994", "label": "Pseudonymity, anonymity and untraceability", "depth": 2}
+{"id": "10002978.10002991.10002995", "label": "Privacy-preserving protocols", "depth": 2}
+{"id": "10002978.10002991.10002996", "label": "Digital rights management", "depth": 2}
+{"id": "10002978.10002991.10010839", "label": "Authorization", "depth": 2}
+{"id": "10002978.10002997.10002998", "label": "Malware and its mitigation", "depth": 2}
+{"id": "10002978.10002997.10002999.10011807", "label": "Artificial immune systems", "depth": 3}
+{"id": "10002978.10002997.10003000.10011611", "label": "Spoofing attacks", "depth": 3}
+{"id": "10002978.10002997.10003000.10011612", "label": "Phishing", "depth": 3}
+{"id": "10002978.10003001.10003002", "label": "Tamper-proof and tamper-resistant designs", "depth": 2}
+{"id": "10002978.10003001.10003003", "label": "Embedded systems security", "depth": 2}
+{"id": "10002978.10003001.10003599.10011621", "label": "Hardware-based security protocols", "depth": 3}
+{"id": "10002978.10003001.10010777.10010779", "label": "Malicious design modifications", "depth": 3}
+{"id": "10002978.10003001.10010777.10011702", "label": "Side-channel analysis and countermeasures", "depth": 3}
+{"id": "10002978.10003001.10011746", "label": "Hardware reverse engineering", "depth": 2}
+{"id": "10002978.10003006.10003007.10003008", "label": "Mobile platform security", "depth": 3}
+{"id": "10002978.10003006.10003007.10003009", "label": "Trusted computing", "depth": 3}
+{"id": "10002978.10003006.10003007.10003010", "label": "Virtualization and security", "depth": 3}
+{"id": "10002978.10003006.10003011", "label": "Browser security", "depth": 2}
+{"id": "10002978.10003006.10003013", "label": "Distributed systems security", "depth": 2}
+{"id": "10002978.10003006.10011608", "label": "Information flow control", "depth": 2}
+{"id": "10002978.10003006.10011610", "label": "Denial-of-service attacks", "depth": 2}
+{"id": "10002978.10003006.10011617", "label": "Firewalls", "depth": 2}
+{"id": "10002978.10003006.10011634.10011633", "label": "Penetration testing", "depth": 3}
+{"id": "10002978.10003006.10011634.10011635", "label": "Vulnerability scanners", "depth": 3}
+{"id": "10002978.10003006.10011747", "label": "File system security", "depth": 2}
+{"id": "10002978.10003014.10003015", "label": "Security protocols", "depth": 2}
+{"id": "10002978.10003014.10003016", "label": "Web protocol security", "depth": 2}
+{"id": "10002978.10003014.10003017", "label": "Mobile and wireless security", "depth": 2}
+{"id": "10002978.10003014.10011610", "label": "Denial-of-service attacks", "depth": 2}
+{"id": "10002978.10003014.10011617", "label": "Firewalls", "depth": 2}
+{"id": "10002978.10003018.10003019", "label": "Data anonymization and sanitization", "depth": 2}
+{"id": "10002978.10003018.10003020", "label": "Management and querying of encrypted data", "depth": 2}
+{"id": "10002978.10003018.10003021", "label": "Information accountability and usage control", "depth": 2}
+{"id": "10002978.10003018.10011607", "label": "Database activity monitoring", "depth": 2}
+{"id": "10002978.10003022.10003023", "label": "Software security engineering", "depth": 2}
+{"id": "10002978.10003022.10003026", "label": "Web application security", "depth": 2}
+{"id": "10002978.10003022.10003027", "label": "Social network security and privacy", "depth": 2}
+{"id": "10002978.10003022.10003028", "label": "Domain-specific security and privacy architectures", "depth": 2}
+{"id": "10002978.10003022.10003465", "label": "Software reverse engineering", "depth": 2}
+{"id": "10002978.10003029.10003031", "label": "Economics of security and privacy", "depth": 2}
+{"id": "10002978.10003029.10003032", "label": "Social aspects of security and privacy", "depth": 2}
+{"id": "10002978.10003029.10011150", "label": "Privacy protections", "depth": 2}
+{"id": "10002978.10003029.10011703", "label": "Usability in security and privacy", "depth": 2}
+{"id": "10003033.10003034.10003035.10003036", "label": "Layering", "depth": 3}
+{"id": "10003033.10003034.10003035.10003037", "label": "Naming and addressing", "depth": 3}
+{"id": "10003033.10003034.10003038", "label": "Programming interfaces", "depth": 2}
+{"id": "10003033.10003039.10003040", "label": "Network protocol design", "depth": 2}
+{"id": "10003033.10003039.10003041.10003042", "label": "Protocol testing and verification", "depth": 3}
+{"id": "10003033.10003039.10003041.10003043", "label": "Formal specifications", "depth": 3}
+{"id": "10003033.10003039.10003044", "label": "Link-layer protocols", "depth": 2}
+{"id": "10003033.10003039.10003045.10003046", "label": "Routing protocols", "depth": 3}
+{"id": "10003033.10003039.10003045.10003047", "label": "Signaling protocols", "depth": 3}
+{"id": "10003033.10003039.10003048", "label": "Transport protocols", "depth": 2}
+{"id": "10003033.10003039.10003049", "label": "Session protocols", "depth": 2}
+{"id": "10003033.10003039.10003050", "label": "Presentation protocols", "depth": 2}
+{"id": "10003033.10003039.10003051.10003052", "label": "Peer-to-peer protocols", "depth": 3}
+{"id": "10003033.10003039.10003053.10003054", "label": "Time synchronization protocols", "depth": 3}
+{"id": "10003033.10003039.10003053.10003055", "label": "Network policy", "depth": 3}
+{"id": "10003033.10003039.10003056", "label": "Cross-layer protocols", "depth": 2}
+{"id": "10003033.10003039.10011655", "label": "Network File System (NFS) protocol", "depth": 2}
+{"id": "10003033.10003058.10003059.10003060", "label": "Routers", "depth": 3}
+{"id": "10003033.10003058.10003059.10003061", "label": "Bridges and switches", "depth": 3}
+{"id": "10003033.10003058.10003062.10011659", "label": "Repeaters", "depth": 3}
+{"id": "10003033.10003058.10003063", "label": "Middle boxes / network appliances", "depth": 2}
+{"id": "10003033.10003058.10003064.10011657", "label": "Network adapters", "depth": 3}
+{"id": "10003033.10003058.10003064.10011660", "label": "Network servers", "depth": 3}
+{"id": "10003033.10003058.10003065.10011642", "label": "Cognitive radios", "depth": 3}
+{"id": "10003033.10003058.10003066.10003067", "label": "Network domains", "depth": 3}
+{"id": "10003033.10003068.10003069.10003070", "label": "Packet classification", "depth": 3}
+{"id": "10003033.10003068.10003069.10003071", "label": "Deep packet inspection", "depth": 3}
+{"id": "10003033.10003068.10003069.10003072", "label": "Packet scheduling", "depth": 3}
+{"id": "10003033.10003068.10003073.10003074", "label": "Network resources allocation", "depth": 3}
+{"id": "10003033.10003068.10003073.10003075", "label": "Network control algorithms", "depth": 3}
+{"id": "10003033.10003068.10003073.10003076", "label": "Traffic engineering algorithms", "depth": 3}
+{"id": "10003033.10003068.10003073.10003077", "label": "Network design and planning algorithms", "depth": 3}
+{"id": "10003033.10003068.10003078", "label": "Network economics", "depth": 2}
+{"id": "10003033.10003079.10003080", "label": "Network performance modeling", "depth": 2}
+{"id": "10003033.10003079.10003081", "label": "Network simulations", "depth": 2}
+{"id": "10003033.10003079.10003082", "label": "Network experimentation", "depth": 2}
+{"id": "10003033.10003079.10011672", "label": "Network performance analysis", "depth": 2}
+{"id": "10003033.10003079.10011704", "label": "Network measurement", "depth": 2}
+{"id": "10003033.10003083.10003014.10003015", "label": "Security protocols", "depth": 3}
+{"id": "10003033.10003083.10003014.10003016", "label": "Web protocol security", "depth": 3}
+{"id": "10003033.10003083.10003014.10003017", "label": "Mobile and wireless security", "depth": 3}
+{"id": "10003033.10003083.10003014.10011610", "label": "Denial-of-service attacks", "depth": 3}
+{"id": "10003033.10003083.10003014.10011617", "label": "Firewalls", "depth": 3}
+{"id": "10003033.10003083.10003084.10003085", "label": "Short-range networks", "depth": 3}
+{"id": "10003033.10003083.10003084.10003086", "label": "Local area networks", "depth": 3}
+{"id": "10003033.10003083.10003084.10003087", "label": "Metropolitan area networks", "depth": 3}
+{"id": "10003033.10003083.10003084.10003088", "label": "Wide area networks", "depth": 3}
+{"id": "10003033.10003083.10003084.10003089", "label": "Very long-range networks", "depth": 3}
+{"id": "10003033.10003083.10003090.10003091", "label": "Topology analysis and generation", "depth": 3}
+{"id": "10003033.10003083.10003090.10003092", "label": "Physical topologies", "depth": 3}
+{"id": "10003033.10003083.10003090.10003093", "label": "Logical / virtual topologies", "depth": 3}
+{"id": "10003033.10003083.10003090.10011643.10011644", "label": "Point-to-point networks", "depth": 4}
+{"id": "10003033.10003083.10003090.10011643.10011645", "label": "Bus networks", "depth": 4}
+{"id": "10003033.10003083.10003090.10011643.10011646", "label": "Star networks", "depth": 4}
+{"id": "10003033.10003083.10003090.10011643.10011647.10011648", "label": "Token ring networks", "depth": 5}
+{"id": "10003033.10003083.10003090.10011643.10011647.10011649", "label": "Fiber distributed data interface (FDDI)", "depth": 5}
+{"id": "10003033.10003083.10003090.10011643.10011650.10011663", "label": "Wireless mesh networks", "depth": 5}
+{"id": "10003033.10003083.10003090.10011643.10011651", "label": "Hybrid networks", "depth": 4}
+{"id": "10003033.10003083.10003094", "label": "Network dynamics", "depth": 2}
+{"id": "10003033.10003083.10003095.10010752", "label": "Error detection and error correction", "depth": 3}
+{"id": "10003033.10003083.10003097", "label": "Network mobility", "depth": 2}
+{"id": "10003033.10003083.10003098", "label": "Network manageability", "depth": 2}
+{"id": "10003033.10003083.10011739", "label": "Network privacy and anonymity", "depth": 2}
+{"id": "10003033.10003099.10003037", "label": "Naming and addressing", "depth": 2}
+{"id": "10003033.10003099.10003100", "label": "Cloud computing", "depth": 2}
+{"id": "10003033.10003099.10003101", "label": "Location based services", "depth": 2}
+{"id": "10003033.10003099.10003102", "label": "Programmable networks", "depth": 2}
+{"id": "10003033.10003099.10003103", "label": "In-network processing", "depth": 2}
+{"id": "10003033.10003099.10003104", "label": "Network management", "depth": 2}
+{"id": "10003033.10003099.10003105", "label": "Network monitoring", "depth": 2}
+{"id": "10003033.10003106.10003107", "label": "Network on chip", "depth": 2}
+{"id": "10003033.10003106.10003108", "label": "Home networks", "depth": 2}
+{"id": "10003033.10003106.10003109", "label": "Storage area networks", "depth": 2}
+{"id": "10003033.10003106.10003110", "label": "Data center networks", "depth": 2}
+{"id": "10003033.10003106.10003111", "label": "Wired access networks", "depth": 2}
+{"id": "10003033.10003106.10003112.10003238", "label": "Sensor networks", "depth": 3}
+{"id": "10003033.10003106.10003113", "label": "Mobile networks", "depth": 2}
+{"id": "10003033.10003106.10003114.10003115", "label": "Peer-to-peer networks", "depth": 3}
+{"id": "10003033.10003106.10003114.10003116", "label": "World Wide Web (network structure)", "depth": 3}
+{"id": "10003033.10003106.10003114.10003118", "label": "Social media networks", "depth": 3}
+{"id": "10003033.10003106.10003114.10011730", "label": "Online social networks", "depth": 3}
+{"id": "10003033.10003106.10003119.10011661", "label": "Wireless local area networks", "depth": 3}
+{"id": "10003033.10003106.10003119.10011662", "label": "Wireless personal area networks", "depth": 3}
+{"id": "10003033.10003106.10010582.10011668", "label": "Mobile ad hoc networks", "depth": 3}
+{"id": "10003033.10003106.10010924", "label": "Public Internet", "depth": 2}
+{"id": "10003033.10003106.10011705", "label": "Packet-switching networks", "depth": 2}
+{"id": "10003120.10003121.10003122.10003332", "label": "User models", "depth": 3}
+{"id": "10003120.10003121.10003122.10003334", "label": "User studies", "depth": 3}
+{"id": "10003120.10003121.10003122.10010854", "label": "Usability testing", "depth": 3}
+{"id": "10003120.10003121.10003122.10010855", "label": "Heuristic evaluations", "depth": 3}
+{"id": "10003120.10003121.10003122.10010856", "label": "Walkthrough evaluations", "depth": 3}
+{"id": "10003120.10003121.10003122.10011749", "label": "Laboratory experiments", "depth": 3}
+{"id": "10003120.10003121.10003122.10011750", "label": "Field studies", "depth": 3}
+{"id": "10003120.10003121.10003124.10003254", "label": "Hypertext / hypermedia", "depth": 3}
+{"id": "10003120.10003121.10003124.10010392", "label": "Mixed / augmented reality", "depth": 3}
+{"id": "10003120.10003121.10003124.10010862", "label": "Command line interfaces", "depth": 3}
+{"id": "10003120.10003121.10003124.10010865", "label": "Graphical user interfaces", "depth": 3}
+{"id": "10003120.10003121.10003124.10010866", "label": "Virtual reality", "depth": 3}
+{"id": "10003120.10003121.10003124.10010868", "label": "Web-based interaction", "depth": 3}
+{"id": "10003120.10003121.10003124.10010870", "label": "Natural language interfaces", "depth": 3}
+{"id": "10003120.10003121.10003124.10011751", "label": "Collaborative interaction", "depth": 3}
+{"id": "10003120.10003121.10003125.10010391", "label": "Graphics input devices", "depth": 3}
+{"id": "10003120.10003121.10003125.10010591", "label": "Displays and imagers", "depth": 3}
+{"id": "10003120.10003121.10003125.10010597", "label": "Sound-based input / output", "depth": 3}
+{"id": "10003120.10003121.10003125.10010872", "label": "Keyboards", "depth": 3}
+{"id": "10003120.10003121.10003125.10010873", "label": "Pointing devices", "depth": 3}
+{"id": "10003120.10003121.10003125.10011666", "label": "Touch screens", "depth": 3}
+{"id": "10003120.10003121.10003125.10011752", "label": "Haptic devices", "depth": 3}
+{"id": "10003120.10003121.10003126", "label": "HCI theory, concepts and models", "depth": 2}
+{"id": "10003120.10003121.10003128.10010869", "label": "Auditory feedback", "depth": 3}
+{"id": "10003120.10003121.10003128.10011753", "label": "Text input", "depth": 3}
+{"id": "10003120.10003121.10003128.10011754", "label": "Pointing", "depth": 3}
+{"id": "10003120.10003121.10003128.10011755", "label": "Gestural input", "depth": 3}
+{"id": "10003120.10003121.10003129.10010885", "label": "User interface management systems", "depth": 3}
+{"id": "10003120.10003121.10003129.10011756", "label": "User interface programming", "depth": 3}
+{"id": "10003120.10003121.10003129.10011757", "label": "User interface toolkits", "depth": 3}
+{"id": "10003120.10003121.10011748", "label": "Empirical studies in HCI", "depth": 2}
+{"id": "10003120.10003123.10010860.10010858", "label": "User interface design", "depth": 3}
+{"id": "10003120.10003123.10010860.10010859", "label": "User centered design", "depth": 3}
+{"id": "10003120.10003123.10010860.10010877", "label": "Activity centered design", "depth": 3}
+{"id": "10003120.10003123.10010860.10010883", "label": "Scenario-based design", "depth": 3}
+{"id": "10003120.10003123.10010860.10010911", "label": "Participatory design", "depth": 3}
+{"id": "10003120.10003123.10010860.10011121", "label": "Contextual design", "depth": 3}
+{"id": "10003120.10003123.10010860.10011694", "label": "Interface design prototyping", "depth": 3}
+{"id": "10003120.10003123.10011758", "label": "Interaction design theory, concepts and paradigms", "depth": 2}
+{"id": "10003120.10003123.10011759", "label": "Empirical studies in interaction design", "depth": 2}
+{"id": "10003120.10003123.10011760.10011707", "label": "Wireframes", "depth": 3}
+{"id": "10003120.10003130.10003131.10003234", "label": "Social content sharing", "depth": 3}
+{"id": "10003120.10003130.10003131.10003235", "label": "Collaborative content creation", "depth": 3}
+{"id": "10003120.10003130.10003131.10003269", "label": "Collaborative filtering", "depth": 3}
+{"id": "10003120.10003130.10003131.10003270", "label": "Social recommendation", "depth": 3}
+{"id": "10003120.10003130.10003131.10003292", "label": "Social networks", "depth": 3}
+{"id": "10003120.10003130.10003131.10003376", "label": "Social tagging", "depth": 3}
+{"id": "10003120.10003130.10003131.10003570", "label": "Computer supported cooperative work", "depth": 3}
+{"id": "10003120.10003130.10003131.10003579", "label": "Social engineering (social sciences)", "depth": 3}
+{"id": "10003120.10003130.10003131.10010910", "label": "Social navigation", "depth": 3}
+{"id": "10003120.10003130.10003131.10011761", "label": "Social media", "depth": 3}
+{"id": "10003120.10003130.10003134.10003293", "label": "Social network analysis", "depth": 3}
+{"id": "10003120.10003130.10003134.10011763", "label": "Ethnographic studies", "depth": 3}
+{"id": "10003120.10003130.10003233.10003288", "label": "Blogs", "depth": 3}
+{"id": "10003120.10003130.10003233.10003301", "label": "Wikis", "depth": 3}
+{"id": "10003120.10003130.10003233.10003449", "label": "Reputation systems", "depth": 3}
+{"id": "10003120.10003130.10003233.10003597", "label": "Open source software", "depth": 3}
+{"id": "10003120.10003130.10003233.10010519", "label": "Social networking sites", "depth": 3}
+{"id": "10003120.10003130.10003233.10010922", "label": "Social tagging systems", "depth": 3}
+{"id": "10003120.10003130.10003233.10011765", "label": "Synchronous editors", "depth": 3}
+{"id": "10003120.10003130.10003233.10011766", "label": "Asynchronous editors", "depth": 3}
+{"id": "10003120.10003130.10011762", "label": "Empirical studies in collaborative and social computing", "depth": 2}
+{"id": "10003120.10003130.10011764", "label": "Collaborative and social computing devices", "depth": 2}
+{"id": "10003120.10003138.10003139.10010904", "label": "Ubiquitous computing", "depth": 3}
+{"id": "10003120.10003138.10003139.10010905", "label": "Mobile computing", "depth": 3}
+{"id": "10003120.10003138.10003139.10010906", "label": "Ambient intelligence", "depth": 3}
+{"id": "10003120.10003138.10003140", "label": "Ubiquitous and mobile computing systems and tools", "depth": 2}
+{"id": "10003120.10003138.10003141.10010895", "label": "Smartphones", "depth": 3}
+{"id": "10003120.10003138.10003141.10010896", "label": "Interactive whiteboards", "depth": 3}
+{"id": "10003120.10003138.10003141.10010897", "label": "Mobile phones", "depth": 3}
+{"id": "10003120.10003138.10003141.10010898", "label": "Mobile devices", "depth": 3}
+{"id": "10003120.10003138.10003141.10010899", "label": "Portable media players", "depth": 3}
+{"id": "10003120.10003138.10003141.10010900", "label": "Personal digital assistants", "depth": 3}
+{"id": "10003120.10003138.10003141.10010901", "label": "Handheld game consoles", "depth": 3}
+{"id": "10003120.10003138.10003141.10010902", "label": "E-book readers", "depth": 3}
+{"id": "10003120.10003138.10003141.10010903", "label": "Tablet computers", "depth": 3}
+{"id": "10003120.10003138.10003142", "label": "Ubiquitous and mobile computing design and evaluation methods", "depth": 2}
+{"id": "10003120.10003138.10011767", "label": "Empirical studies in ubiquitous and mobile computing", "depth": 2}
+{"id": "10003120.10003145.10003146.10010889", "label": "Treemaps", "depth": 3}
+{"id": "10003120.10003145.10003146.10010890", "label": "Hyperbolic trees", "depth": 3}
+{"id": "10003120.10003145.10003146.10010891", "label": "Heat maps", "depth": 3}
+{"id": "10003120.10003145.10003146.10010892", "label": "Graph drawings", "depth": 3}
+{"id": "10003120.10003145.10003146.10010893", "label": "Dendrograms", "depth": 3}
+{"id": "10003120.10003145.10003146.10010894", "label": "Cladograms", "depth": 3}
+{"id": "10003120.10003145.10003147.10010364", "label": "Scientific visualization", "depth": 3}
+{"id": "10003120.10003145.10003147.10010365", "label": "Visual analytics", "depth": 3}
+{"id": "10003120.10003145.10003147.10010887", "label": "Geographic visualization", "depth": 3}
+{"id": "10003120.10003145.10003147.10010923", "label": "Information visualization", "depth": 3}
+{"id": "10003120.10003145.10003151.10011771", "label": "Visualization toolkits", "depth": 3}
+{"id": "10003120.10003145.10011768", "label": "Visualization theory, concepts and paradigms", "depth": 2}
+{"id": "10003120.10003145.10011769", "label": "Empirical studies in visualization", "depth": 2}
+{"id": "10003120.10003145.10011770", "label": "Visualization design and evaluation methods", "depth": 2}
+{"id": "10003120.10011738.10011772", "label": "Accessibility theory, concepts and paradigms", "depth": 2}
+{"id": "10003120.10011738.10011773", "label": "Empirical studies in accessibility", "depth": 2}
+{"id": "10003120.10011738.10011774", "label": "Accessibility design and evaluation methods", "depth": 2}
+{"id": "10003120.10011738.10011775", "label": "Accessibility technologies", "depth": 2}
+{"id": "10003120.10011738.10011776", "label": "Accessibility systems and tools", "depth": 2}
+{"id": "10003456.10003457.10003458.10003460", "label": "Industry statistics", "depth": 3}
+{"id": "10003456.10003457.10003458.10003461", "label": "Computer manufacturing", "depth": 3}
+{"id": "10003456.10003457.10003458.10010921", "label": "Sustainability", "depth": 3}
+{"id": "10003456.10003457.10003490.10003491.10003492", "label": "Project management techniques", "depth": 4}
+{"id": "10003456.10003457.10003490.10003491.10003493", "label": "Project staffing", "depth": 4}
+{"id": "10003456.10003457.10003490.10003491.10003494", "label": "Systems planning", "depth": 4}
+{"id": "10003456.10003457.10003490.10003491.10003495", "label": "Systems analysis and design", "depth": 4}
+{"id": "10003456.10003457.10003490.10003491.10003496", "label": "Systems development", "depth": 4}
+{"id": "10003456.10003457.10003490.10003491.10003497", "label": "Computer and information systems training", "depth": 4}
+{"id": "10003456.10003457.10003490.10003498.10003499", "label": "Hardware selection", "depth": 4}
+{"id": "10003456.10003457.10003490.10003498.10003500", "label": "Computing equipment management", "depth": 4}
+{"id": "10003456.10003457.10003490.10003498.10003502", "label": "Pricing and resource allocation", "depth": 4}
+{"id": "10003456.10003457.10003490.10003503.10003505", "label": "Software maintenance", "depth": 4}
+{"id": "10003456.10003457.10003490.10003503.10003506", "label": "Software selection and adaptation", "depth": 4}
+{"id": "10003456.10003457.10003490.10003507.10003508", "label": "Centralization / decentralization", "depth": 4}
+{"id": "10003456.10003457.10003490.10003507.10003509", "label": "Technology audits", "depth": 4}
+{"id": "10003456.10003457.10003490.10003507.10003510", "label": "Quality assurance", "depth": 4}
+{"id": "10003456.10003457.10003490.10003511", "label": "Network operations", "depth": 3}
+{"id": "10003456.10003457.10003490.10003512", "label": "File systems management", "depth": 3}
+{"id": "10003456.10003457.10003490.10003514", "label": "Information system economics", "depth": 3}
+{"id": "10003456.10003457.10003521.10003522", "label": "Historical people", "depth": 3}
+{"id": "10003456.10003457.10003521.10003523", "label": "History of hardware", "depth": 3}
+{"id": "10003456.10003457.10003521.10003524", "label": "History of software", "depth": 3}
+{"id": "10003456.10003457.10003521.10003525", "label": "History of programming languages", "depth": 3}
+{"id": "10003456.10003457.10003521.10003526", "label": "History of computing theory", "depth": 3}
+{"id": "10003456.10003457.10003527.10003528", "label": "Computational thinking", "depth": 3}
+{"id": "10003456.10003457.10003527.10003529", "label": "Accreditation", "depth": 3}
+{"id": "10003456.10003457.10003527.10003530", "label": "Model curricula", "depth": 3}
+{"id": "10003456.10003457.10003527.10003531.10003532", "label": "Information systems education", "depth": 4}
+{"id": "10003456.10003457.10003527.10003531.10003533.10011595", "label": "CS1", "depth": 5}
+{"id": "10003456.10003457.10003527.10003531.10003534", "label": "Computer engineering education", "depth": 4}
+{"id": "10003456.10003457.10003527.10003531.10003535", "label": "Information technology education", "depth": 4}
+{"id": "10003456.10003457.10003527.10003531.10003536", "label": "Information science education", "depth": 4}
+{"id": "10003456.10003457.10003527.10003531.10003537", "label": "Computational science and engineering education", "depth": 4}
+{"id": "10003456.10003457.10003527.10003531.10003751", "label": "Software engineering education", "depth": 4}
+{"id": "10003456.10003457.10003527.10003538", "label": "Informal education", "depth": 3}
+{"id": "10003456.10003457.10003527.10003539", "label": "Computing literacy", "depth": 3}
+{"id": "10003456.10003457.10003527.10003540", "label": "Student assessment", "depth": 3}
+{"id": "10003456.10003457.10003527.10003541", "label": "K-12 education", "depth": 3}
+{"id": "10003456.10003457.10003527.10003542", "label": "Adult education", "depth": 3}
+{"id": "10003456.10003457.10003567.10003568", "label": "Employment issues", "depth": 3}
+{"id": "10003456.10003457.10003567.10003569", "label": "Automation", "depth": 3}
+{"id": "10003456.10003457.10003567.10003570", "label": "Computer supported cooperative work", "depth": 3}
+{"id": "10003456.10003457.10003567.10003571", "label": "Economic impact", "depth": 3}
+{"id": "10003456.10003457.10003567.10003572", "label": "Offshoring", "depth": 3}
+{"id": "10003456.10003457.10003567.10003573", "label": "Reengineering", "depth": 3}
+{"id": "10003456.10003457.10003567.10010990", "label": "Socio-technical systems", "depth": 3}
+{"id": "10003456.10003457.10003580.10003543", "label": "Codes of ethics", "depth": 3}
+{"id": "10003456.10003457.10003580.10003568", "label": "Employment issues", "depth": 3}
+{"id": "10003456.10003457.10003580.10003581", "label": "Funding", "depth": 3}
+{"id": "10003456.10003457.10003580.10003583", "label": "Computing occupations", "depth": 3}
+{"id": "10003456.10003457.10003580.10003584", "label": "Computing organizations", "depth": 3}
+{"id": "10003456.10003457.10003580.10003585", "label": "Testing, certification and licensing", "depth": 3}
+{"id": "10003456.10003457.10003580.10003587", "label": "Assistive technologies", "depth": 3}
+{"id": "10003456.10003462.10003463.10002996", "label": "Digital rights management", "depth": 3}
+{"id": "10003456.10003462.10003463.10003464", "label": "Copyrights", "depth": 3}
+{"id": "10003456.10003462.10003463.10003465", "label": "Software reverse engineering", "depth": 3}
+{"id": "10003456.10003462.10003463.10003466", "label": "Patents", "depth": 3}
+{"id": "10003456.10003462.10003463.10003467", "label": "Trademarks", "depth": 3}
+{"id": "10003456.10003462.10003463.10003469", "label": "Internet governance / domain names", "depth": 3}
+{"id": "10003456.10003462.10003463.10003470", "label": "Licensing", "depth": 3}
+{"id": "10003456.10003462.10003463.10003471", "label": "Treaties", "depth": 3}
+{"id": "10003456.10003462.10003463.10003472", "label": "Database protection laws", "depth": 3}
+{"id": "10003456.10003462.10003463.10003473", "label": "Secondary liability", "depth": 3}
+{"id": "10003456.10003462.10003463.10010646", "label": "Soft intellectual property", "depth": 3}
+{"id": "10003456.10003462.10003463.10011746", "label": "Hardware reverse engineering", "depth": 3}
+{"id": "10003456.10003462.10003477", "label": "Privacy policies", "depth": 2}
+{"id": "10003456.10003462.10003480.10003481", "label": "Pornography", "depth": 3}
+{"id": "10003456.10003462.10003480.10003482", "label": "Hate speech", "depth": 3}
+{"id": "10003456.10003462.10003480.10003483", "label": "Political speech", "depth": 3}
+{"id": "10003456.10003462.10003480.10003484", "label": "Technology and censorship", "depth": 3}
+{"id": "10003456.10003462.10003480.10003486", "label": "Censoring filters", "depth": 3}
+{"id": "10003456.10003462.10003487.10003488", "label": "Governmental surveillance", "depth": 3}
+{"id": "10003456.10003462.10003487.10003489", "label": "Corporate surveillance", "depth": 3}
+{"id": "10003456.10003462.10003544.10003545", "label": "Taxation", "depth": 3}
+{"id": "10003456.10003462.10003544.10003548", "label": "Transborder data flow", "depth": 3}
+{"id": "10003456.10003462.10003544.10003549", "label": "Antitrust and competition", "depth": 3}
+{"id": "10003456.10003462.10003544.10003589", "label": "Governmental regulations", "depth": 3}
+{"id": "10003456.10003462.10003544.10011698", "label": "Online auctions policy", "depth": 3}
+{"id": "10003456.10003462.10003544.10011709", "label": "Consumer products policy", "depth": 3}
+{"id": "10003456.10003462.10003561.10003486", "label": "Censoring filters", "depth": 3}
+{"id": "10003456.10003462.10003561.10003560", "label": "Broadband access", "depth": 3}
+{"id": "10003456.10003462.10003561.10003562", "label": "Net neutrality", "depth": 3}
+{"id": "10003456.10003462.10003561.10003563.10003564", "label": "Age-based restrictions", "depth": 4}
+{"id": "10003456.10003462.10003561.10003563.10003565", "label": "Acceptable use policy restrictions", "depth": 4}
+{"id": "10003456.10003462.10003561.10003566", "label": "Universal access", "depth": 3}
+{"id": "10003456.10003462.10003574.10003000.10011611", "label": "Spoofing attacks", "depth": 4}
+{"id": "10003456.10003462.10003574.10003000.10011612", "label": "Phishing", "depth": 4}
+{"id": "10003456.10003462.10003574.10003475", "label": "Identity theft", "depth": 3}
+{"id": "10003456.10003462.10003574.10003575", "label": "Financial crime", "depth": 3}
+{"id": "10003456.10003462.10003574.10003578", "label": "Malware / spyware crime", "depth": 3}
+{"id": "10003456.10003462.10003588.10003589", "label": "Governmental regulations", "depth": 3}
+{"id": "10003456.10003462.10003588.10003592", "label": "Import / export controls", "depth": 3}
+{"id": "10003456.10003462.10003602.10003603", "label": "Medical records", "depth": 3}
+{"id": "10003456.10003462.10003602.10003604", "label": "Personal health records", "depth": 3}
+{"id": "10003456.10003462.10003602.10003605", "label": "Genetic information", "depth": 3}
+{"id": "10003456.10003462.10003602.10003606", "label": "Patient privacy", "depth": 3}
+{"id": "10003456.10003462.10003602.10003607", "label": "Health information exchanges", "depth": 3}
+{"id": "10003456.10003462.10003602.10003608.10003609", "label": "Remote medicine", "depth": 4}
+{"id": "10003456.10010927.10003611", "label": "Race and ethnicity", "depth": 2}
+{"id": "10003456.10010927.10003612", "label": "Religious orientation", "depth": 2}
+{"id": "10003456.10010927.10003613.10010928", "label": "Men", "depth": 3}
+{"id": "10003456.10010927.10003613.10010929", "label": "Women", "depth": 3}
+{"id": "10003456.10010927.10003614", "label": "Sexual orientation", "depth": 2}
+{"id": "10003456.10010927.10003616", "label": "People with disabilities", "depth": 2}
+{"id": "10003456.10010927.10003618", "label": "Geographic characteristics", "depth": 2}
+{"id": "10003456.10010927.10003619", "label": "Cultural characteristics", "depth": 2}
+{"id": "10003456.10010927.10010930.10010931", "label": "Children", "depth": 3}
+{"id": "10003456.10010927.10010930.10010932", "label": "Seniors", "depth": 3}
+{"id": "10003456.10010927.10010930.10010933", "label": "Adolescents", "depth": 3}
+{"id": "10003752.10003753.10003754.10003733", "label": "Lambda calculus", "depth": 3}
+{"id": "10003752.10003753.10003754.10003755", "label": "Turing machines", "depth": 3}
+{"id": "10003752.10003753.10003754.10003756", "label": "Recursive functions", "depth": 3}
+{"id": "10003752.10003753.10003757", "label": "Probabilistic computation", "depth": 2}
+{"id": "10003752.10003753.10003758.10003784", "label": "Quantum complexity theory", "depth": 3}
+{"id": "10003752.10003753.10003758.10010624", "label": "Quantum communication complexity", "depth": 3}
+{"id": "10003752.10003753.10003758.10010625", "label": "Quantum query complexity", "depth": 3}
+{"id": "10003752.10003753.10003758.10010626", "label": "Quantum information theory", "depth": 3}
+{"id": "10003752.10003753.10003759", "label": "Interactive computation", "depth": 2}
+{"id": "10003752.10003753.10003760", "label": "Streaming models", "depth": 2}
+{"id": "10003752.10003753.10003761.10003762", "label": "Parallel computing models", "depth": 3}
+{"id": "10003752.10003753.10003761.10003763", "label": "Distributed computing models", "depth": 3}
+{"id": "10003752.10003753.10003761.10003764", "label": "Process calculi", "depth": 3}
+{"id": "10003752.10003753.10003765", "label": "Timed and hybrid models", "depth": 2}
+{"id": "10003752.10003753.10010622", "label": "Abstract machines", "depth": 2}
+{"id": "10003752.10003766.10003767.10003768", "label": "Algebraic language theory", "depth": 3}
+{"id": "10003752.10003766.10003767.10003769", "label": "Rewrite systems", "depth": 3}
+{"id": "10003752.10003766.10003770", "label": "Automata over infinite objects", "depth": 2}
+{"id": "10003752.10003766.10003771", "label": "Grammars and context-free languages", "depth": 2}
+{"id": "10003752.10003766.10003772", "label": "Tree languages", "depth": 2}
+{"id": "10003752.10003766.10003773.10003774", "label": "Transducers", "depth": 3}
+{"id": "10003752.10003766.10003773.10003775", "label": "Quantitative automata", "depth": 3}
+{"id": "10003752.10003766.10003776", "label": "Regular languages", "depth": 2}
+{"id": "10003752.10003777.10003778", "label": "Complexity classes", "depth": 2}
+{"id": "10003752.10003777.10003779", "label": "Problems, reductions and completeness", "depth": 2}
+{"id": "10003752.10003777.10003780", "label": "Communication complexity", "depth": 2}
+{"id": "10003752.10003777.10003781", "label": "Circuit complexity", "depth": 2}
+{"id": "10003752.10003777.10003782", "label": "Oracles and decision trees", "depth": 2}
+{"id": "10003752.10003777.10003783", "label": "Algebraic complexity theory", "depth": 2}
+{"id": "10003752.10003777.10003784", "label": "Quantum complexity theory", "depth": 2}
+{"id": "10003752.10003777.10003785", "label": "Proof complexity", "depth": 2}
+{"id": "10003752.10003777.10003786", "label": "Interactive proof systems", "depth": 2}
+{"id": "10003752.10003777.10003787", "label": "Complexity theory and logic", "depth": 2}
+{"id": "10003752.10003777.10003788", "label": "Cryptographic primitives", "depth": 2}
+{"id": "10003752.10003777.10003789", "label": "Cryptographic protocols", "depth": 2}
+{"id": "10003752.10003790.10002990", "label": "Logic and verification", "depth": 2}
+{"id": "10003752.10003790.10003792", "label": "Proof theory", "depth": 2}
+{"id": "10003752.10003790.10003793", "label": "Modal and temporal logics", "depth": 2}
+{"id": "10003752.10003790.10003794", "label": "Automated reasoning", "depth": 2}
+{"id": "10003752.10003790.10003795", "label": "Constraint and logic programming", "depth": 2}
+{"id": "10003752.10003790.10003796", "label": "Constructive mathematics", "depth": 2}
+{"id": "10003752.10003790.10003797", "label": "Description logics", "depth": 2}
+{"id": "10003752.10003790.10003798", "label": "Equational logic and rewriting", "depth": 2}
+{"id": "10003752.10003790.10003799", "label": "Finite Model Theory", "depth": 2}
+{"id": "10003752.10003790.10003800", "label": "Higher order logic", "depth": 2}
+{"id": "10003752.10003790.10003801", "label": "Linear logic", "depth": 2}
+{"id": "10003752.10003790.10003806", "label": "Programming logic", "depth": 2}
+{"id": "10003752.10003790.10011119", "label": "Abstraction", "depth": 2}
+{"id": "10003752.10003790.10011192", "label": "Verification by model checking", "depth": 2}
+{"id": "10003752.10003790.10011740", "label": "Type theory", "depth": 2}
+{"id": "10003752.10003790.10011741", "label": "Hoare logic", "depth": 2}
+{"id": "10003752.10003790.10011742", "label": "Separation logic", "depth": 2}
+{"id": "10003752.10003809.10003635.10003644", "label": "Network flows", "depth": 3}
+{"id": "10003752.10003809.10003635.10010036", "label": "Sparsification and spanners", "depth": 3}
+{"id": "10003752.10003809.10003635.10010037", "label": "Shortest paths", "depth": 3}
+{"id": "10003752.10003809.10003635.10010038", "label": "Dynamic graph algorithms", "depth": 3}
+{"id": "10003752.10003809.10003636.10003808", "label": "Scheduling algorithms", "depth": 3}
+{"id": "10003752.10003809.10003636.10003810", "label": "Packing and covering problems", "depth": 3}
+{"id": "10003752.10003809.10003636.10003811", "label": "Routing and network design problems", "depth": 3}
+{"id": "10003752.10003809.10003636.10003812", "label": "Facility location and clustering", "depth": 3}
+{"id": "10003752.10003809.10003636.10003813", "label": "Rounding techniques", "depth": 3}
+{"id": "10003752.10003809.10003636.10003814", "label": "Stochastic approximation", "depth": 3}
+{"id": "10003752.10003809.10003636.10003815", "label": "Numeric approximation algorithms", "depth": 3}
+{"id": "10003752.10003809.10003716.10011136.10011137", "label": "Network optimization", "depth": 4}
+{"id": "10003752.10003809.10003716.10011136.10011797.10011798", "label": "Simulated annealing", "depth": 5}
+{"id": "10003752.10003809.10003716.10011136.10011797.10011799", "label": "Evolutionary algorithms", "depth": 5}
+{"id": "10003752.10003809.10003716.10011136.10011797.10011800", "label": "Tabu search", "depth": 5}
+{"id": "10003752.10003809.10003716.10011136.10011797.10011801", "label": "Randomized local search", "depth": 5}
+{"id": "10003752.10003809.10003716.10011138.10010041", "label": "Linear programming", "depth": 4}
+{"id": "10003752.10003809.10003716.10011138.10010042", "label": "Semidefinite programming", "depth": 4}
+{"id": "10003752.10003809.10003716.10011138.10010043", "label": "Convex optimization", "depth": 4}
+{"id": "10003752.10003809.10003716.10011138.10010044", "label": "Quasiconvex programming and unimodality", "depth": 4}
+{"id": "10003752.10003809.10003716.10011138.10010046", "label": "Stochastic control and optimization", "depth": 4}
+{"id": "10003752.10003809.10003716.10011138.10011139", "label": "Quadratic programming", "depth": 4}
+{"id": "10003752.10003809.10003716.10011138.10011140", "label": "Nonconvex optimization", "depth": 4}
+{"id": "10003752.10003809.10003716.10011138.10011803", "label": "Bio-inspired optimization", "depth": 4}
+{"id": "10003752.10003809.10003716.10011141.10010040", "label": "Submodular optimization and polymatroids", "depth": 4}
+{"id": "10003752.10003809.10003716.10011141.10010045", "label": "Integer programming", "depth": 4}
+{"id": "10003752.10003809.10003716.10011141.10011803", "label": "Bio-inspired optimization", "depth": 4}
+{"id": "10003752.10003809.10003716.10011804.10011813", "label": "Genetic programming", "depth": 4}
+{"id": "10003752.10003809.10003716.10011804.10011818", "label": "Developmental representations", "depth": 4}
+{"id": "10003752.10003809.10010031.10002975", "label": "Data compression", "depth": 3}
+{"id": "10003752.10003809.10010031.10010032", "label": "Pattern matching", "depth": 3}
+{"id": "10003752.10003809.10010031.10010033", "label": "Sorting and searching", "depth": 3}
+{"id": "10003752.10003809.10010031.10010034", "label": "Predecessor queries", "depth": 3}
+{"id": "10003752.10003809.10010031.10010035", "label": "Cell probe models and lower bounds", "depth": 3}
+{"id": "10003752.10003809.10010047.10010048.10003808", "label": "Scheduling algorithms", "depth": 4}
+{"id": "10003752.10003809.10010047.10010049", "label": "Caching and paging algorithms", "depth": 3}
+{"id": "10003752.10003809.10010047.10010050", "label": "K-server algorithms", "depth": 3}
+{"id": "10003752.10003809.10010047.10010051", "label": "Adversary models", "depth": 3}
+{"id": "10003752.10003809.10010052.10010053", "label": "Fixed parameter tractability", "depth": 3}
+{"id": "10003752.10003809.10010052.10010054", "label": "W hierarchy", "depth": 3}
+{"id": "10003752.10003809.10010055.10010056", "label": "Bloom filters and hashing", "depth": 3}
+{"id": "10003752.10003809.10010055.10010057", "label": "Sketching and sampling", "depth": 3}
+{"id": "10003752.10003809.10010055.10010058", "label": "Lower bounds and information complexity", "depth": 3}
+{"id": "10003752.10003809.10010055.10010059", "label": "Random order and robust communication complexity", "depth": 3}
+{"id": "10003752.10003809.10010055.10010060", "label": "Nearest neighbor algorithms", "depth": 3}
+{"id": "10003752.10003809.10010170.10003817", "label": "MapReduce algorithms", "depth": 3}
+{"id": "10003752.10003809.10010170.10003824", "label": "Self-organization", "depth": 3}
+{"id": "10003752.10003809.10010170.10010171", "label": "Shared memory algorithms", "depth": 3}
+{"id": "10003752.10003809.10010170.10010173", "label": "Vector / streaming algorithms", "depth": 3}
+{"id": "10003752.10003809.10010170.10010174", "label": "Massively parallel algorithms", "depth": 3}
+{"id": "10003752.10003809.10010172.10003817", "label": "MapReduce algorithms", "depth": 3}
+{"id": "10003752.10003809.10010172.10003824", "label": "Self-organization", "depth": 3}
+{"id": "10003752.10003809.10011254.10011255", "label": "Backtracking", "depth": 3}
+{"id": "10003752.10003809.10011254.10011256", "label": "Branch-and-bound", "depth": 3}
+{"id": "10003752.10003809.10011254.10011257", "label": "Divide and conquer", "depth": 3}
+{"id": "10003752.10003809.10011254.10011258", "label": "Dynamic programming", "depth": 3}
+{"id": "10003752.10003809.10011254.10011259", "label": "Preconditioning", "depth": 3}
+{"id": "10003752.10003809.10011778", "label": "Concurrent algorithms", "depth": 2}
+{"id": "10003752.10010061.10010062", "label": "Pseudorandomness and derandomization", "depth": 2}
+{"id": "10003752.10010061.10010063", "label": "Computational geometry", "depth": 2}
+{"id": "10003752.10010061.10010064", "label": "Generating random combinatorial structures", "depth": 2}
+{"id": "10003752.10010061.10010065", "label": "Random walks and Markov chains", "depth": 2}
+{"id": "10003752.10010061.10010066", "label": "Expander graphs and randomness extractors", "depth": 2}
+{"id": "10003752.10010061.10010067", "label": "Error-correcting codes", "depth": 2}
+{"id": "10003752.10010061.10010068", "label": "Random projections and metric embeddings", "depth": 2}
+{"id": "10003752.10010061.10010069", "label": "Random network models", "depth": 2}
+{"id": "10003752.10010061.10011795", "label": "Random search heuristics", "depth": 2}
+{"id": "10003752.10010070.10010071.10010072", "label": "Sample complexity and generalization bounds", "depth": 3}
+{"id": "10003752.10010070.10010071.10010073", "label": "Boolean function learning", "depth": 3}
+{"id": "10003752.10010070.10010071.10010074", "label": "Unsupervised learning and clustering", "depth": 3}
+{"id": "10003752.10010070.10010071.10010075.10010295", "label": "Support vector machines", "depth": 4}
+{"id": "10003752.10010070.10010071.10010075.10010296", "label": "Gaussian processes", "depth": 4}
+{"id": "10003752.10010070.10010071.10010076", "label": "Boosting", "depth": 3}
+{"id": "10003752.10010070.10010071.10010077", "label": "Bayesian analysis", "depth": 3}
+{"id": "10003752.10010070.10010071.10010078", "label": "Inductive inference", "depth": 3}
+{"id": "10003752.10010070.10010071.10010079", "label": "Online learning theory", "depth": 3}
+{"id": "10003752.10010070.10010071.10010082", "label": "Multi-agent learning", "depth": 3}
+{"id": "10003752.10010070.10010071.10010083", "label": "Models of learning", "depth": 3}
+{"id": "10003752.10010070.10010071.10010084", "label": "Query learning", "depth": 3}
+{"id": "10003752.10010070.10010071.10010085", "label": "Structured prediction", "depth": 3}
+{"id": "10003752.10010070.10010071.10010261.10010272", "label": "Sequential decision making", "depth": 4}
+{"id": "10003752.10010070.10010071.10010261.10010273", "label": "Inverse reinforcement learning", "depth": 4}
+{"id": "10003752.10010070.10010071.10010261.10010274", "label": "Apprenticeship learning", "depth": 4}
+{"id": "10003752.10010070.10010071.10010261.10010275", "label": "Multi-agent reinforcement learning", "depth": 4}
+{"id": "10003752.10010070.10010071.10010261.10010276", "label": "Adversarial learning", "depth": 4}
+{"id": "10003752.10010070.10010071.10010286", "label": "Active learning", "depth": 3}
+{"id": "10003752.10010070.10010071.10010289", "label": "Semi-supervised learning", "depth": 3}
+{"id": "10003752.10010070.10010071.10010316", "label": "Markov decision processes", "depth": 3}
+{"id": "10003752.10010070.10010071.10011194", "label": "Regret bounds", "depth": 3}
+{"id": "10003752.10010070.10010099.10003292", "label": "Social networks", "depth": 3}
+{"id": "10003752.10010070.10010099.10010100", "label": "Algorithmic game theory", "depth": 3}
+{"id": "10003752.10010070.10010099.10010101", "label": "Algorithmic mechanism design", "depth": 3}
+{"id": "10003752.10010070.10010099.10010102", "label": "Solution concepts in game theory", "depth": 3}
+{"id": "10003752.10010070.10010099.10010103", "label": "Exact and approximate computation of equilibria", "depth": 3}
+{"id": "10003752.10010070.10010099.10010104", "label": "Quality of equilibria", "depth": 3}
+{"id": "10003752.10010070.10010099.10010105", "label": "Convergence and learning in games", "depth": 3}
+{"id": "10003752.10010070.10010099.10010106", "label": "Market equilibria", "depth": 3}
+{"id": "10003752.10010070.10010099.10010107", "label": "Computational pricing and auctions", "depth": 3}
+{"id": "10003752.10010070.10010099.10010108", "label": "Representations of games and their complexity", "depth": 3}
+{"id": "10003752.10010070.10010099.10010109", "label": "Network games", "depth": 3}
+{"id": "10003752.10010070.10010099.10010110", "label": "Network formation", "depth": 3}
+{"id": "10003752.10010070.10010099.10011253", "label": "Computational advertising theory", "depth": 3}
+{"id": "10003752.10010070.10010111.10003217", "label": "Data exchange", "depth": 3}
+{"id": "10003752.10010070.10010111.10003623", "label": "Data provenance", "depth": 3}
+{"id": "10003752.10010070.10010111.10010112", "label": "Data modeling", "depth": 3}
+{"id": "10003752.10010070.10010111.10010113", "label": "Database query languages (principles)", "depth": 3}
+{"id": "10003752.10010070.10010111.10010114", "label": "Database constraints theory", "depth": 3}
+{"id": "10003752.10010070.10010111.10011685", "label": "Database interoperability", "depth": 3}
+{"id": "10003752.10010070.10010111.10011710", "label": "Data structures and algorithms for data management", "depth": 3}
+{"id": "10003752.10010070.10010111.10011711", "label": "Database query processing and optimization (theory)", "depth": 3}
+{"id": "10003752.10010070.10010111.10011733", "label": "Data integration", "depth": 3}
+{"id": "10003752.10010070.10010111.10011734", "label": "Logic and databases", "depth": 3}
+{"id": "10003752.10010070.10010111.10011735", "label": "Theory of database privacy and security", "depth": 3}
+{"id": "10003752.10010070.10010111.10011736", "label": "Incomplete, inconsistent, and uncertain databases", "depth": 3}
+{"id": "10003752.10010070.10011796", "label": "Theory of randomized search heuristics", "depth": 2}
+{"id": "10003752.10010124.10010125.10010126", "label": "Control primitives", "depth": 3}
+{"id": "10003752.10010124.10010125.10010127", "label": "Functional constructs", "depth": 3}
+{"id": "10003752.10010124.10010125.10010128", "label": "Object oriented constructs", "depth": 3}
+{"id": "10003752.10010124.10010125.10010129", "label": "Program schemes", "depth": 3}
+{"id": "10003752.10010124.10010125.10010130", "label": "Type structures", "depth": 3}
+{"id": "10003752.10010124.10010131.10010132", "label": "Algebraic semantics", "depth": 3}
+{"id": "10003752.10010124.10010131.10010133", "label": "Denotational semantics", "depth": 3}
+{"id": "10003752.10010124.10010131.10010134", "label": "Operational semantics", "depth": 3}
+{"id": "10003752.10010124.10010131.10010135", "label": "Axiomatic semantics", "depth": 3}
+{"id": "10003752.10010124.10010131.10010136", "label": "Action semantics", "depth": 3}
+{"id": "10003752.10010124.10010131.10010137", "label": "Categorical semantics", "depth": 3}
+{"id": "10003752.10010124.10010138.10010139", "label": "Invariants", "depth": 3}
+{"id": "10003752.10010124.10010138.10010140", "label": "Program specifications", "depth": 3}
+{"id": "10003752.10010124.10010138.10010141", "label": "Pre- and post-conditions", "depth": 3}
+{"id": "10003752.10010124.10010138.10010142", "label": "Program verification", "depth": 3}
+{"id": "10003752.10010124.10010138.10010143", "label": "Program analysis", "depth": 3}
+{"id": "10003752.10010124.10010138.10010144", "label": "Assertions", "depth": 3}
+{"id": "10003752.10010124.10010138.10010145", "label": "Parsing", "depth": 3}
+{"id": "10003752.10010124.10010138.10011119", "label": "Abstraction", "depth": 3}
+{"id": "10010147.10010148.10010149.10003628", "label": "Combinatorial algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010150", "label": "Algebraic algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010151", "label": "Nonalgebraic algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010152", "label": "Symbolic calculus algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010153", "label": "Exact arithmetic algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010154", "label": "Hybrid symbolic-numeric methods", "depth": 3}
+{"id": "10010147.10010148.10010149.10010155", "label": "Discrete calculus algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010156", "label": "Number theory algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010157", "label": "Equation and inequality solving algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010158", "label": "Linear algebra algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010159", "label": "Theorem proving algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010160", "label": "Boolean algebra algorithms", "depth": 3}
+{"id": "10010147.10010148.10010149.10010161", "label": "Optimization algorithms", "depth": 3}
+{"id": "10010147.10010148.10010162.10010163", "label": "Special-purpose algebraic systems", "depth": 3}
+{"id": "10010147.10010148.10010164.10010165", "label": "Representation of exact numbers", "depth": 3}
+{"id": "10010147.10010148.10010164.10010166", "label": "Representation of mathematical functions", "depth": 3}
+{"id": "10010147.10010148.10010164.10010167", "label": "Representation of Boolean functions", "depth": 3}
+{"id": "10010147.10010148.10010164.10010168", "label": "Representation of polynomials", "depth": 3}
+{"id": "10010147.10010169.10010170.10003817", "label": "MapReduce algorithms", "depth": 3}
+{"id": "10010147.10010169.10010170.10003824", "label": "Self-organization", "depth": 3}
+{"id": "10010147.10010169.10010170.10010171", "label": "Shared memory algorithms", "depth": 3}
+{"id": "10010147.10010169.10010170.10010173", "label": "Vector / streaming algorithms", "depth": 3}
+{"id": "10010147.10010169.10010170.10010174", "label": "Massively parallel algorithms", "depth": 3}
+{"id": "10010147.10010169.10010175", "label": "Parallel programming languages", "depth": 2}
+{"id": "10010147.10010178.10010179.10003352", "label": "Information extraction", "depth": 3}
+{"id": "10010147.10010178.10010179.10010180", "label": "Machine translation", "depth": 3}
+{"id": "10010147.10010178.10010179.10010181", "label": "Discourse, dialogue and pragmatics", "depth": 3}
+{"id": "10010147.10010178.10010179.10010182", "label": "Natural language generation", "depth": 3}
+{"id": "10010147.10010178.10010179.10010183", "label": "Speech recognition", "depth": 3}
+{"id": "10010147.10010178.10010179.10010184", "label": "Lexical semantics", "depth": 3}
+{"id": "10010147.10010178.10010179.10010185", "label": "Phonology / morphology", "depth": 3}
+{"id": "10010147.10010178.10010179.10010186", "label": "Language resources", "depth": 3}
+{"id": "10010147.10010178.10010187.10003797", "label": "Description logics", "depth": 3}
+{"id": "10010147.10010178.10010187.10010188", "label": "Semantic networks", "depth": 3}
+{"id": "10010147.10010178.10010187.10010189", "label": "Nonmonotonic, default reasoning and belief revision", "depth": 3}
+{"id": "10010147.10010178.10010187.10010190", "label": "Probabilistic reasoning", "depth": 3}
+{"id": "10010147.10010178.10010187.10010191", "label": "Vagueness and fuzzy logic", "depth": 3}
+{"id": "10010147.10010178.10010187.10010192", "label": "Causal reasoning and diagnostics", "depth": 3}
+{"id": "10010147.10010178.10010187.10010193", "label": "Temporal reasoning", "depth": 3}
+{"id": "10010147.10010178.10010187.10010194", "label": "Cognitive robotics", "depth": 3}
+{"id": "10010147.10010178.10010187.10010195", "label": "Ontology engineering", "depth": 3}
+{"id": "10010147.10010178.10010187.10010196", "label": "Logic programming and answer set programming", "depth": 3}
+{"id": "10010147.10010178.10010187.10010197", "label": "Spatial and physical reasoning", "depth": 3}
+{"id": "10010147.10010178.10010187.10010198", "label": "Reasoning about belief and knowledge", "depth": 3}
+{"id": "10010147.10010178.10010199.10010200", "label": "Planning for deterministic actions", "depth": 3}
+{"id": "10010147.10010178.10010199.10010201", "label": "Planning under uncertainty", "depth": 3}
+{"id": "10010147.10010178.10010199.10010202", "label": "Multi-agent planning", "depth": 3}
+{"id": "10010147.10010178.10010199.10010203", "label": "Planning with abstraction and generalization", "depth": 3}
+{"id": "10010147.10010178.10010199.10010204.10011814", "label": "Evolutionary robotics", "depth": 4}
+{"id": "10010147.10010178.10010205.10010206", "label": "Heuristic function construction", "depth": 3}
+{"id": "10010147.10010178.10010205.10010207", "label": "Discrete space search", "depth": 3}
+{"id": "10010147.10010178.10010205.10010208", "label": "Continuous space search", "depth": 3}
+{"id": "10010147.10010178.10010205.10010209", "label": "Randomized search", "depth": 3}
+{"id": "10010147.10010178.10010205.10010210", "label": "Game tree search", "depth": 3}
+{"id": "10010147.10010178.10010205.10010211", "label": "Abstraction and micro-operators", "depth": 3}
+{"id": "10010147.10010178.10010205.10010212", "label": "Search with partial observations", "depth": 3}
+{"id": "10010147.10010178.10010213.10010204.10011814", "label": "Evolutionary robotics", "depth": 4}
+{"id": "10010147.10010178.10010213.10010214", "label": "Computational control theory", "depth": 3}
+{"id": "10010147.10010178.10010213.10010215", "label": "Motion path planning", "depth": 3}
+{"id": "10010147.10010178.10010216.10010217", "label": "Cognitive science", "depth": 3}
+{"id": "10010147.10010178.10010216.10010218", "label": "Theory of mind", "depth": 3}
+{"id": "10010147.10010178.10010219.10010220", "label": "Multi-agent systems", "depth": 3}
+{"id": "10010147.10010178.10010219.10010221", "label": "Intelligent agents", "depth": 3}
+{"id": "10010147.10010178.10010219.10010222", "label": "Mobile agents", "depth": 3}
+{"id": "10010147.10010178.10010219.10010223", "label": "Cooperation and coordination", "depth": 3}
+{"id": "10010147.10010178.10010224.10010225.10003479", "label": "Biometrics", "depth": 4}
+{"id": "10010147.10010178.10010224.10010225.10010227", "label": "Scene understanding", "depth": 4}
+{"id": "10010147.10010178.10010224.10010225.10010228", "label": "Activity recognition and understanding", "depth": 4}
+{"id": "10010147.10010178.10010224.10010225.10010230", "label": "Video summarization", "depth": 4}
+{"id": "10010147.10010178.10010224.10010225.10010231", "label": "Visual content-based indexing and retrieval", "depth": 4}
+{"id": "10010147.10010178.10010224.10010225.10010232", "label": "Visual inspection", "depth": 4}
+{"id": "10010147.10010178.10010224.10010225.10010233", "label": "Vision for robotics", "depth": 4}
+{"id": "10010147.10010178.10010224.10010225.10011295", "label": "Scene anomaly detection", "depth": 4}
+{"id": "10010147.10010178.10010224.10010226.10010234", "label": "Camera calibration", "depth": 4}
+{"id": "10010147.10010178.10010224.10010226.10010235", "label": "Epipolar geometry", "depth": 4}
+{"id": "10010147.10010178.10010224.10010226.10010236", "label": "Computational photography", "depth": 4}
+{"id": "10010147.10010178.10010224.10010226.10010237", "label": "Hyperspectral imaging", "depth": 4}
+{"id": "10010147.10010178.10010224.10010226.10010238", "label": "Motion capture", "depth": 4}
+{"id": "10010147.10010178.10010224.10010226.10010239", "label": "3D imaging", "depth": 4}
+{"id": "10010147.10010178.10010224.10010226.10010256", "label": "Active vision", "depth": 4}
+{"id": "10010147.10010178.10010224.10010240.10010241", "label": "Image representations", "depth": 4}
+{"id": "10010147.10010178.10010224.10010240.10010242", "label": "Shape representations", "depth": 4}
+{"id": "10010147.10010178.10010224.10010240.10010243", "label": "Appearance and texture representations", "depth": 4}
+{"id": "10010147.10010178.10010224.10010240.10010244", "label": "Hierarchical representations", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010246", "label": "Interest point and salient region detections", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010247", "label": "Image segmentation", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010248", "label": "Video segmentation", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010249", "label": "Shape inference", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010250", "label": "Object detection", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010251", "label": "Object recognition", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010252", "label": "Object identification", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010253", "label": "Tracking", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010254", "label": "Reconstruction", "depth": 4}
+{"id": "10010147.10010178.10010224.10010245.10010255", "label": "Matching", "depth": 4}
+{"id": "10010147.10010257.10010258.10010259.10003268", "label": "Ranking", "depth": 4}
+{"id": "10010147.10010257.10010258.10010259.10003343", "label": "Learning to rank", "depth": 4}
+{"id": "10010147.10010257.10010258.10010259.10010263", "label": "Supervised learning by classification", "depth": 4}
+{"id": "10010147.10010257.10010258.10010259.10010264", "label": "Supervised learning by regression", "depth": 4}
+{"id": "10010147.10010257.10010258.10010259.10010265", "label": "Structured outputs", "depth": 4}
+{"id": "10010147.10010257.10010258.10010259.10010266", "label": "Cost-sensitive learning", "depth": 4}
+{"id": "10010147.10010257.10010258.10010260.10003697", "label": "Cluster analysis", "depth": 4}
+{"id": "10010147.10010257.10010258.10010260.10010229", "label": "Anomaly detection", "depth": 4}
+{"id": "10010147.10010257.10010258.10010260.10010267", "label": "Mixture modeling", "depth": 4}
+{"id": "10010147.10010257.10010258.10010260.10010268", "label": "Topic modeling", "depth": 4}
+{"id": "10010147.10010257.10010258.10010260.10010269", "label": "Source separation", "depth": 4}
+{"id": "10010147.10010257.10010258.10010260.10010270", "label": "Motif discovery", "depth": 4}
+{"id": "10010147.10010257.10010258.10010260.10010271", "label": "Dimensionality reduction and manifold learning", "depth": 4}
+{"id": "10010147.10010257.10010258.10010261.10010272", "label": "Sequential decision making", "depth": 4}
+{"id": "10010147.10010257.10010258.10010261.10010273", "label": "Inverse reinforcement learning", "depth": 4}
+{"id": "10010147.10010257.10010258.10010261.10010274", "label": "Apprenticeship learning", "depth": 4}
+{"id": "10010147.10010257.10010258.10010261.10010275", "label": "Multi-agent reinforcement learning", "depth": 4}
+{"id": "10010147.10010257.10010258.10010261.10010276", "label": "Adversarial learning", "depth": 4}
+{"id": "10010147.10010257.10010258.10010262.10010277", "label": "Transfer learning", "depth": 4}
+{"id": "10010147.10010257.10010258.10010262.10010278", "label": "Lifelong machine learning", "depth": 4}
+{"id": "10010147.10010257.10010258.10010262.10010279", "label": "Learning under covariate shift", "depth": 4}
+{"id": "10010147.10010257.10010282.10010283", "label": "Batch learning", "depth": 3}
+{"id": "10010147.10010257.10010282.10010284", "label": "Online learning settings", "depth": 3}
+{"id": "10010147.10010257.10010282.10010290", "label": "Learning from demonstrations", "depth": 3}
+{"id": "10010147.10010257.10010282.10010291", "label": "Learning from critiques", "depth": 3}
+{"id": "10010147.10010257.10010282.10010292", "label": "Learning from implicit feedback", "depth": 3}
+{"id": "10010147.10010257.10010282.10011304", "label": "Active learning settings", "depth": 3}
+{"id": "10010147.10010257.10010282.10011305", "label": "Semi-supervised learning settings", "depth": 3}
+{"id": "10010147.10010257.10010293.10003660", "label": "Classification and regression trees", "depth": 3}
+{"id": "10010147.10010257.10010293.10010075.10010295", "label": "Support vector machines", "depth": 4}
+{"id": "10010147.10010257.10010293.10010075.10010296", "label": "Gaussian processes", "depth": 4}
+{"id": "10010147.10010257.10010293.10010294", "label": "Neural networks", "depth": 3}
+{"id": "10010147.10010257.10010293.10010297.10010298", "label": "Inductive logic learning", "depth": 4}
+{"id": "10010147.10010257.10010293.10010297.10010299", "label": "Statistical relational learning", "depth": 4}
+{"id": "10010147.10010257.10010293.10010300.10010301", "label": "Maximum likelihood modeling", "depth": 4}
+{"id": "10010147.10010257.10010293.10010300.10010302", "label": "Maximum entropy modeling", "depth": 4}
+{"id": "10010147.10010257.10010293.10010300.10010303", "label": "Maximum a posteriori modeling", "depth": 4}
+{"id": "10010147.10010257.10010293.10010300.10010304", "label": "Mixture models", "depth": 4}
+{"id": "10010147.10010257.10010293.10010300.10010305", "label": "Latent variable models", "depth": 4}
+{"id": "10010147.10010257.10010293.10010300.10010306", "label": "Bayesian network models", "depth": 4}
+{"id": "10010147.10010257.10010293.10010307.10010308", "label": "Perceptron algorithm", "depth": 4}
+{"id": "10010147.10010257.10010293.10010309.10010310", "label": "Non-negative matrix factorization", "depth": 4}
+{"id": "10010147.10010257.10010293.10010309.10010311", "label": "Factor analysis", "depth": 4}
+{"id": "10010147.10010257.10010293.10010309.10010312", "label": "Principal component analysis", "depth": 4}
+{"id": "10010147.10010257.10010293.10010309.10010313", "label": "Canonical correlation analysis", "depth": 4}
+{"id": "10010147.10010257.10010293.10010309.10011671", "label": "Latent Dirichlet allocation", "depth": 4}
+{"id": "10010147.10010257.10010293.10010314", "label": "Rule learning", "depth": 3}
+{"id": "10010147.10010257.10010293.10010315", "label": "Instance-based learning", "depth": 3}
+{"id": "10010147.10010257.10010293.10010316", "label": "Markov decision processes", "depth": 3}
+{"id": "10010147.10010257.10010293.10010317", "label": "Partially-observable Markov decision processes", "depth": 3}
+{"id": "10010147.10010257.10010293.10010318", "label": "Stochastic games", "depth": 3}
+{"id": "10010147.10010257.10010293.10010319.10010320", "label": "Deep belief networks", "depth": 4}
+{"id": "10010147.10010257.10010293.10011809.10011810", "label": "Artificial life", "depth": 4}
+{"id": "10010147.10010257.10010293.10011809.10011811", "label": "Evolvable hardware", "depth": 4}
+{"id": "10010147.10010257.10010293.10011809.10011812", "label": "Genetic algorithms", "depth": 4}
+{"id": "10010147.10010257.10010293.10011809.10011813", "label": "Genetic programming", "depth": 4}
+{"id": "10010147.10010257.10010293.10011809.10011814", "label": "Evolutionary robotics", "depth": 4}
+{"id": "10010147.10010257.10010293.10011809.10011815", "label": "Generative and developmental approaches", "depth": 4}
+{"id": "10010147.10010257.10010321.10010327.10010328", "label": "Value iteration", "depth": 4}
+{"id": "10010147.10010257.10010321.10010327.10010329", "label": "Q-learning", "depth": 4}
+{"id": "10010147.10010257.10010321.10010327.10010330", "label": "Policy iteration", "depth": 4}
+{"id": "10010147.10010257.10010321.10010327.10010331", "label": "Temporal difference learning", "depth": 4}
+{"id": "10010147.10010257.10010321.10010327.10010332", "label": "Approximate dynamic programming methods", "depth": 4}
+{"id": "10010147.10010257.10010321.10010333.10010076", "label": "Boosting", "depth": 4}
+{"id": "10010147.10010257.10010321.10010333.10010334", "label": "Bagging", "depth": 4}
+{"id": "10010147.10010257.10010321.10010335", "label": "Spectral methods", "depth": 3}
+{"id": "10010147.10010257.10010321.10010336", "label": "Feature selection", "depth": 3}
+{"id": "10010147.10010257.10010321.10010337", "label": "Regularization", "depth": 3}
+{"id": "10010147.10010257.10010339", "label": "Cross-validation", "depth": 2}
+{"id": "10010147.10010341.10010342.10010343", "label": "Modeling methodologies", "depth": 3}
+{"id": "10010147.10010341.10010342.10010344", "label": "Model verification and validation", "depth": 3}
+{"id": "10010147.10010341.10010342.10010345", "label": "Uncertainty quantification", "depth": 3}
+{"id": "10010147.10010341.10010346.10010347", "label": "Systems theory", "depth": 3}
+{"id": "10010147.10010341.10010346.10010348", "label": "Network science", "depth": 3}
+{"id": "10010147.10010341.10010349.10010345", "label": "Uncertainty quantification", "depth": 3}
+{"id": "10010147.10010341.10010349.10010350", "label": "Quantum mechanic simulation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010351", "label": "Molecular simulation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010353", "label": "Rare-event simulation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010354", "label": "Discrete-event simulation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010355", "label": "Agent / discrete models", "depth": 3}
+{"id": "10010147.10010341.10010349.10010356", "label": "Distributed simulation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010357", "label": "Continuous simulation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010358", "label": "Continuous models", "depth": 3}
+{"id": "10010147.10010341.10010349.10010359", "label": "Real-time simulation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010360", "label": "Interactive simulation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010361", "label": "Multiscale systems", "depth": 3}
+{"id": "10010147.10010341.10010349.10010362", "label": "Massively parallel and high-performance simulations", "depth": 3}
+{"id": "10010147.10010341.10010349.10010363", "label": "Data assimilation", "depth": 3}
+{"id": "10010147.10010341.10010349.10010364", "label": "Scientific visualization", "depth": 3}
+{"id": "10010147.10010341.10010349.10010365", "label": "Visual analytics", "depth": 3}
+{"id": "10010147.10010341.10010349.10011310", "label": "Simulation by animation", "depth": 3}
+{"id": "10010147.10010341.10010349.10011810", "label": "Artificial life", "depth": 3}
+{"id": "10010147.10010341.10010366.10010367", "label": "Simulation environments", "depth": 3}
+{"id": "10010147.10010341.10010366.10010368", "label": "Simulation languages", "depth": 3}
+{"id": "10010147.10010341.10010366.10010369", "label": "Simulation tools", "depth": 3}
+{"id": "10010147.10010341.10010370", "label": "Simulation evaluation", "depth": 2}
+{"id": "10010147.10010371.10010352.10010238", "label": "Motion capture", "depth": 3}
+{"id": "10010147.10010371.10010352.10010378", "label": "Procedural animation", "depth": 3}
+{"id": "10010147.10010371.10010352.10010379", "label": "Physical simulation", "depth": 3}
+{"id": "10010147.10010371.10010352.10010380", "label": "Motion processing", "depth": 3}
+{"id": "10010147.10010371.10010352.10010381", "label": "Collision detection", "depth": 3}
+{"id": "10010147.10010371.10010372.10010373", "label": "Rasterization", "depth": 3}
+{"id": "10010147.10010371.10010372.10010374", "label": "Ray tracing", "depth": 3}
+{"id": "10010147.10010371.10010372.10010375", "label": "Non-photorealistic rendering", "depth": 3}
+{"id": "10010147.10010371.10010372.10010376", "label": "Reflectance modeling", "depth": 3}
+{"id": "10010147.10010371.10010372.10010377", "label": "Visibility", "depth": 3}
+{"id": "10010147.10010371.10010382.10010236", "label": "Computational photography", "depth": 3}
+{"id": "10010147.10010371.10010382.10010383", "label": "Image processing", "depth": 3}
+{"id": "10010147.10010371.10010382.10010384", "label": "Texturing", "depth": 3}
+{"id": "10010147.10010371.10010382.10010385", "label": "Image-based rendering", "depth": 3}
+{"id": "10010147.10010371.10010382.10010386", "label": "Antialiasing", "depth": 3}
+{"id": "10010147.10010371.10010387.10010389", "label": "Graphics processors", "depth": 3}
+{"id": "10010147.10010371.10010387.10010391", "label": "Graphics input devices", "depth": 3}
+{"id": "10010147.10010371.10010387.10010392", "label": "Mixed / augmented reality", "depth": 3}
+{"id": "10010147.10010371.10010387.10010393", "label": "Perception", "depth": 3}
+{"id": "10010147.10010371.10010387.10010394", "label": "Graphics file formats", "depth": 3}
+{"id": "10010147.10010371.10010387.10010866", "label": "Virtual reality", "depth": 3}
+{"id": "10010147.10010371.10010395", "label": "Image compression", "depth": 2}
+{"id": "10010147.10010371.10010396.10010397", "label": "Mesh models", "depth": 3}
+{"id": "10010147.10010371.10010396.10010398", "label": "Mesh geometry models", "depth": 3}
+{"id": "10010147.10010371.10010396.10010399", "label": "Parametric curve and surface models", "depth": 3}
+{"id": "10010147.10010371.10010396.10010400", "label": "Point-based models", "depth": 3}
+{"id": "10010147.10010371.10010396.10010401", "label": "Volumetric models", "depth": 3}
+{"id": "10010147.10010371.10010396.10010402", "label": "Shape analysis", "depth": 3}
+{"id": "10010147.10010919.10010172.10003817", "label": "MapReduce algorithms", "depth": 3}
+{"id": "10010147.10010919.10010172.10003824", "label": "Self-organization", "depth": 3}
+{"id": "10010147.10010919.10010177", "label": "Distributed programming languages", "depth": 2}
+{"id": "10010147.10011777.10011014", "label": "Concurrent programming languages", "depth": 2}
+{"id": "10010147.10011777.10011778", "label": "Concurrent algorithms", "depth": 2}

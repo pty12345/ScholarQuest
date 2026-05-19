@@ -1,0 +1,108 @@
+prompt_version: "pasa_v3"
+
+plan_generation: |
+  You are designing a PASA-style paper retrieval query plan for one topic seed and one target category.
+
+  Goal:
+  - Stay faithful to the given topic seed.
+  - Produce exactly one executable retrieval constraint for the target category.
+  - Keep the plan realistic for academic paper search.
+
+  Four PASA categories:
+  - method_capability: constrain by method, architecture, training paradigm, or capability property.
+  - setting_anchor: constrain by dataset, benchmark, application scenario, task setting, or evaluation environment.
+  - claim_comparison: constrain by a claim, comparison, conclusion direction, or support/refute intent.
+  - scope_control: constrain by exhaustive listing, include-only, or exclude filtering.
+
+  Rules:
+  - The constraint must be specific enough to narrow retrieval.
+  - Do not invent highly obscure entities unless they are plausible and searchable.
+  - Keep the plan centered on paper retrieval, not analysis writing.
+  - Avoid subjective or time-sensitive wording.
+  - Keep retrieval_intent semantic and neutral. Do not always start it with the same verb phrase.
+
+  Return strict JSON only:
+  {
+    "category": "method_capability",
+    "topic_seed": "large language model agents",
+    "constraint_kind": "training_paradigm",
+    "constraint_value": "reinforcement learning",
+    "retrieval_intent": "papers on large language model agents trained with reinforcement learning",
+    "rationale": "reinforcement learning is a searchable technical constraint that narrows the topic",
+    "risk_flags": []
+  }
+
+query_generation: |
+  You are converting a PASA query plan into one final English paper retrieval query.
+
+  Requirements:
+  - The output must be a natural-language paper retrieval request.
+  - It must stay in the target category exactly.
+  - It must remain faithful to the topic seed and plan.
+  - It should sound like a realistic human request for papers.
+  - Keep the wording concise and natural.
+  - Include one strong executable retrieval constraint.
+  - Do not turn the request into open-ended analysis, trend discussion, or research advice.
+  - Do not overload the query with too many constraints.
+  - Vary the surface form naturally. Do not default to "Find papers ..." unless it is the best wording.
+  - The user payload may contain recent_opening_examples. Avoid repeating those openings when a natural alternative exists.
+  - Diverse but acceptable openings include requests, question-like forms, and list-oriented forms.
+  - Keep the query to one sentence.
+  - Avoid temporal wording such as recent, latest, since 2020, after 2020, or similar time constraints.
+  - The query must be a complete natural request or question, not a fragment such as "Papers on ...?"
+
+  Return strict JSON only:
+  {
+    "query": "Which papers study large language model agents trained with reinforcement learning?"
+  }
+
+validation: |
+  You are validating whether a generated query is a valid PASA-style paper retrieval query for the target category.
+
+  Check the query on these dimensions:
+  - category_match: does it match the requested PASA category exactly?
+  - retrieval_oriented: is it clearly asking to find papers rather than asking for analysis or advice?
+  - executable_constraint: does it contain a concrete retrieval constraint that a paper search system can use?
+  - natural_language_ok: is the wording natural and concise?
+
+  Validation rules:
+  - A valid query should be a paper retrieval request.
+  - It should stay close to the topic seed.
+  - It should avoid vague or open-ended phrasing.
+  - It should not require long-form synthesis.
+  - It should not look mechanically templatic if recent_opening_examples show repeated openings and a natural alternative is possible.
+  - It should avoid temporal wording such as recent or latest.
+  - It should be a complete natural request or question, not a fragment.
+
+  Return strict JSON only:
+  {
+    "is_valid": true,
+    "category_match": true,
+    "retrieval_oriented": true,
+    "executable_constraint": true,
+    "natural_language_ok": true,
+    "issues": [],
+    "rewrite_needed": false,
+    "rewrite_instruction": "",
+    "rationale": "The query is retrieval-oriented and contains a clear category-aligned constraint."
+  }
+
+rewrite: |
+  You are revising an invalid PASA-style paper retrieval query.
+
+  Requirements:
+  - Fix only the issues listed in the validation result.
+  - Keep the same topic seed and target category.
+  - Keep the query retrieval-oriented.
+  - Produce one final English query only.
+  - Prefer the minimum change that makes the query valid.
+  - If the issue is templatic wording, keep the same semantics but change the opening and surface form naturally.
+  - Avoid copying any repeated opening shown in recent_opening_examples.
+  - If the issue is temporal wording, remove the time constraint without changing the topic or category.
+  - If the issue is fragment wording, turn it into a complete natural request or question.
+
+  Return strict JSON only:
+  {
+    "query": "I am looking for papers on large language model agents evaluated on multi-hop QA benchmarks.",
+    "revision_note": "Changed the opening and kept the same retrieval constraint."
+  }

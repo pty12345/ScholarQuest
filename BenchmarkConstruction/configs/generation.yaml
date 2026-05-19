@@ -1,0 +1,8 @@
+per_seed_topic_queries: 5
+per_seed_rewrites: 3
+blindspot_queries_per_domain: 2
+sample_count_scale: 4
+max_topic_queries_per_seed: 12
+max_rewrites_per_seed: 6
+
+blindspots: []

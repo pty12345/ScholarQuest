@@ -1,0 +1,31 @@
+paths:
+  topic_seeds: data/seeds/topic_seeds.jsonl
+  raw_queries: data/raw/raw_queries.jsonl
+  normalized_queries: data/normalized/normalized_queries.jsonl
+  enriched_queries: data/enriched/enriched_queries.jsonl
+  filtered_queries: data/filtered/filtered_queries.jsonl
+  clustered_queries: data/clustered/clustered_queries.jsonl
+  balanced_queries: data/balanced/balanced_queries.jsonl
+  adjudicated_queries: data/adjudicated/query_pool_v0.1.jsonl
+  released_queries: data/release/query_pool_v0.1.jsonl
+  logs_dir: data/logs
+  llm_cache: data/cache/llm_cache.jsonl
+
+runtime:
+  random_seed: 42
+  enable_llm_cache: true
+  max_llm_retries: 3
+  llm_temperature: 0.2
+  candidate_duplicate_k: 8
+  duplicate_similarity_threshold: 0.84
+  min_quality_pass_count: 4
+
+stages:
+  run_stage1_generate: true
+  run_stage2_normalize: true
+  run_stage3_enrich: true
+  run_stage4_filter: true
+  run_stage5_dedup: true
+  run_stage6_balance: true
+  run_stage7_adjudicate: true
+  run_stage8_release: true

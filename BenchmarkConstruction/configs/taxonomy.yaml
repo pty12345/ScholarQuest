@@ -1,0 +1,177 @@
+priority_order:
+  - collection_scoping
+  - analysis_claim
+  - method_architecture
+  - capability_application
+  - cross_topic
+  - specific_topic
+
+type_distribution:
+  specific_topic: 0.20
+  cross_topic: 0.25
+  method_architecture: 0.20
+  capability_application: 0.15
+  collection_scoping: 0.15
+  analysis_claim: 0.05
+
+constraints:
+  word_count_min: 4
+  word_count_max: 20
+  banned_phrases:
+    - latest
+    - best
+    - most influential
+    - state of the art
+    - outperform
+    - better than
+    - zero-shot setting
+    - few-shot setting
+    - appendix
+    - ablation
+
+types:
+  specific_topic:
+    description: Focused search for a concrete research topic with clear boundaries.
+    inclusion_criteria:
+      - topic is specific rather than broad
+      - topic is usually explicit in title or abstract
+      - no dependency on experimental details
+    exclusion_criteria:
+      - broad field labels like papers on LLM
+      - hidden extra constraints that belong to another type
+      - topics requiring full-text evidence
+    generation_tips:
+      - prefer medium-granularity research topics
+      - use stable academic terminology
+      - keep the query concise and topic-like
+    label_fields:
+      - topic_span
+      - scope
+      - difficulty
+  cross_topic:
+    description: Search for the intersection of two or more research concepts.
+    inclusion_criteria:
+      - at least two core concepts are present
+      - the intersection is judgeable from title or abstract
+      - the concept combination is natural for academic search
+    exclusion_criteria:
+      - too many concepts causing sparse intent
+      - one key constraint needs full text
+      - query is really about method or application framing
+    generation_tips:
+      - prefer two core concepts
+      - allow three concepts only when still natural
+      - ensure each concept has stable academic phrasing
+    label_fields:
+      - concepts
+      - num_concepts
+      - compositionality
+      - difficulty
+  method_architecture:
+    description: Search centered on a method family, training paradigm, or architecture property.
+    inclusion_criteria:
+      - method or architecture attribute is usually explicit in title or abstract
+      - focuses on coarse method families instead of implementation tricks
+      - results are stable to judge from title or abstract
+    exclusion_criteria:
+      - appendix-only or method-section-only details
+      - fine-grained training tricks
+      - differences that require table-level result inspection
+    generation_tips:
+      - prefer common community terms like DPO RLHF MoE
+      - method constraints may pair with a task
+      - avoid adding full-text dependent qualifiers
+    label_fields:
+      - method_family
+      - architecture_family
+      - training_paradigm
+      - difficulty
+  capability_application:
+    description: Search framed by model capability or application need instead of canonical paper terminology.
+    inclusion_criteria:
+      - query describes a capability or application goal
+      - titles or abstracts often describe the capability
+      - no reliance on experimental settings or numeric results
+    exclusion_criteria:
+      - overly open-ended needs
+      - unstable or non-standard academic mapping
+      - fine-grained conclusion verification
+    generation_tips:
+      - allow natural user-like phrasing
+      - keep the academic mapping stable
+      - prefer clearly bounded abilities or applications
+    label_fields:
+      - capability
+      - application_domain
+      - terminology_explicitness
+      - difficulty
+  collection_scoping:
+    description: Search intended to build a paper set, reading list, or scoped literature collection.
+    inclusion_criteria:
+      - retrieval target is a set rather than one best paper
+      - set boundaries are mostly judgeable from title or abstract
+      - the scoped area is reasonably clear
+    exclusion_criteria:
+      - extremely open-ended scope
+      - needs full text for fine filtering
+      - actually behaves like a strict constrained search
+    generation_tips:
+      - use forms like all papers on works on datasets and benchmarks for
+      - keep topic boundaries stable
+      - avoid subjective qualifiers or impact-based wording
+    label_fields:
+      - collection_goal
+      - scope
+      - recall_requirement
+      - difficulty
+  analysis_claim:
+    description: Search about a coarse-grained phenomenon mechanism analysis target or claim direction.
+    inclusion_criteria:
+      - analysis theme is explicit in title or abstract
+      - claim is coarse-grained rather than table-level
+      - no need for precise full-text verification
+    exclusion_criteria:
+      - exact conclusion needs table comparison
+      - strict outperform or underperform judgments
+      - highly subjective or ambiguous claims
+    generation_tips:
+      - prefer analysis words like failure scaling laws emergence mechanism
+      - avoid fine-grained comparison phrasing
+      - keep the claim coarse and phenomenon-level
+    label_fields:
+      - analysis_target
+      - claim_polarity
+      - granularity
+      - difficulty
+intent_types:
+  - exact_topic
+  - constrained_topic
+  - comparative
+  - survey_seeking
+  - citation_chasing
+  - author_following
+  - recent_trend
+  - ambiguous
+  - multi_hop
+
+difficulties:
+  - easy
+  - medium
+  - hard
+
+domains:
+  - nlp
+  - cv
+  - multimodal
+  - recommender_systems
+  - time_series
+  - reinforcement_learning
+  - information_retrieval
+  - agents_memory_tool_use
+
+tool_patterns:
+  - search
+  - expand
+  - rerank
+  - citation_follow
+  - filter
