@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# Data (too large for git)
+PaperData/
+corpus/
+build_corpus/
+
+# Qdrant binary & archive
+qdrant
+qdrant-*.tar.gz
+
+# Runtime
+logs/
+.auth_cache_version
+build_logs/
+.qdrant-initialized
+
+# IDE
+.cursor/
+
+# MkDocs build output
+site/
+
+# Legacy
+archive/
+
+.codex
