@@ -1,10 +1,10 @@
 paths:
   seed_file: QueryGeneration/topic_seeds_stratified.jsonl
-  prompt_file: QueryGeneration/pasa_prompts.yaml
-  output_file: QueryGeneration/output/pasa_query_records.jsonl
-  trace_file: QueryGeneration/output/pasa_generation_trace.jsonl
-  report_file: QueryGeneration/output/pasa_generation_report.json
-  cache_file: QueryGeneration/output/pasa_llm_cache.jsonl
+  prompt_file: QueryGeneration/scholarquest_prompts.yaml
+  output_file: QueryGeneration/output/scholarquest_query_records.jsonl
+  trace_file: QueryGeneration/output/scholarquest_generation_trace.jsonl
+  report_file: QueryGeneration/output/scholarquest_generation_report.json
+  cache_file: QueryGeneration/output/scholarquest_llm_cache.jsonl
 
 llm:
   api_key_env: OPENAI_API_KEY

@@ -18,10 +18,10 @@ QUERY_GENERATION_DIR = Path(__file__).resolve().parent
 if str(QUERY_GENERATION_DIR) not in sys.path:
     sys.path.insert(0, str(QUERY_GENERATION_DIR))
 
-from pasa_types import PasaCategory, PasaGenerationConfig, PasaTopicSeed
+from scholarquest_types import PasaCategory, PasaGenerationConfig, PasaTopicSeed
 
 
-DEFAULT_OUTPUT_DIR = QUERY_GENERATION_DIR / "output" / "pasa_batch_inputs"
+DEFAULT_OUTPUT_DIR = QUERY_GENERATION_DIR / "output" / "scholarquest_batch_inputs"
 DEFAULT_SHUFFLE_SEED = 20260426
 
 
@@ -31,7 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--config",
         type=Path,
-        default=QUERY_GENERATION_DIR / "pasa_generation_config.yaml",
+        default=QUERY_GENERATION_DIR / "scholarquest_generation_config.yaml",
         help="Path to the generation config file.",
     )
     parser.add_argument("--seed-file", type=Path, default=None, help="Optional override for the input seed JSONL file.")
@@ -274,7 +274,7 @@ def main() -> None:
         start = file_index * args.chunk_size
         end = start + args.chunk_size
         chunk = selected_seeds[start:end]
-        file_name = f"pasa_qwen_batch_input_{file_index + 1:02d}.jsonl"
+        file_name = f"scholarquest_qwen_batch_input_{file_index + 1:02d}.jsonl"
         output_path = output_dir / file_name
         rows = [_batch_request(seed, model=model, temperature=config.llm.temperature) for seed in chunk]
         _write_jsonl(output_path, rows)
@@ -287,7 +287,7 @@ def main() -> None:
             }
         )
 
-    manifest_path = output_dir / "pasa_qwen_batch_manifest.json"
+    manifest_path = output_dir / "scholarquest_qwen_batch_manifest.json"
     _ensure_parent(manifest_path)
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=True, indent=2), encoding="utf-8")
 

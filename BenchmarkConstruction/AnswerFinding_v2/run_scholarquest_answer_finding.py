@@ -20,9 +20,9 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 ANSWER_FINDING_ROOT = Path(__file__).resolve().parent
-DEFAULT_INPUT = ROOT / "QueryGeneration" / "output" / "pasa_batch_results_flat.jsonl"
-DEFAULT_RESULT_DIR = ROOT / "QueryGeneration" / "output" / "pasa_batch_results"
-DEFAULT_OUTPUT_DIR = ANSWER_FINDING_ROOT / "output" / "pasa_batch_answer_finding"
+DEFAULT_INPUT = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_results_flat.jsonl"
+DEFAULT_RESULT_DIR = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_results"
+DEFAULT_OUTPUT_DIR = ANSWER_FINDING_ROOT / "output" / "scholarquest_batch_answer_finding"
 load_dotenv(ANSWER_FINDING_ROOT / ".env")
 
 
@@ -123,7 +123,7 @@ def _load_flat_records(input_path: Path) -> list[dict[str, Any]]:
 def _load_result_dir_records(result_dir: Path) -> list[dict[str, Any]]:
     if str(ROOT) not in sys.path:
         sys.path.insert(0, str(ROOT))
-    from QueryGeneration.parse_pasa_batch_results import _flatten_success_row, _read_jsonl as read_batch_jsonl
+    from QueryGeneration.parse_scholarquest_batch_results import _flatten_success_row, _read_jsonl as read_batch_jsonl
 
     records: list[dict[str, Any]] = []
     next_query_index = 1

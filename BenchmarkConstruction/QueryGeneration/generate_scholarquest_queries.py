@@ -24,7 +24,7 @@ if str(QUERY_GENERATION_DIR) not in sys.path:
 
 from paperbench.io_utils import append_jsonl, ensure_parent, read_jsonl
 from paperbench.llm.client import OpenAICompatibleClient
-from pasa_types import (
+from scholarquest_types import (
     PasaCategory,
     PasaExpansionPlan,
     PasaGenerationConfig,
@@ -49,7 +49,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--config",
         type=Path,
-        default=QUERY_GENERATION_DIR / "pasa_generation_config.yaml",
+        default=QUERY_GENERATION_DIR / "scholarquest_generation_config.yaml",
         help="Path to the PASA generation config file.",
     )
     parser.add_argument(

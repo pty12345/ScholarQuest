@@ -108,9 +108,9 @@ Useful entry points:
 ```bash
 cd BenchmarkConstruction
 python scripts/run_pipeline.py
-python QueryGeneration/generate_pasa_queries.py
-python QueryGeneration/validate_pasa_queries.py
-python AnswerFinding/run_pasa_answer_finding.py
+python QueryGeneration/generate_scholarquest_queries.py
+python QueryGeneration/validate_scholarquest_queries.py
+python AnswerFinding/run_scholarquest_answer_finding.py
 python AnswerFilters/run_strict_cross_filter.py
 ```
 
@@ -143,7 +143,7 @@ For a quick understanding of the repository:
 
 1. `datasets/ScholarQuest.jsonl`
 2. `datasets/query_metadata.jsonl`
-3. `BenchmarkConstruction/QueryGeneration/README_pasa_generation.md`
+3. `BenchmarkConstruction/QueryGeneration/README_scholarquest_generation.md`
 4. `BenchmarkConstruction/AnswerFilters/README.md`
 5. `Lewen-API/README.md`
 

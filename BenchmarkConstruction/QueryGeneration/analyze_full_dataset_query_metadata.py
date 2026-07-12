@@ -11,7 +11,7 @@ from typing import Any
 QUERY_GENERATION_DIR = Path(__file__).resolve().parent
 WORKSPACE_ROOT = QUERY_GENERATION_DIR.parents[1]
 DEFAULT_ANSWER_FILE = WORKSPACE_ROOT / "PaperBenchEval" / "dataset" / "FullDataset" / "final_answer_list_merged.jsonl"
-DEFAULT_QUERY_METADATA_FILE = QUERY_GENERATION_DIR / "output" / "pasa_batch_unique_queries.jsonl"
+DEFAULT_QUERY_METADATA_FILE = QUERY_GENERATION_DIR / "output" / "scholarquest_batch_unique_queries.jsonl"
 DEFAULT_OUTPUT_DIR = QUERY_GENERATION_DIR / "output"
 
 

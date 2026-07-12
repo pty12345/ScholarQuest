@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INPUT_DIR = ROOT / "QueryGeneration" / "output" / "pasa_batch_inputs"
-DEFAULT_RESULT_DIR = ROOT / "QueryGeneration" / "output" / "pasa_batch_results"
+DEFAULT_INPUT_DIR = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_inputs"
+DEFAULT_RESULT_DIR = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_results"
 DEFAULT_MANIFEST = DEFAULT_INPUT_DIR / "submitted_batches.json"
 DEFAULT_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
@@ -110,7 +110,7 @@ def submit_batches(
     start_index: int,
     end_index: int | None,
 ) -> None:
-    input_paths = sorted(input_dir.glob("pasa_qwen_batch_input_*.jsonl"))
+    input_paths = sorted(input_dir.glob("scholarquest_qwen_batch_input_*.jsonl"))
     if not input_paths:
         raise FileNotFoundError(f"No batch input files found in {input_dir}")
     if start_index <= 0:

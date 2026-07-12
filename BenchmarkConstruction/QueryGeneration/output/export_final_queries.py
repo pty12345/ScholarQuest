@@ -7,7 +7,7 @@ from typing import Any
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_INPUT = SCRIPT_DIR / "pasa_query_records_sample10_v2.jsonl"
+DEFAULT_INPUT = SCRIPT_DIR / "scholarquest_query_records_sample10_v2.jsonl"
 DEFAULT_OUTPUT = SCRIPT_DIR / "final_queries_sample10_v2.txt"
 
 

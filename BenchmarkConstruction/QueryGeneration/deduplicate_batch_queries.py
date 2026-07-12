@@ -7,10 +7,10 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INPUT = ROOT / "QueryGeneration" / "output" / "pasa_batch_results_flat.jsonl"
-DEFAULT_OUTPUT_JSONL = ROOT / "QueryGeneration" / "output" / "pasa_batch_unique_queries.jsonl"
-DEFAULT_OUTPUT_TXT = ROOT / "QueryGeneration" / "output" / "pasa_batch_unique_queries.txt"
-DEFAULT_REPORT = ROOT / "QueryGeneration" / "output" / "pasa_batch_unique_queries_report.json"
+DEFAULT_INPUT = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_results_flat.jsonl"
+DEFAULT_OUTPUT_JSONL = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_unique_queries.jsonl"
+DEFAULT_OUTPUT_TXT = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_unique_queries.txt"
+DEFAULT_REPORT = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_unique_queries_report.json"
 
 
 def parse_args() -> argparse.Namespace:

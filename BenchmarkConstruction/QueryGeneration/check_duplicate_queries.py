@@ -8,8 +8,8 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INPUT = ROOT / "QueryGeneration" / "output" / "pasa_batch_results_flat.jsonl"
-DEFAULT_REPORT = ROOT / "QueryGeneration" / "output" / "pasa_batch_duplicate_queries.json"
+DEFAULT_INPUT = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_results_flat.jsonl"
+DEFAULT_REPORT = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_duplicate_queries.json"
 
 
 def parse_args() -> argparse.Namespace:

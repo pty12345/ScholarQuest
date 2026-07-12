@@ -8,10 +8,10 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_RESULT_DIR = ROOT / "QueryGeneration" / "output" / "pasa_batch_results"
-DEFAULT_OUTPUT_JSONL = ROOT / "QueryGeneration" / "output" / "pasa_batch_results_flat.jsonl"
-DEFAULT_OUTPUT_TXT = ROOT / "QueryGeneration" / "output" / "pasa_batch_final_queries.txt"
-DEFAULT_REPORT = ROOT / "QueryGeneration" / "output" / "pasa_batch_results_report.json"
+DEFAULT_RESULT_DIR = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_results"
+DEFAULT_OUTPUT_JSONL = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_results_flat.jsonl"
+DEFAULT_OUTPUT_TXT = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_final_queries.txt"
+DEFAULT_REPORT = ROOT / "QueryGeneration" / "output" / "scholarquest_batch_results_report.json"
 EXPECTED_CATEGORIES = {
     "method_capability",
     "setting_anchor",

@@ -4,21 +4,21 @@ This directory contains a standalone PASA-style query generation workflow built 
 
 ## Files
 
-- `pasa_types.py`: Pydantic schemas for seeds, records, traces, prompts, and config.
-- `pasa_prompts.yaml`: PASA-specific prompts for plan generation, query generation, validation, and rewrite.
-- `pasa_generation_config.yaml`: Runtime paths and LLM settings.
-- `generate_pasa_queries.py`: Main generator script.
-- `validate_pasa_queries.py`: Offline validation script.
+- `scholarquest_types.py`: Pydantic schemas for seeds, records, traces, prompts, and config.
+- `scholarquest_prompts.yaml`: PASA-specific prompts for plan generation, query generation, validation, and rewrite.
+- `scholarquest_generation_config.yaml`: Runtime paths and LLM settings.
+- `generate_scholarquest_queries.py`: Main generator script.
+- `validate_scholarquest_queries.py`: Offline validation script.
 
 ## Output Files
 
 Default outputs are written under `QueryGeneration/output/`:
 
-- `pasa_query_records.jsonl`: Final accepted query records.
-- `pasa_generation_trace.jsonl`: Full generation trace for each attempted `(seed, category)` pair.
-- `pasa_generation_report.json`: Summary report for the generation run.
-- `pasa_validation_report.json`: Summary report from offline validation.
-- `pasa_llm_cache.jsonl`: Request cache for structured LLM responses.
+- `scholarquest_query_records.jsonl`: Final accepted query records.
+- `scholarquest_generation_trace.jsonl`: Full generation trace for each attempted `(seed, category)` pair.
+- `scholarquest_generation_report.json`: Summary report for the generation run.
+- `scholarquest_validation_report.json`: Summary report from offline validation.
+- `scholarquest_llm_cache.jsonl`: Request cache for structured LLM responses.
 
 ## Query Style Principles
 
@@ -60,18 +60,18 @@ export OPENAI_MODEL="qwen-max"
 `OPENAI_BATCH_BASE_URL` can override the default batch endpoint
 `https://batch.dashscope.aliyuncs.com/compatible-mode/v1`. To return to regular
 OpenAI-compatible realtime calls, set `llm.mode: realtime` in
-`pasa_generation_config.yaml`.
+`scholarquest_generation_config.yaml`.
 
 Generate queries:
 
 ```bash
-python QueryGeneration/generate_pasa_queries.py --start 0 --limit 100
+python QueryGeneration/generate_scholarquest_queries.py --start 0 --limit 100
 ```
 
 Validate generated records:
 
 ```bash
-python QueryGeneration/validate_pasa_queries.py
+python QueryGeneration/validate_scholarquest_queries.py
 ```
 
 Export queries for human review:

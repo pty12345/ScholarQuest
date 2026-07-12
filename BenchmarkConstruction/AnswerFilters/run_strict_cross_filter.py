@@ -36,7 +36,7 @@ DEFAULT_INPUT = (
     ROOT
     / "AnswerFinding_v2"
     / "output"
-    / "pasa_batch_answer_finding_qwen30b_test8"
+    / "scholarquest_batch_answer_finding_qwen30b_test8"
     / "answer_details_compact.jsonl"
 )
 DEFAULT_OUTPUT_DIR = ANSWER_FILTER_ROOT / "output" / "strict_cross_filter"

@@ -15,7 +15,7 @@ DEFAULT_INPUT = (
     UPLOAD_ROOT
     / "AnswerFinding_v2"
     / "output"
-    / "pasa_batch_answer_finding_qwen30b_test8"
+    / "scholarquest_batch_answer_finding_qwen30b_test8"
     / "answer_details.jsonl"
 )
 DEFAULT_OUTPUT_DIR = ANSWER_FILTER_ROOT / "output" / "qwen_batch_inputs_first347"

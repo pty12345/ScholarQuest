@@ -20,7 +20,7 @@ if str(QUERY_GENERATION_DIR) not in sys.path:
     sys.path.insert(0, str(QUERY_GENERATION_DIR))
 
 from paperbench.io_utils import ensure_parent
-from pasa_types import PasaCategory, PasaGenerationConfig, PasaQueryRecord
+from scholarquest_types import PasaCategory, PasaGenerationConfig, PasaQueryRecord
 
 
 def parse_args() -> argparse.Namespace:
@@ -34,7 +34,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--config",
         type=Path,
-        default=QUERY_GENERATION_DIR / "pasa_generation_config.yaml",
+        default=QUERY_GENERATION_DIR / "scholarquest_generation_config.yaml",
         help="Path to the PASA generation config file.",
     )
     parser.add_argument(
@@ -118,7 +118,7 @@ def main() -> None:
     report_path = (
         args.report_file.resolve()
         if args.report_file is not None
-        else _resolve_path(root_dir, "QueryGeneration/output/pasa_validation_report.json")
+        else _resolve_path(root_dir, "QueryGeneration/output/scholarquest_validation_report.json")
     )
 
     records = _read_query_records(input_path)
