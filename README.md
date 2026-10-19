@@ -149,10 +149,10 @@ Metadata for the 13,097 exact-string-deduplicated query records produced before 
 │   ├── configs/
 │   ├── scripts/
 │   └── src/paperbench/
-└── Lewen-API/
+└── ScholarBase/
 ```
 
-The paper refers to the shared literature environment as **ScholarBase**. The retrieval-backend implementation in this repository is provided under `Lewen-API/`.
+The shared literature environment and retrieval-backend implementation described in the paper are provided under `ScholarBase/`.
 
 ## Evaluation Harness in the Paper
 

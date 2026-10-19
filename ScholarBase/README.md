@@ -1,6 +1,6 @@
-# Lewen Academic Search API
+# ScholarBase
 
-A RESTful API for academic paper search, supporting semantic retrieval, title matching, paper metadata lookup, and citation graph queries. Covers ~3M arXiv papers.
+ScholarBase is the shared literature environment and retrieval backend used by ScholarQuest. It provides RESTful interfaces for semantic retrieval, title matching, paper metadata lookup, and citation-graph queries over a million-scale arXiv collection.
 
 ## Attention!
 
@@ -28,7 +28,7 @@ curl "http://210.45.70.162:4000/paper/1706.03762/citations?limit=10"
 
 ## Documentation
 
-Full documentation is available at **[ustclewen.github.io/Lewen-API](https://ustclewen.github.io/Lewen-API/)**.
+Documentation for the underlying API implementation is available at **[ustclewen.github.io/Lewen-API](https://ustclewen.github.io/Lewen-API/)**.
 
 ## License
 
