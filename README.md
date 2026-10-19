@@ -14,6 +14,7 @@ The repository is organized around three things:
 PaperBench_Code/
 ├── datasets/
 │   ├── ScholarQuest.jsonl
+│   ├── ScholarQuest-100.jsonl
 │   └── query_metadata.jsonl
 ├── BenchmarkConstruction/
 │   ├── SeedGeneration/
@@ -43,6 +44,14 @@ Main fields:
 - `source_dir`: provenance of the final answer set
 
 The released dataset keeps queries with **5 to 200** final answers.
+
+### `datasets/ScholarQuest-100.jsonl`
+
+A curated **100-query subset** used for focused analysis and model-level evaluation. It contains **25 queries per research intent** and **5,612 query–paper answer pairs**.
+
+The subset was selected from a quality-ranked candidate pool using query quality and title/abstract review of sampled dataset-provided answers. It is not a probability sample of the full 1,111-query benchmark. A subsequent audit removed 60 clearly incorrect query–paper pairs from five affected queries while preserving all 100 query IDs, query texts, and query order.
+
+In addition to `query_id`, `final_query`, and `answer_arxiv_ids`, the file includes the intent category, constraint metadata, topic/domain metadata, answer counts, and the query's rank in the curated subset. This is the source-format dataset from which the evaluation-harness input is adapted; the adapter preserves query text and answer-list content and order.
 
 ### `datasets/query_metadata.jsonl`
 
@@ -142,10 +151,11 @@ See `Lewen-API/README.md` and `Lewen-API/docs/` for API details.
 For a quick understanding of the repository:
 
 1. `datasets/ScholarQuest.jsonl`
-2. `datasets/query_metadata.jsonl`
-3. `BenchmarkConstruction/QueryGeneration/README_scholarquest_generation.md`
-4. `BenchmarkConstruction/AnswerFilters/README.md`
-5. `Lewen-API/README.md`
+2. `datasets/ScholarQuest-100.jsonl`
+3. `datasets/query_metadata.jsonl`
+4. `BenchmarkConstruction/QueryGeneration/README_scholarquest_generation.md`
+5. `BenchmarkConstruction/AnswerFilters/README.md`
+6. `Lewen-API/README.md`
 
 ## Notes
 
