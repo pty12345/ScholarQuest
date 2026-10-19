@@ -1,17 +1,140 @@
-# ScholarQuest / Paper Search Benchmark
+# ScholarQuest
 
-This repository contains the code and data used to build **ScholarQuest**, a benchmark for evaluating paper-search agents. The benchmark asks systems to retrieve sets of relevant arXiv papers for realistic scholarly search queries, rather than answer single factoid questions.
+ScholarQuest is a taxonomy-guided benchmark for agentic academic paper search in open literature environments. It evaluates academic paper search as a multi-turn retrieval task: given a research query and a literature database, a system iteratively retrieves or explores papers, accumulates a candidate pool, and returns a ranked list evaluated against a relevant-paper set.
 
-The repository is organized around three things:
+The benchmark covers four research intents:
 
-- the released benchmark dataset,
-- the benchmark construction pipeline,
-- the Lewen academic search API used to search and inspect papers.
+- **Method-oriented:** find papers that use, extend, or analyze a specified method.
+- **Setting-anchored:** find papers under a specified task, dataset, or experimental setting.
+- **Comparison-based:** find papers that compare methods, assumptions, results, or technical claims.
+- **Scope-controlled:** find papers within explicit scope boundaries while avoiding loosely relevant results.
+
+This README follows the benchmark construction and evaluation protocol described in the paper.
+
+## Evaluation Sets
+
+ScholarQuest uses two complementary evaluation sets.
+
+| Evaluation set | Queries | Intent distribution | Use in the paper |
+| --- | ---: | --- | --- |
+| **ScholarQuest** | 1,111 | 302 method-oriented, 322 setting-anchored, 317 scope-controlled, 170 comparison-based | System-level evaluation of complete literature-search systems |
+| **ScholarQuest-100** | 100 | 25 queries for each of the four intents | Model-level evaluation under the shared multi-turn harness |
+
+ScholarQuest is the complete output of the query-generation and automated answer-discovery pipeline. ScholarQuest-100 is a high-fidelity subset produced from ScholarQuest through stratified selection and the additional human-in-the-loop curation process described below.
+
+## Construction of ScholarQuest
+
+### 1. Taxonomy-guided query construction
+
+The construction pipeline starts from 1,682 ACM Computing Classification System leaf nodes. Qwen3-Max maps each topic to one or more arXiv subject categories, and only topics assigned to arXiv computer-science categories are retained, leaving 1,631 eligible CS taxonomy nodes.
+
+The pipeline then:
+
+1. draws 20,000 topic-seed instances with replacement using arXiv category-frequency weights;
+2. deterministically shuffles the draws and selects 10,000 instances for query generation;
+3. successfully processes 9,972 instances;
+4. generates four queries per successful instance, one for each research intent, producing 39,888 raw query records;
+5. structurally validates the records and deduplicates identical `final_query` strings, leaving 13,097 unique queries.
+
+### 2. Answer discovery
+
+For each query, the pipeline generates 10 rewritten search queries and retrieves the top 10 results for each rewrite from Google Search, arXiv, and Semantic Scholar. The rewrites include method-focused, task-focused, broader-topic, narrower-topic, and terminology-based formulations.
+
+Retrieved arXiv identifiers are normalized to base IDs by removing version suffixes, and records found through different sources or paths are deduplicated. High-confidence candidates are expanded through references and citing papers, with selective second-hop expansion from high-confidence neighbors and pruning of noisy branches.
+
+### 3. Relevance adjudication and release filtering
+
+A recall-oriented prefilter first removes clear mismatches. The remaining candidates are evaluated by multiple LLM-based relevance judges using the query, paper title, abstract, and metadata. The relevance rubric is:
+
+- **0:** mismatch;
+- **1:** partial match;
+- **2:** strict match.
+
+Papers with aggregated relevance score 2 are retained as strict-match answers. Borderline and high-disagreement cases receive additional adjudication. Queries with 5–200 final strict-match answers are retained for the released benchmark, yielding 1,111 queries.
+
+The final 1,111-query release is associated with 528 sampled seed instances, 373 unique ACM leaf nodes, 355 distinct topic labels, and 36 reported arXiv CS categories.
+
+## Construction of ScholarQuest-100
+
+ScholarQuest-100 starts from the automatically constructed ScholarQuest answer sets. It contains 100 queries selected through stratified selection, with 25 queries for each research intent, and receives additional iterative review by Ph.D. researchers.
+
+The quality-control objective has two complementary parts:
+
+- remove papers that fail the query's method, setting, scope, comparison, or exclusion constraints;
+- discover relevant papers missing from the current answer set.
+
+### 1. Query boundaries and evidence standard
+
+For each selected query, reviewers specify the necessary topic, method, setting, comparison direction, and exclusion conditions, as applicable. Ambiguous wording may be refined while preserving the underlying research intent. A substantive change to an inclusion or exclusion condition defines a revised query version and requires reassessment of the affected candidates.
+
+Paper eligibility is assessed within the same frozen literature environment throughout a review cycle. Relevance follows the benchmark's title–abstract–metadata evidence standard: a paper is a strict match only when the available evidence supports every necessary query constraint.
+
+### 2. Discovery and reassessment rounds
+
+Each complete iteration combines:
+
+1. **Relevance review:** check retained answers and borderline candidates against the current query definition, remove unsupported inclusions, and resolve conflicting judgments.
+2. **Complementary discovery:** search for omissions using alternative query formulations, terminology variants, and citation/reference expansion from verified relevant papers.
+3. **Consistent reassessment:** evaluate newly discovered candidates under the same evidence standard as existing candidates and revisit affected judgments whenever the query constraints change.
+
+A round is complete only after all planned discovery actions and all resulting candidate assessments have been finished.
+
+### 3. Operational convergence
+
+Convergence is assessed separately for every query and answer set. A query reaches operational convergence only after a complete discovery-and-reassessment round satisfies all three conditions:
+
+1. **Stable query interpretation:** the necessary constraints and relevance boundary no longer change, and no unresolved ambiguity could alter inclusion decisions.
+2. **Stable relevance judgments:** the retained answer set and previously judged candidates no longer change; inclusion-affecting disagreements are adjudicated, and unresolved cases are not promoted to strict matches.
+3. **No newly verified strict matches:** completed supplementary searches and citation checks yield no additional normalized, deduplicated strict matches, and no planned discovery action or newly identified expansion lead remains pending.
+
+Constraint-level reassessment targets false inclusions and therefore supports precision. Complementary discovery targets omissions and therefore supports recall. The paper uses ScholarQuest-100 for model-level comparisons under the shared harness; its frozen queries and graded judgments support fine-grained evaluation of ranking quality and constraint satisfaction.
+
+## Distinction Between the Two Quality-Control Procedures
+
+The paper reports two separate procedures that should not be conflated:
+
+- For the full 1,111-query ScholarQuest benchmark, a 450-pair stratified human audit evaluates the reliability of automatically assigned relevance labels. Three Ph.D. experts rescore 150 pairs from each LLM score group, and majority vote determines the human score.
+- For ScholarQuest-100, query-level iterative curation reassesses constraint satisfaction and searches for missing answers until the operational convergence conditions above are met.
+
+The first procedure assesses label reliability in the full benchmark. The second targets false inclusions and omissions in the curated 100-query evaluation set.
+
+## Data Files
+
+### `datasets/ScholarQuest.jsonl`
+
+The 1,111-query benchmark used for system-level evaluation. Each line contains one query and its strict-match answer set.
+
+Main fields:
+
+- `query_id`
+- `final_query`
+- `answer_arxiv_ids`
+- `final_answer_count`
+- `source_dir`
+
+### `datasets/ScholarQuest-100.jsonl`
+
+The 100-query, intent-balanced subset used for model-level evaluation. Each line contains the query, intent and constraint metadata, and its answer set.
+
+Main fields:
+
+- `query_id`
+- `final_query`
+- `category`
+- `constraint_kind`
+- `constraint_value`
+- `topic_seed`
+- `domain`
+- `answer_arxiv_ids`
+
+### `datasets/query_metadata.jsonl`
+
+Metadata for the 13,097 exact-string-deduplicated query records produced before final answer-set filtering.
 
 ## Repository Layout
 
 ```text
-PaperBench_Code/
+.
 ├── datasets/
 │   ├── ScholarQuest.jsonl
 │   ├── ScholarQuest-100.jsonl
@@ -29,136 +152,13 @@ PaperBench_Code/
 └── Lewen-API/
 ```
 
-## Data Files
+The paper refers to the shared literature environment as **ScholarBase**. The retrieval-backend implementation in this repository is provided under `Lewen-API/`.
 
-### `datasets/ScholarQuest.jsonl`
+## Evaluation Harness in the Paper
 
-The final benchmark dataset. It contains **1111** benchmark queries. Each row is one evaluation instance.
+The standardized multi-turn harness exposes two atomic tools over ScholarBase:
 
-Main fields:
+- `Search`: retrieves candidate papers using model-generated queries;
+- `Expand`: retrieves the references and citing papers of a specified paper in the current pool.
 
-- `query_id`: stable query identifier, for example `BQ_000001`
-- `final_query`: the user-facing paper search query
-- `answer_arxiv_ids`: list of relevant arXiv IDs
-- `final_answer_count`: number of relevant answers
-- `source_dir`: provenance of the final answer set
-
-The released dataset keeps queries with **5 to 200** final answers.
-
-### `datasets/ScholarQuest-100.jsonl`
-
-A curated **100-query subset** used for focused analysis and model-level evaluation. It contains **25 queries per research intent** and **5,612 query–paper answer pairs**.
-
-The subset was selected from a quality-ranked candidate pool using query quality and title/abstract review of sampled dataset-provided answers. It is not a probability sample of the full 1,111-query benchmark. A subsequent audit removed 60 clearly incorrect query–paper pairs from five affected queries while preserving all 100 query IDs, query texts, and query order.
-
-In addition to `query_id`, `final_query`, and `answer_arxiv_ids`, the file includes the intent category, constraint metadata, topic/domain metadata, answer counts, and the query's rank in the curated subset. This is the source-format dataset from which the evaluation-harness input is adapted; the adapter preserves query text and answer-list content and order.
-
-### `datasets/query_metadata.jsonl`
-
-The query metadata pool used before final answer filtering. It contains **13097** generated and deduplicated query records.
-
-Main fields:
-
-- `query_id`
-- `final_query`
-- `topic_seed`
-- `domain`
-- `category`
-- `constraint_kind`
-- `constraint_value`
-- `rationale`
-- `risk_flags`
-- generation metadata such as `llm_model`, token counts, and source batch info
-
-The four query categories are:
-
-- `method_capability`
-- `setting_anchor`
-- `claim_comparison`
-- `scope_control`
-
-Use this file when you need query descriptions, metadata, or category/domain analysis. Use `ScholarQuest.jsonl` for benchmark evaluation.
-
-## Benchmark Construction Pipeline
-
-The construction code lives in `BenchmarkConstruction/`.
-
-The high-level pipeline is:
-
-1. **Seed generation**
-   - Code: `BenchmarkConstruction/SeedGeneration/`
-   - Builds topic seeds from ACM/arXiv taxonomy resources.
-
-2. **Query generation**
-   - Code: `BenchmarkConstruction/QueryGeneration/`
-   - Expands topic seeds into ScholarQuest-style paper retrieval queries.
-   - Query generation uses four controlled categories and stores metadata for each query.
-
-3. **Answer finding**
-   - Code: `BenchmarkConstruction/AnswerFinding/` and `BenchmarkConstruction/AnswerFinding_v2/`
-   - Uses paper search tools and the Lewen API to collect candidate relevant papers for each query.
-
-4. **Answer filtering**
-   - Code: `BenchmarkConstruction/AnswerFilters/`
-   - Applies stricter cross-model filtering to produce cleaner answer sets.
-
-5. **Benchmark selection and analysis**
-   - Code: `BenchmarkConstruction/benchmark/`
-   - Stores benchmark snapshots and scripts for query-level analysis.
-
-The reusable package-style pipeline code is under:
-
-```text
-BenchmarkConstruction/src/paperbench/
-```
-
-Useful entry points:
-
-```bash
-cd BenchmarkConstruction
-python scripts/run_pipeline.py
-python QueryGeneration/generate_scholarquest_queries.py
-python QueryGeneration/validate_scholarquest_queries.py
-python AnswerFinding/run_scholarquest_answer_finding.py
-python AnswerFilters/run_strict_cross_filter.py
-```
-
-Some scripts require API keys or local service endpoints. See `.env.example` files and the module-level README files for details.
-
-## Lewen API
-
-`Lewen-API/` is the academic paper search backend used by the construction pipeline. It provides:
-
-- semantic paper search,
-- title and metadata lookup,
-- paper detail retrieval,
-- citation and reference queries.
-
-The API covers roughly 3M arXiv papers in the local deployment used for construction.
-
-Example endpoints from `Lewen-API/README.md`:
-
-```bash
-curl "http://<host>:4000/paper/search?query=transformer+attention&limit=5"
-curl "http://<host>:4000/paper/2309.06180?fields=*"
-curl "http://<host>:4000/paper/1706.03762/citations?limit=10"
-```
-
-See `Lewen-API/README.md` and `Lewen-API/docs/` for API details.
-
-## Recommended Reading Order
-
-For a quick understanding of the repository:
-
-1. `datasets/ScholarQuest.jsonl`
-2. `datasets/ScholarQuest-100.jsonl`
-3. `datasets/query_metadata.jsonl`
-4. `BenchmarkConstruction/QueryGeneration/README_scholarquest_generation.md`
-5. `BenchmarkConstruction/AnswerFilters/README.md`
-6. `Lewen-API/README.md`
-
-## Notes
-
-- This repository is focused on benchmark construction and released data, not model inference.
-- Generated caches, large raw corpora, and intermediate output directories are intentionally omitted or minimized.
-- The JSONL files are line-delimited JSON: each non-empty line is one record.
+At each round, the model selects tool calls and arguments from the research query and current paper-pool state. The harness performs relevance scoring, updates the paper pool, produces the final ranking, and logs per-round actions and paper-pool changes for consistent evaluation of retrieval quality and search efficiency.
